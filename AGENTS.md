@@ -25,12 +25,12 @@ Roger Roman Armoa Garcia es uno de los docentes responsables y utiliza este repo
 3. Mantener coherencia entre carreras y secciones en contenidos mínimos, resultados de aprendizaje, carga de trabajo, dificultad y criterios de evaluación.
 4. Documentar toda diferencia justificada entre carreras, grupos o docentes.
 5. No inventar nombres, funciones ni porcentajes de participación de los otros profesores.
-6. Presentar como propuesta pendiente de validación toda decisión que afecte a las tres secciones o al equipo completo.
+6. Presentar como propuesta pendiente de validación toda decisión que afecte al equipo completo.
 
 ## 3. Calendario y modalidad
 
 - Las clases se desarrollarán **los sábados por la mañana**.
-- El horario exacto de inicio y finalización está **pendiente de registrar**.
+- El horario exacto está **pendiente de registrar**.
 - El periodo institucional de clases va del **3 de agosto al 21 de noviembre de 2026**.
 - La planificación semanal debe construirse sobre los sábados comprendidos en ese intervalo.
 - Verificar feriados, suspensiones y actividades institucionales antes de fijar una fecha definitiva.
@@ -64,9 +64,9 @@ Pueden existir otras carreras o secciones. No agregarlas como oficiales sin docu
 
 El núcleo académico debe ser común. Los ejemplos, ejercicios, datos y problemas pueden contextualizarse para cada carrera, pero toda adaptación debe conservar los resultados de aprendizaje y el contenido mínimo oficial.
 
-## 5. Fuentes institucionales y precedencia
+## 5. Fuentes, antecedentes y precedencia
 
-### Programa de estudio
+### Programa de estudio oficial
 
 Aprobado por:
 
@@ -74,7 +74,7 @@ Aprobado por:
 - **Acta 1226 del 25/08/2025**;
 - **Anexo 218** del Consejo Directivo de la FP-UNA.
 
-### Calendario académico
+### Calendario académico oficial
 
 Aprobado por:
 
@@ -82,20 +82,39 @@ Aprobado por:
 - **Acta 1247 del 01/06/2026**;
 - **Anexo 01** del Consejo Directivo de la FP-UNA.
 
-### Guía institucional de planificación 2026
+### Guía para la planificación didáctica 2026
 
-Usar como referencia obligatoria la **Guía para la planificación didáctica semestral — Planes 2026**, elaborada en el marco del Proyecto de Transformación Curricular y del plan de capacitación docente de la FP-UNA.
+Utilizar la **Guía para la planificación didáctica semestral — Planes 2026** como marco para adaptar la planificación al enfoque por competencias y al nuevo formato institucional.
+
+### Muestra de planeamiento de cátedra
+
+El archivo denominado **Planilla-Planeamiento-Informatica-aplicada-2026_muestra** es solamente una **muestra o borrador de trabajo**.
+
+No es la planificación oficial ni una versión aprobada. Será modificada para adaptarse a los nuevos lineamientos.
+
+Reglas de uso de la muestra:
+
+1. Utilizarla únicamente como antecedente para reconocer posibles secuencias, actividades, recursos y decisiones históricas.
+2. No copiar automáticamente sus fechas, docentes, enlaces, evaluaciones, porcentajes, fórmulas de calificación ni distribución semanal.
+3. No considerar oficiales los perfiles docentes ni datos de contacto incluidos en ella.
+4. No asumir que sus catorce clases teóricas, catorce prácticas, fechas o actividades son definitivas.
+5. Transformar su antigua columna de **objetivos** en **resultados de aprendizaje observables y evaluables**.
+6. Adaptar su estructura al nuevo formato: semanas, unidad didáctica, contenidos, resultados de aprendizaje, estrategias didácticas, estrategias evaluativas y evidencias.
+7. Revisar cada actividad propuesta mediante alineación constructiva y Taxonomía de Bloom.
+8. Conservar solamente los elementos compatibles con el programa oficial, el calendario vigente y los acuerdos posteriores del equipo docente.
+9. Señalar expresamente cualquier contenido de la muestra que contradiga los nuevos lineamientos.
+10. Tratarla siempre como material histórico o borrador, nunca como fuente normativa.
 
 ### Orden de precedencia
 
-Ante contradicciones:
+Ante contradicciones, aplicar este orden:
 
 1. normativa académica vigente;
 2. programa oficial aprobado;
 3. calendario académico vigente;
-4. guía institucional de planificación 2026;
+4. guía y nuevos lineamientos de planificación 2026;
 5. acuerdos documentados del equipo docente;
-6. borradores y materiales históricos.
+6. muestra de planeamiento, versiones antiguas y otros borradores.
 
 No corregir silenciosamente una contradicción. Señalarla y dejar constancia de la decisión pendiente.
 
@@ -162,7 +181,7 @@ Toda planificación debe conservar trazabilidad con estas unidades:
 
 ## 10. Unidades oficiales frente a unidades didácticas
 
-El programa contiene **diez unidades oficiales de contenido**, mientras que la guía institucional recomienda organizar la planificación semestral en **cuatro a seis unidades didácticas**, normalmente de dos a cuatro semanas cada una.
+El programa contiene **diez unidades oficiales de contenido**, mientras que la guía recomienda organizar la planificación semestral en **cuatro a seis unidades didácticas**, normalmente de dos a cuatro semanas cada una.
 
 Reglas:
 
@@ -172,18 +191,18 @@ Reglas:
 4. Explicar toda fusión, redistribución o cambio de secuencia.
 5. No alterar el contenido mínimo sin validación del equipo docente.
 
-## 11. Enfoque pedagógico obligatorio
+## 11. Enfoque pedagógico
 
 La planificación debe integrar:
 
-- **constructivismo:** el estudiante construye activamente el conocimiento a partir de saberes previos, interacción y mediación docente;
-- **enfoque por competencias:** integración de conocimientos, habilidades y actitudes para actuar en contextos reales;
-- **alineación constructiva de Biggs:** coherencia entre resultados de aprendizaje, actividades y evaluación;
+- **constructivismo:** aprendizaje activo a partir de saberes previos, interacción y mediación docente;
+- **enfoque por competencias:** integración de conocimientos, habilidades y actitudes en contextos reales;
+- **alineación constructiva de Biggs:** coherencia entre resultados, actividades y evaluación;
 - **Taxonomía de Bloom revisada:** selección explícita del nivel cognitivo mediante verbos observables.
 
-La enseñanza debe favorecer aprendizaje autónomo, colaborativo, profundo y transferible a situaciones reales.
+La enseñanza debe favorecer aprendizaje autónomo, colaborativo, profundo y transferible.
 
-## 12. Formato institucional de planificación
+## 12. Formato de planificación
 
 La planificación semestral debe incluir como mínimo:
 
@@ -197,7 +216,7 @@ La planificación semestral debe incluir como mínimo:
 
 ### Tipos de contenidos
 
-En cada unidad distinguir, cuando corresponda:
+Distinguir, cuando corresponda:
 
 - **conceptuales:** hechos, conceptos y principios;
 - **procedimentales:** habilidades, técnicas, métodos y operaciones;
@@ -239,7 +258,7 @@ Verbos posibles:
 - evaluar: verifica, justifica, argumenta, recomienda;
 - crear: diseña, produce, construye, formula.
 
-Evitar verbos vagos o no observables como “conocer”, “aprender” o “comprender” cuando no se acompañen de una acción demostrable.
+Evitar verbos vagos como “conocer”, “aprender” o “comprender” cuando no estén acompañados de una acción demostrable.
 
 ## 14. Diseño de clases y actividades
 
@@ -294,7 +313,7 @@ Instrumentos posibles:
 - informes técnicos;
 - productos o proyectos integradores.
 
-Las evidencias deben ser observables, verificables y directamente vinculadas con los resultados y criterios.
+Las evidencias deben ser observables, verificables y vinculadas con los resultados y criterios.
 
 La guía recomienda incorporar al menos **dos instrumentos formativos por unidad** antes de la evaluación sumativa.
 
@@ -304,12 +323,12 @@ La planificación debe reflejar dos etapas académicas.
 
 ### Ponderación por etapa
 
-- **50 % Evaluación parcial:** evaluación sumativa que abarca los contenidos de la etapa.
+- **50 % Evaluación parcial:** evaluación sumativa de los contenidos de la etapa.
 - **50 % Actividades de proceso:** conjunto de actividades evaluativas de la etapa.
 - Incluir al menos **dos actividades evaluativas de proceso por etapa**.
 - Las actividades deben ser diversas y estar alineadas con los resultados de aprendizaje.
 
-No modificar esta distribución sin documentación institucional posterior o indicación expresa.
+No trasladar automáticamente al nuevo planeamiento las fórmulas de PEP, examen final o calificación final contenidas en la muestra. Confirmarlas con la normativa académica vigente antes de incorporarlas.
 
 ### Asistencia
 
@@ -321,7 +340,6 @@ No modificar esta distribución sin documentación institucional posterior o ind
 
 Cuando existan prácticas de laboratorio:
 
-- son obligatorias;
 - deben figurar en el planeamiento;
 - se coordinan con el docente de laboratorio, cuando corresponda;
 - deben consignar fechas, recursos, protocolos, evidencias y criterios de evaluación;
@@ -353,7 +371,15 @@ No asumir disponibilidad permanente. Preparar alternativas para fallas de conect
 - Exigir evidencia de aprendizaje individual dentro de los trabajos grupales.
 - No utilizar IA para inventar fuentes, datos, resultados, contenidos oficiales o decisiones del equipo docente.
 
-## 20. Reglas del repositorio
+## 20. Idioma y trato
+
+- Trabajar principalmente en español.
+- Mantener términos técnicos en inglés cuando sea habitual.
+- Escribir con claridad, precisión académica y orientación didáctica.
+- Al dirigirse a Roger, utilizar trato de **tú**, no de usted.
+- Utilizar su nombre como **Roger Roman Armoa Garcia**.
+
+## 21. Reglas del repositorio
 
 1. No inventar objetivos, contenidos, fechas, porcentajes ni requisitos institucionales.
 2. Cuando falte información esencial, usar `[PENDIENTE DE DEFINIR]`.
@@ -364,9 +390,9 @@ No asumir disponibilidad permanente. Preparar alternativas para fallas de conect
 7. No convertir el repositorio en público sin instrucción explícita de Roger.
 8. Todo código debe incluir nombres comprensibles, comentarios útiles y manejo básico de errores.
 9. Antes de reemplazar contenido sustancial, explicar el motivo.
-10. Conservar trazabilidad de cambios mediante commits descriptivos.
+10. Conservar trazabilidad mediante commits descriptivos.
 
-## 21. Organización del repositorio
+## 22. Organización del repositorio
 
 - `docs/`: programa, metodología, evaluación, calendario y planificación.
 - `clases/`: materiales por unidad o semana.
@@ -377,38 +403,3 @@ No asumir disponibilidad permanente. Preparar alternativas para fallas de conect
 - `misiones/`: instrucciones para asistentes de IA.
 
 Las soluciones, bancos reservados, calificaciones y datos personales deben mantenerse fuera del repositorio o en espacios privados específicamente protegidos.
-
-## 22. Forma de ejecutar una misión
-
-Antes de realizar una misión:
-
-1. leer este archivo completo;
-2. revisar el programa oficial, calendario y guía de planificación;
-3. identificar carrera, sección, fechas y docente destinatario;
-4. verificar la trazabilidad con las unidades y resultados oficiales;
-5. aplicar alineación constructiva entre resultados, actividades, evaluación y evidencias;
-6. identificar datos faltantes sin inventarlos;
-7. proponer o implementar cambios pequeños y verificables;
-8. indicar qué decisiones requieren acuerdo de los tres profesores;
-9. resumir cambios, motivos, pendientes y archivos afectados.
-
-## 23. Idioma y trato
-
-- Trabajar principalmente en español.
-- Mantener términos técnicos en inglés cuando sea habitual.
-- Escribir con claridad, precisión académica y orientación didáctica.
-- Al dirigirse a Roger, utilizar trato de **tú**, no de usted.
-- Utilizar su nombre como **Roger Roman Armoa Garcia**.
-
-## 24. Prioridades
-
-- fidelidad al programa y normativa vigente;
-- alineación entre competencias, contenidos, resultados, actividades, evaluación y evidencias;
-- equilibrio teoría-práctica;
-- coordinación entre los tres profesores;
-- consistencia multicarrera;
-- centralidad y autonomía del estudiante;
-- evaluación continua y formativa;
-- accesibilidad;
-- ética y uso responsable de IA;
-- material reutilizable y mantenible durante 2026.
