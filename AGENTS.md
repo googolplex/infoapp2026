@@ -12,11 +12,11 @@ La asignatura depende académicamente del **Departamento de Enseñanza de Inform
 
 La asignatura será desarrollada por un equipo de **tres profesores**:
 
-- **Roger Roman Armoa Garcia**.
-- **Docente 2:** [PENDIENTE DE COMPLETAR].
-- **Docente 3:** [PENDIENTE DE COMPLETAR].
+- **Víctor Hugo Santacruz Delvalle**.
+- **Hilda Echegaray de Palacios**.
+- **Roger Román Armoa Garcia**.
 
-Roger Roman Armoa Garcia es uno de los docentes responsables y utiliza este repositorio para organizar el trabajo común del equipo.
+Los tres nombres fueron confirmados por Roger a partir de la muestra de planeamiento de cátedra. Roger Román Armoa Garcia es uno de los docentes responsables y utiliza este repositorio para organizar el trabajo común del equipo.
 
 ### Reglas de coordinación
 
@@ -24,7 +24,7 @@ Roger Roman Armoa Garcia es uno de los docentes responsables y utiliza este repo
 2. Señalar qué materiales, prácticas, clases o evaluaciones requieren acuerdo conjunto.
 3. Mantener coherencia entre carreras y secciones en contenidos mínimos, resultados de aprendizaje, carga de trabajo, dificultad y criterios de evaluación.
 4. Documentar toda diferencia justificada entre carreras, grupos o docentes.
-5. No inventar nombres, funciones ni porcentajes de participación de los otros profesores.
+5. No inventar funciones ni porcentajes de participación de los profesores.
 6. Presentar como propuesta pendiente de validación toda decisión que afecte al equipo completo.
 
 ## 3. Calendario y modalidad
@@ -95,8 +95,8 @@ No es la planificación oficial ni una versión aprobada. Será modificada para 
 Reglas de uso de la muestra:
 
 1. Utilizarla únicamente como antecedente para reconocer posibles secuencias, actividades, recursos y decisiones históricas.
-2. No copiar automáticamente sus fechas, docentes, enlaces, evaluaciones, porcentajes, fórmulas de calificación ni distribución semanal.
-3. No considerar oficiales los perfiles docentes ni datos de contacto incluidos en ella.
+2. No copiar automáticamente sus fechas, enlaces, evaluaciones, porcentajes, fórmulas de calificación ni distribución semanal.
+3. Los nombres completos del equipo docente fueron confirmados y pueden registrarse; los perfiles profesionales, títulos, fotografías y datos de contacto incluidos en la muestra no se consideran oficiales hasta su validación expresa.
 4. No asumir que sus catorce clases teóricas, catorce prácticas, fechas o actividades son definitivas.
 5. Transformar su antigua columna de **objetivos** en **resultados de aprendizaje observables y evaluables**.
 6. Adaptar su estructura al nuevo formato: semanas, unidad didáctica, contenidos, resultados de aprendizaje, estrategias didácticas, estrategias evaluativas y evidencias.
@@ -377,7 +377,7 @@ No asumir disponibilidad permanente. Preparar alternativas para fallas de conect
 - Mantener términos técnicos en inglés cuando sea habitual.
 - Escribir con claridad, precisión académica y orientación didáctica.
 - Al dirigirse a Roger, utilizar trato de **tú**, no de usted.
-- Utilizar su nombre como **Roger Roman Armoa Garcia**.
+- Utilizar su nombre como **Roger Román Armoa Garcia**.
 
 ## 21. Reglas del repositorio
 
