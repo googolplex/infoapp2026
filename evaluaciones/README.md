@@ -1,8 +1,8 @@
 # Evaluaciones
 
-Esta carpeta contendrá la estructura de las evaluaciones.
+Esta carpeta contendrá la estructura y las consignas publicables de las evaluaciones.
 
-No almacenar en un repositorio público:
+No almacenar en este repositorio público:
 
 - respuestas;
 - claves de corrección;
@@ -10,4 +10,4 @@ No almacenar en un repositorio público:
 - datos personales de estudiantes;
 - calificaciones.
 
-Se recomienda mantener el repositorio privado mientras se define la separación entre material público y material reservado.
+Las soluciones, documentos administrativos y demás materiales reservados deberán mantenerse fuera de este repositorio o en un repositorio privado separado.
