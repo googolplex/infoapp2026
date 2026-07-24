@@ -36,9 +36,22 @@ Antes de comenzar:
 4. guía de planificación didáctica — Planes 2026;
 5. `misiones/mision-1/explicacion-unidades-programa-planificacion.md`;
 6. `misiones/mision-1/20260724a_explicacion_unidades_programa_planificacion_informatica_aplicada_2026.pdf`;
-7. muestra anterior, solo como antecedente.
+7. `misiones/mision-1/20260724b_propuesta_adecuacion_muestra_nuevo_formato.pdf`;
+8. muestra anterior, solo como antecedente.
 
-El PDF indicado en el punto 6 ya se encuentra incorporado en la carpeta de la misión y debe consultarse como material explicativo de apoyo.
+Los documentos indicados en los puntos 6 y 7 ya se encuentran incorporados en la carpeta de la misión. El primero explica la diferencia entre las unidades oficiales y las unidades didácticas. El segundo contiene la propuesta de adecuación de la muestra al nuevo formato.
+
+## Estado actual
+
+La propuesta de adecuación fue preparada para revisión del equipo docente y de la directora.
+
+Por el momento:
+
+- no modificar la muestra;
+- no elaborar todavía la versión definitiva de la planificación;
+- esperar el feedback de la directora;
+- registrar posteriormente las observaciones recibidas y los acuerdos del equipo docente;
+- aplicar los cambios aprobados como una nueva versión documentada.
 
 ## Tareas
 
@@ -60,6 +73,7 @@ El PDF indicado en el punto 6 ya se encuentra incorporado en la carpeta de la mi
 - No copiar automáticamente fechas, enlaces, evaluaciones, porcentajes ni fórmulas de la muestra.
 - No inventar datos institucionales o académicos.
 - No modificar otros archivos sin autorización.
+- No aplicar todavía la propuesta de adecuación hasta recibir y registrar el feedback correspondiente.
 
 ## Criterios de aceptación
 
@@ -68,6 +82,7 @@ El PDF indicado en el punto 6 ya se encuentra incorporado en la carpeta de la mi
 - Mantiene trazabilidad verificable.
 - Alinea resultados, actividades, evaluación y evidencias.
 - Diferencia datos confirmados, propuestas y pendientes.
+- Incorpora las observaciones aprobadas por el equipo docente y la dirección.
 
 ## Entrega esperada
 
