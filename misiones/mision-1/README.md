@@ -27,6 +27,7 @@ Antes de comenzar:
 - La guía recomienda organizar el semestre en **4 a 6 unidades didácticas**.
 - Ninguna unidad oficial puede eliminarse.
 - La muestra anterior de planeamiento es solo un antecedente y debe adaptarse a los nuevos lineamientos.
+- El idioma general de trabajo del proyecto es **español**.
 
 ## Fuentes de trabajo
 
@@ -37,9 +38,10 @@ Antes de comenzar:
 5. `misiones/mision-1/explicacion-unidades-programa-planificacion.md`;
 6. `misiones/mision-1/20260724a_explicacion_unidades_programa_planificacion_informatica_aplicada_2026.pdf`;
 7. `misiones/mision-1/20260724b_propuesta_adecuacion_muestra_nuevo_formato.pdf`;
-8. muestra anterior, solo como antecedente.
+8. `misiones/mision-1/20260724c_reporte_accesibilidad_bibliografia.md`;
+9. muestra anterior, solo como antecedente.
 
-Los documentos indicados en los puntos 6 y 7 ya se encuentran incorporados en la carpeta de la misión. El primero explica la diferencia entre las unidades oficiales y las unidades didácticas. El segundo contiene la propuesta de adecuación de la muestra al nuevo formato.
+Los documentos indicados en los puntos 6, 7 y 8 ya se encuentran incorporados en la carpeta de la misión. El primero explica la diferencia entre las unidades oficiales y las unidades didácticas. El segundo contiene la propuesta de adecuación de la muestra al nuevo formato. El tercero registra la disponibilidad legal en línea de la bibliografía y las necesidades preliminares de provisión.
 
 ## Estado actual
 
@@ -51,7 +53,8 @@ Por el momento:
 - no elaborar todavía la versión definitiva de la planificación;
 - esperar el feedback de la directora;
 - registrar posteriormente las observaciones recibidas y los acuerdos del equipo docente;
-- aplicar los cambios aprobados como una nueva versión documentada.
+- aplicar los cambios aprobados como una nueva versión documentada;
+- revisar la disponibilidad de la bibliografía en la biblioteca de la FP-UNA antes de realizar adquisiciones.
 
 ## Tareas
 
@@ -64,7 +67,8 @@ Por el momento:
 7. Integrar teoría, práctica y trabajo independiente.
 8. Incluir evaluación diagnóstica, formativa y sumativa.
 9. Señalar contradicciones, datos pendientes y decisiones que requieren acuerdo de los tres profesores.
-10. Presentar primero un borrador completo.
+10. Revisar y provisionar la bibliografía necesaria, priorizando acceso institucional, recursos abiertos y fuentes actualizadas.
+11. Presentar primero un borrador completo.
 
 ## Restricciones
 
@@ -74,6 +78,7 @@ Por el momento:
 - No inventar datos institucionales o académicos.
 - No modificar otros archivos sin autorización.
 - No aplicar todavía la propuesta de adecuación hasta recibir y registrar el feedback correspondiente.
+- No utilizar ni recomendar copias bibliográficas de procedencia no autorizada.
 
 ## Criterios de aceptación
 
@@ -83,6 +88,7 @@ Por el momento:
 - Alinea resultados, actividades, evaluación y evidencias.
 - Diferencia datos confirmados, propuestas y pendientes.
 - Incorpora las observaciones aprobadas por el equipo docente y la dirección.
+- Identifica qué bibliografía está disponible, qué debe provisionarse y qué referencias requieren corrección o actualización.
 
 ## Entrega esperada
 
