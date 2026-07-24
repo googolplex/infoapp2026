@@ -39,9 +39,10 @@ Antes de comenzar:
 6. `misiones/mision-1/20260724a_explicacion_unidades_programa_planificacion_informatica_aplicada_2026.pdf`;
 7. `misiones/mision-1/20260724b_propuesta_adecuacion_muestra_nuevo_formato.pdf`;
 8. `misiones/mision-1/20260724c_reporte_accesibilidad_bibliografia.md`;
-9. muestra anterior, solo como antecedente.
+9. `misiones/mision-1/20260724d_resumen_accesibilidad_bibliografia.pdf`;
+10. muestra anterior, solo como antecedente.
 
-Los documentos indicados en los puntos 6, 7 y 8 ya se encuentran incorporados en la carpeta de la misión. El primero explica la diferencia entre las unidades oficiales y las unidades didácticas. El segundo contiene la propuesta de adecuación de la muestra al nuevo formato. El tercero registra la disponibilidad legal en línea de la bibliografía y las necesidades preliminares de provisión.
+Los documentos indicados en los puntos 6, 7, 8 y 9 ya se encuentran incorporados en la carpeta de la misión. El primero explica la diferencia entre las unidades oficiales y las unidades didácticas. El segundo contiene la propuesta de adecuación de la muestra al nuevo formato. El tercero registra la disponibilidad legal en línea de la bibliografía y las necesidades preliminares de provisión. El cuarto presenta una versión resumida del mismo análisis para su revisión y circulación entre docentes.
 
 ## Estado actual
 
