@@ -35,11 +35,10 @@ Antes de comenzar:
 3. calendario académico 2026;
 4. guía de planificación didáctica — Planes 2026;
 5. `misiones/mision-1/explicacion-unidades-programa-planificacion.md`;
-6. muestra anterior, solo como antecedente.
+6. `misiones/mision-1/20260724a_explicacion_unidades_programa_planificacion_informatica_aplicada_2026.pdf`;
+7. muestra anterior, solo como antecedente.
 
-El PDF de apoyo deberá guardarse en esta carpeta como:
-
-`misiones/mision-1/explicacion-unidades-programa-planificacion-informatica-aplicada-2026.pdf`
+El PDF indicado en el punto 6 ya se encuentra incorporado en la carpeta de la misión y debe consultarse como material explicativo de apoyo.
 
 ## Tareas
 
