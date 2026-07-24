@@ -2,6 +2,15 @@
 
 Repositorio de referencia para la asignatura **Informática Aplicada**, impartida durante el año 2026 en la **Facultad Politécnica de la Universidad Nacional de Asunción (FP-UNA)**.
 
+## Idioma del proyecto
+
+El idioma de trabajo del repositorio es **español**.
+
+- La planificación, las misiones, los materiales docentes, los informes y la documentación se redactarán en español.
+- Los términos técnicos en inglés podrán conservarse cuando sean de uso habitual o cuando su traducción reduzca la precisión.
+- Las fuentes bibliográficas en otros idiomas conservarán sus títulos originales.
+- No se cambiará de idioma sin una necesidad académica explícita.
+
 ## Propósito
 
 Este repositorio centraliza el material académico y técnico de la asignatura:
