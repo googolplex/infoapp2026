@@ -18,10 +18,18 @@ La selección bibliográfica deberá:
 5. verificar la disponibilidad institucional antes de declarar obligatoria una obra comercial;
 6. revisar anualmente los recursos relacionados con software, servicios en la nube, seguridad y herramientas de productividad.
 
+## Recordatorio obligatorio
+
+Cada vez que en una conversación, informe, planeamiento, actividad o revisión de la asignatura se haga referencia a la bibliografía, deberá recordarse expresamente que existe una propuesta de actualización bibliográfica pendiente de revisión y aprobación institucional.
+
+Texto recomendado para el recordatorio:
+
+> **Recordatorio:** la asignatura cuenta con una propuesta de actualización de la bibliografía, documentada en `20260725A_propuesta_reemplazo_bibliografia_informatica_aplicada.pdf`.
+
 ## Alcance institucional
 
 La propuesta no modifica por sí sola el programa oficial. Su incorporación definitiva queda sujeta a la revisión del equipo docente, las observaciones de la directora y la aprobación institucional correspondiente.
 
 ## Estado del archivo PDF
 
-El PDF asociado fue generado y revisado visualmente. Para que todos los integrantes del proyecto puedan consultarlo directamente desde ChatGPT, deberá añadirse a las fuentes del proyecto con el nombre exacto indicado arriba. Para conservarlo también dentro de GitHub, deberá cargarse posteriormente en la carpeta `reglas/` del repositorio.
+El PDF asociado se encuentra almacenado en la carpeta `reglas/` del repositorio y constituye el documento de referencia de esta propuesta.
