@@ -47,20 +47,26 @@ Las fechas concretas de la asignatura deben ser acordadas por el equipo docente 
 
 ## 4. Alcance multicarrera
 
-Informática Aplicada se dicta en **varias carreras** de la FP-UNA.
+Informática Aplicada tendrá alumnos de **tres carreras** de la FP-UNA:
 
-El programa oficial recibido identifica expresamente:
+- **Ingeniería en Electrónica**.
+- **Marketing**.
+- **Ingeniería en Sistemas de Producción**.
+
+El programa oficial disponible en el repositorio identifica expresamente solo:
 
 - **Ingeniería en Sistemas de Producción**, Plan 2026, sede San Lorenzo.
 - **Ingeniería en Electrónica**, Plan 2026, sede San Lorenzo.
 
-En ambos casos se presenta como asignatura:
+La participación de alumnos de **Marketing** fue confirmada expresamente por el equipo docente, aunque esa carrera todavía no figure en el programa de estudios almacenado en el repositorio. Al planificar clases, actividades, ejemplos, prácticas y evaluaciones, considerar siempre a las tres carreras.
+
+Para las carreras documentadas en el programa oficial, la asignatura se presenta como:
 
 - de grado;
 - optativa;
 - sin prerrequisitos.
 
-Pueden existir otras carreras o secciones. No agregarlas como oficiales sin documentación o confirmación expresa.
+No atribuir automáticamente esas mismas condiciones curriculares a Marketing sin documentación oficial específica.
 
 El núcleo académico debe ser común. Los ejemplos, ejercicios, datos y problemas pueden contextualizarse para cada carrera, pero toda adaptación debe conservar los resultados de aprendizaje y el contenido mínimo oficial.
 
