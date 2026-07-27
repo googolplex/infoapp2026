@@ -14,6 +14,7 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
    - `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
 7. Para cualquier trabajo que mencione sección o turno, leer `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md`.
 8. Para interpretar el alcance del calendario por carrera, leer `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md`.
+9. Para operar sobre el repositorio, aplicar la autorización continua registrada en `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md`.
 
 ## Ubicación de documentos
 
@@ -54,6 +55,19 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Fórmula final confirmada | `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md` | Confirmación comunicada por la directora Ellen Méndez: `EF × 0,4 + PEP × 0,6`. |
 | Secciones y turnos | `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md` | La identificación definitiva se confirmará después de las inscripciones y de la comunicación institucional correspondiente. |
 | Alcance del calendario | `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md` | Confirma que el mismo calendario comprende Marketing, Producción y Electrónica. |
+| Autorización continua | `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md` | Autoriza el uso continuo del repositorio y las operaciones rutinarias sin solicitar nuevamente permiso general en cada tarea. |
+
+## Autorización de uso continuo del repositorio
+
+Este repositorio es el espacio central de trabajo y documentación del proyecto. Dentro de las tareas de **Informática Aplicada 2026**, no es necesario pedir nuevamente permiso general para consultar GitHub ni para ejecutar actualizaciones rutinarias que respondan directamente a una instrucción clara.
+
+Están comprendidas la consulta, verificación, creación y actualización de documentos de contexto, reglas, índices, hallazgos, referencias y nuevas versiones, conservando trazabilidad mediante commits descriptivos.
+
+Las acciones destructivas, ambiguas o de alto impacto —como eliminar archivos únicos, sobrescribir documentos oficiales, reescribir el historial o modificar decisiones académicas sin instrucción expresa— continúan requiriendo confirmación específica.
+
+Consultar el registro completo:
+
+`docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md`
 
 ## Evaluación: decisión vigente y pendientes
 
