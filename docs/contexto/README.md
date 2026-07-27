@@ -13,6 +13,7 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
    - `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`;
    - `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
 7. Para cualquier trabajo que mencione sección o turno, leer `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md`.
+8. Para interpretar el alcance del calendario por carrera, leer `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md`.
 
 ## Ubicación de documentos
 
@@ -44,14 +45,15 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 |---|---|---|
 | Metodología | `docs/20260725a_Construccion_de_clases_Informatica_Aplicada_2026.pdf` | Documento metodológico vigente para la construcción de clases. |
 | Reglamento Académico | `docs/fuentes/20260727a_Reglamento-Academico-de-Carreras-de-la-FP-UNA.pdf` | Fuente normativa oficial cargada. Aplicable desde el segundo periodo académico de 2026 según el propio reglamento. |
-| Horario y exámenes | `docs/fuentes/20260727d_calendario_clases_y_examenes_infoapp_2026a.pdf` | Cargado. El horario del examen final permanece pendiente de confirmación. |
+| Horario y exámenes | `docs/fuentes/20260727d_calendario_clases_y_examenes_infoapp_2026a.pdf` | Cargado. Se confirmó que comprende Marketing, Producción y Electrónica; las fechas finales contradictorias permanecen pendientes. |
 | Archivo editable del horario | `docs/fuentes/20260727d_calendario_clases_y_examenes_infoapp_2026a.ods` | Cargado como antecedente editable del horario. |
 | Propuesta de planeamiento | `docs/planeamientos/20260727a_propuesta_Planeamiento de asignatura 2026-actualizado_MJ_v1.docx` | Cargada; continúa como propuesta no aprobada. |
-| Informe de concordancia vigente | `docs/revisiones/20260727e_informe_revision_concordancia_planeamiento_informatica_aplicada.pdf` | Cargado en la carpeta correcta. |
-| Hallazgos en texto | `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md` | Registrado para lectura inmediata; conserva el estado de la revisión versión E. |
+| Informe de concordancia vigente | `docs/revisiones/20260727e_informe_revision_concordancia_planeamiento_informatica_aplicada.pdf` | Cargado en la carpeta correcta; conserva el estado de la versión E. |
+| Hallazgos en texto | `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md` | Resumen legible actualizado con las confirmaciones posteriores. |
 | Transición de evaluación | `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md` | La transición hacia la evaluación por proceso continúa, pero la fórmula ya fue confirmada. |
 | Fórmula final confirmada | `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md` | Confirmación comunicada por la directora Ellen Méndez: `EF × 0,4 + PEP × 0,6`. |
 | Secciones y turnos | `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md` | La identificación definitiva se confirmará después de las inscripciones y de la comunicación institucional correspondiente. |
+| Alcance del calendario | `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md` | Confirma que el mismo calendario comprende Marketing, Producción y Electrónica. |
 
 ## Evaluación: decisión vigente y pendientes
 
@@ -64,6 +66,18 @@ Equivalente a **40 % EF y 60 % PEP**. La confirmación fue comunicada por la dir
 No debe utilizarse la fórmula inversa `0,6 × EF + 0,4 × PEP`.
 
 La transición hacia la evaluación por proceso sigue abierta para otros aspectos, entre ellos la denominación final, la modalidad concreta del examen, la redacción integral de requisitos y la articulación de instrumentos y evidencias.
+
+## Calendario común para las tres carreras
+
+Está confirmado que el calendario y horario de clases y evaluaciones compartido en el proyecto rige para:
+
+- Marketing;
+- Ingeniería en Sistemas de Producción;
+- Ingeniería en Electrónica.
+
+Aunque la fila visible identifique `ISP`, no debe interpretarse que el calendario se limita a Producción. En una matriz de concordancia, el criterio **“carreras comprendidas”** debe calificarse como **coincidencia completa**.
+
+El aula continúa sin consignarse en la fila visible.
 
 ## Secciones y turnos: pendiente posterior a las inscripciones
 
