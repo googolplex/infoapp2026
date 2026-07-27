@@ -12,6 +12,7 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
 6. Para cualquier trabajo sobre evaluación, leer:
    - `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`;
    - `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
+7. Para cualquier trabajo que mencione sección o turno, leer `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md`.
 
 ## Ubicación de documentos
 
@@ -50,6 +51,7 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Hallazgos en texto | `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md` | Registrado para lectura inmediata; conserva el estado de la revisión versión E. |
 | Transición de evaluación | `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md` | La transición hacia la evaluación por proceso continúa, pero la fórmula ya fue confirmada. |
 | Fórmula final confirmada | `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md` | Confirmación comunicada por la directora Ellen Méndez: `EF × 0,4 + PEP × 0,6`. |
+| Secciones y turnos | `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md` | La identificación definitiva se confirmará después de las inscripciones y de la comunicación institucional correspondiente. |
 
 ## Evaluación: decisión vigente y pendientes
 
@@ -62,6 +64,16 @@ Equivalente a **40 % EF y 60 % PEP**. La confirmación fue comunicada por la dir
 No debe utilizarse la fórmula inversa `0,6 × EF + 0,4 × PEP`.
 
 La transición hacia la evaluación por proceso sigue abierta para otros aspectos, entre ellos la denominación final, la modalidad concreta del examen, la redacción integral de requisitos y la articulación de instrumentos y evidencias.
+
+## Secciones y turnos: pendiente posterior a las inscripciones
+
+La sección y el turno definitivos todavía no están confirmados. Los identificadores `J`, `MJ`, `X`, `M` u otros presentes en planeamientos, horarios o borradores deben tratarse como provisionales.
+
+La confirmación se realizará después del proceso de inscripción de estudiantes y de la comunicación institucional de la distribución correspondiente. Hasta entonces debe usarse:
+
+`[SECCIÓN/TURNO PENDIENTE DE CONFIRMACIÓN POSTERIOR A LAS INSCRIPCIONES]`
+
+El calendario y horario ya están cargados en `docs/fuentes/`, pero no sustituyen la confirmación posterior a la matrícula efectiva.
 
 ## Convención de nombres
 
