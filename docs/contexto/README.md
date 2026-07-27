@@ -9,7 +9,9 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
 3. Consultar las fuentes vigentes indicadas abajo antes de planificar, corregir o aprobar contenidos.
 4. Aplicar el orden de precedencia definido en `AGENTS.md`.
 5. No corregir silenciosamente contradicciones: registrarlas como pendientes de confirmación.
-6. Para cualquier trabajo sobre evaluación, leer `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`.
+6. Para cualquier trabajo sobre evaluación, leer:
+   - `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`;
+   - `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
 
 ## Ubicación de documentos
 
@@ -45,19 +47,21 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Archivo editable del horario | `docs/fuentes/20260727d_calendario_clases_y_examenes_infoapp_2026a.ods` | Cargado como antecedente editable del horario. |
 | Propuesta de planeamiento | `docs/planeamientos/20260727a_propuesta_Planeamiento de asignatura 2026-actualizado_MJ_v1.docx` | Cargada; continúa como propuesta no aprobada. |
 | Informe de concordancia vigente | `docs/revisiones/20260727e_informe_revision_concordancia_planeamiento_informatica_aplicada.pdf` | Cargado en la carpeta correcta. |
-| Hallazgos en texto | `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md` | Registrado para lectura inmediata. |
-| Pendiente de evaluación | `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md` | Registra la transición desde la modalidad anterior hacia la evaluación por proceso. La aplicación definitiva en el planeamiento está pendiente de validación. |
+| Hallazgos en texto | `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md` | Registrado para lectura inmediata; conserva el estado de la revisión versión E. |
+| Transición de evaluación | `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md` | La transición hacia la evaluación por proceso continúa, pero la fórmula ya fue confirmada. |
+| Fórmula final confirmada | `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md` | Confirmación comunicada por la directora Ellen Méndez: `EF × 0,4 + PEP × 0,6`. |
 
-## Pendiente prioritario: transición de evaluación
+## Evaluación: decisión vigente y pendientes
 
-El Reglamento Académico ya fue incorporado y contiene disposiciones sobre evaluación por etapas, PEP, acceso al examen final y cálculo del Rendimiento Porcentual. Sin embargo, el equipo se encuentra en transición desde la modalidad de evaluación anterior hacia una modalidad de evaluación por proceso.
+La fórmula confirmada para la calificación o rendimiento final es:
 
-Hasta que exista una decisión confirmada:
+> **EF × 0,4 + PEP × 0,6**
 
-- no corregir silenciosamente la fórmula ni la modalidad del planeamiento;
-- no considerar aprobada la fórmula anterior;
-- marcar la sección como `[PENDIENTE DE DEFINICIÓN Y VALIDACIÓN]`;
-- consultar el registro específico indicado en la tabla anterior.
+Equivalente a **40 % EF y 60 % PEP**. La confirmación fue comunicada por la directora **Ellen Méndez** y registrada por **Roger Román Armoa Garcia**.
+
+No debe utilizarse la fórmula inversa `0,6 × EF + 0,4 × PEP`.
+
+La transición hacia la evaluación por proceso sigue abierta para otros aspectos, entre ellos la denominación final, la modalidad concreta del examen, la redacción integral de requisitos y la articulación de instrumentos y evidencias.
 
 ## Convención de nombres
 
