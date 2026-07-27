@@ -8,7 +8,10 @@ Antes de planificar, revisar, corregir o producir materiales:
 2. Leer `docs/contexto/README.md`.
 3. Consultar las fuentes vigentes listadas allí.
 4. Para revisar el planeamiento actual, leer `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md`.
-5. No corregir silenciosamente contradicciones institucionales: señalarlas y dejarlas pendientes de confirmación.
+5. Para cualquier trabajo sobre evaluación, leer:
+   - `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`;
+   - `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
+6. No corregir silenciosamente contradicciones institucionales: señalarlas y dejarlas pendientes de confirmación.
 
 ## 2. Propósito y contexto institucional
 
@@ -40,6 +43,7 @@ Los nombres están confirmados. Fotografías, correos, perfiles, títulos, cargo
 4. Documentar toda diferencia justificada entre carreras, grupos o docentes.
 5. No inventar funciones ni porcentajes de participación.
 6. Presentar como propuesta pendiente de validación toda decisión que afecte al equipo completo.
+7. Registrar por escrito las decisiones comunicadas por autoridades institucionales, indicando la persona, la fecha y el alcance de la confirmación.
 
 ## 4. Alcance multicarrera
 
@@ -63,15 +67,17 @@ Ante contradicciones aplicar:
 2. programa oficial aprobado;
 3. calendario y horario académico vigente;
 4. guía institucional de planificación 2026;
-5. acuerdos documentados del equipo docente;
+5. acuerdos y confirmaciones documentadas del equipo docente o de autoridades competentes;
 6. propuestas, muestras, versiones antiguas y borradores.
 
 ### Fuentes principales
 
+- Reglamento Académico de Carreras de Grado: `docs/fuentes/20260727a_Reglamento-Academico-de-Carreras-de-la-FP-UNA.pdf`.
 - Programa oficial: Resolución **25/18/256-00**, Acta **1226 del 25/08/2025**, Anexo **218**.
 - Calendario académico: Resolución **26/12/15-00**, Acta **1247 del 01/06/2026**, Anexo **01**.
 - Guía para la planificación didáctica semestral — Planes 2026.
 - Metodología de construcción de clases: `docs/20260725a_Construccion_de_clases_Informatica_Aplicada_2026.pdf`.
+- Confirmación de fórmula final: `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
 - Índice de fuentes y versiones: `docs/contexto/README.md`.
 
 La antigua muestra de planeamiento es solo antecedente histórico. No copiar automáticamente fechas, enlaces, fórmulas, porcentajes, actividades ni cantidad de clases.
@@ -204,14 +210,23 @@ En cada etapa:
 
 Las prácticas de laboratorio deben indicar fecha, recursos, protocolo, evidencia, criterio, instrumento y ponderación o relación con la etapa.
 
-### Fórmula final pendiente
+### Fórmula final confirmada
 
-La propuesta contiene dos fórmulas incompatibles:
+La directora **Ellen Méndez** confirmó, según comunicación registrada por **Roger Román Armoa Garcia**, que la fórmula aplicable es:
 
-- `EF × 0,4 + PEP × 0,6`;
-- `PF = 0,6 × EF + 0,4 × PEP`.
+> **EF × 0,4 + PEP × 0,6**
 
-No aprobar ni aplicar una fórmula hasta verificar el Reglamento Académico vigente.
+Equivalente a:
+
+> **0,4 × EF + 0,6 × PEP**
+
+La ponderación vigente es **40 % Evaluación Final y 60 % PEP**. No utilizar la fórmula inversa `0,6 × EF + 0,4 × PEP`.
+
+La confirmación está documentada en:
+
+`docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`
+
+La transición hacia la evaluación por proceso continúa para otros aspectos —denominación final, modalidad concreta, requisitos, instrumentos y evidencias— hasta que sean documentados. Consultar `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`.
 
 ### Asistencia
 
@@ -247,21 +262,24 @@ Cada vez que se mencione bibliografía, recordar que esta propuesta no modifica 
 
 ## 16. Hallazgos vigentes sobre la propuesta de planeamiento
 
-El informe textual vigente está en:
+El informe textual versión E está en:
 
 `docs/revisiones/20260727e_hallazgos_concordancia_planeamiento.md`
 
-Los principales pendientes son:
+Ese informe conserva el estado de la revisión realizada antes de la confirmación de la fórmula. El punto relativo a la fórmula quedó resuelto mediante el registro `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
+
+Los principales pendientes actuales son:
 
 1. incorporar construcción de clases;
 2. ajustar 18 semanas, 72 horas acompañadas y 72 independientes;
 3. confirmar horario, sección, turno y finales;
-4. resolver la fórmula de calificación;
+4. corregir en la siguiente versión del planeamiento cualquier fórmula invertida, aplicando 40 % EF y 60 % PEP;
 5. aclarar el 50 % parcial y 50 % proceso;
 6. definir instrumentos y criterios;
 7. completar reglas de IA, contingencias y accesibilidad;
 8. adaptar casos a las tres carreras;
-9. validar datos docentes y aulas EDUCA.
+9. validar datos docentes y aulas EDUCA;
+10. completar los demás aspectos de la transición hacia la evaluación por proceso.
 
 ## 17. Datos generales pendientes
 
@@ -271,14 +289,17 @@ Usar `[PENDIENTE DE DEFINIR]` o `[PENDIENTE DE CONFIRMACIÓN]` para:
 - semestre o ubicación curricular por carrera;
 - identificación definitiva de sección y turno;
 - primer y segundo final;
-- fórmula de calificación;
+- denominación institucional final de la calificación, si aún no fue definida;
+- modalidad concreta del examen final y articulación completa de la evaluación por proceso;
 - nombre corto del aula de Roger;
 - confirmación del aula compartida por Hilda y Víctor;
 - disponibilidad y obligatoriedad de laboratorios.
 
+La fórmula **no está pendiente**: usar `EF × 0,4 + PEP × 0,6`.
+
 ## 18. Organización del repositorio
 
-- `docs/contexto/`: índice permanente y protocolo de lectura.
+- `docs/contexto/`: índice permanente, decisiones y protocolo de lectura.
 - `docs/fuentes/`: fuentes oficiales, calendarios, reglamentos y horarios.
 - `docs/planeamientos/`: propuestas y versiones de planeamiento.
 - `docs/revisiones/`: informes de concordancia y hallazgos.
