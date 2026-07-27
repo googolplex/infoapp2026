@@ -4,21 +4,25 @@
 **Fecha de revisión:** 27 de julio de 2026  
 **Estado:** revisión técnica y pedagógica; no constituye aprobación institucional.
 
+> **Actualización posterior:** el PDF versión E conserva la revisión original. Este resumen textual incorpora decisiones confirmadas posteriormente sobre la fórmula de calificación, el alcance del calendario para las tres carreras y el momento de definición de las secciones.
+
 ## Fuentes contrastadas
 
 1. Programa oficial de la asignatura y reglas consolidadas en `AGENTS.md`.
 2. Metodología **construcción de clases**, descrita en `docs/20260725a_Construccion_de_clases_Informatica_Aplicada_2026.pdf`.
 3. Propuesta `20260727a_propuesta_Planeamiento de asignatura 2026-actualizado_MJ_v1.docx`.
 4. Calendario y horario `20260727d_calendario_clases_y_examenes_infoapp_2026a.pdf`, actualizado el 27/07/2026.
-5. Reglas institucionales y antecedentes documentados en el repositorio.
+5. Reglamento Académico de Carreras de Grado de la FP-UNA.
+6. Confirmaciones posteriores registradas en `docs/contexto/`.
 
 ## Resultado general
 
-La propuesta presenta una estructura útil y cubre en términos generales las diez unidades oficiales, pero su concordancia es **parcial**. Antes de considerarla aprobada deben resolverse contradicciones de calendario, carga académica, evaluación, metodología, instrumentos, accesibilidad y uso de inteligencia artificial.
+La propuesta presenta una estructura útil y cubre en términos generales las diez unidades oficiales, pero su concordancia es **parcial**. Antes de considerarla aprobada deben resolverse contradicciones de fechas finales, carga académica, evaluación por proceso, metodología, instrumentos, accesibilidad y uso de inteligencia artificial.
 
 ## Concordancias verificadas
 
 - Incluye estudiantes de Ingeniería en Electrónica, Marketing e Ingeniería en Sistemas de Producción.
+- Está confirmado que el calendario y horario compartido comprende a **Marketing, Producción y Electrónica**. El criterio “carreras comprendidas” tiene **coincidencia completa**, aunque la fila visible identifique `ISP`.
 - Representa las diez unidades oficiales del programa.
 - Emplea mayormente verbos observables en los resultados de aprendizaje.
 - Incluye semanas, contenidos, resultados, estrategias didácticas, estrategias evaluativas y evidencias.
@@ -26,6 +30,7 @@ La propuesta presenta una estructura útil y cubre en términos generales las di
 - La evaluación de primera etapa del **19/09/2026** coincide con el horario institucional revisado.
 - La evaluación de segunda etapa del **14/11/2026** coincide con el horario institucional revisado.
 - La asistencia mínima del **70 %** coincide con la regla registrada.
+- La fórmula confirmada es **EF × 0,4 + PEP × 0,6**.
 
 ## Hallazgos que requieren corrección o confirmación
 
@@ -52,16 +57,27 @@ La propuesta declara 4 horas semanales, 14 clases teóricas y 14 prácticas, equ
 
 La planificación no explicita las 4 horas semanales de trabajo independiente. Tampoco asigna actividad a los sábados **15/08/2026** y **21/11/2026**, ni justifica formalmente su exclusión.
 
-### 3. Horario de clases
+### 3. Calendario, aula, sección y turno
 
-El calendario actualizado indica clases los sábados de **07:30 a 11:15**. La propuesta solo identifica turno/sección `J` y la portada utiliza `MJ`, sin registrar ese horario exacto.
+El calendario actualizado indica clases los sábados de **07:30 a 11:15**.
 
-También existe diferencia entre los identificadores:
+Se confirmó que este mismo calendario rige para:
 
-- propuesta: sección `J`, referencia `MJ`;
-- calendario: sección `X`, turno `M`.
+- Marketing;
+- Ingeniería en Sistemas de Producción;
+- Ingeniería en Electrónica.
 
-Debe confirmarse cuál identificación corresponde a la cohorte real.
+Por tanto, queda resuelta la observación anterior que señalaba que no se demostraba su aplicación a las tres carreras. La clasificación correcta para **carreras comprendidas** es **coincidencia completa**.
+
+Permanecen pendientes aspectos diferentes:
+
+- **Aula:** no está consignada en la fila visible y debe completarse.
+- **Sección y turno:** la propuesta utiliza `J` y `MJ`, mientras el horario muestra `X` y `M`. Todos estos identificadores son provisionales.
+- La sección y el turno definitivos se confirmarán después de las inscripciones y de la comunicación institucional correspondiente.
+
+Hasta entonces debe utilizarse:
+
+`[SECCIÓN/TURNO PENDIENTE DE CONFIRMACIÓN POSTERIOR A LAS INSCRIPCIONES]`
 
 ### 4. Fechas de evaluaciones finales
 
@@ -75,14 +91,20 @@ La fecha `05/11/2026` parece inconsistente porque antecede a la evaluación de s
 
 Debe utilizarse la fecha oficialmente confirmada y actualizar el otro documento.
 
-### 5. Fórmula de calificación contradictoria
+### 5. Fórmula de calificación — hallazgo resuelto
 
-La propia propuesta contiene dos fórmulas distintas:
+La versión inicial de la propuesta contenía dos fórmulas distintas:
 
 - página 3: `EF × 0,4 + PEP × 0,6`;
-- página 11: `PF = 0,6 × EF + 0,4 × PEP`.
+- página final: `PF = 0,6 × EF + 0,4 × PEP`.
 
-Las ponderaciones están invertidas. Debe confirmarse el artículo vigente del Reglamento Académico antes de aprobar la planificación.
+La directora **Ellen Méndez** confirmó, mediante comunicación registrada por **Roger Román Armoa Garcia**, que debe utilizarse:
+
+> **EF × 0,4 + PEP × 0,6**
+
+Equivale a **40 % EF y 60 % PEP**. No debe utilizarse la fórmula inversa.
+
+Registro: `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`.
 
 ### 6. Ponderación por etapas incompleta o ambigua
 
@@ -154,6 +176,8 @@ Se asume disponibilidad de Internet, EDUCA, computadoras, software e IA. Deben d
 
 La propuesta común no diferencia suficientemente casos, datos y problemas para Electrónica, Marketing y Producción. Debe mantenerse un núcleo común y preparar variantes equivalentes por carrera sin alterar los resultados mínimos.
 
+La confirmación de que el calendario es común para las tres carreras no elimina la necesidad de adaptar ejemplos y actividades a cada campo profesional.
+
 ### 14. Bibliografía
 
 Se menciona bibliografía en la primera semana, pero no se presenta lista ni clasificación. Debe recordarse que existe una propuesta de actualización bibliográfica pendiente de revisión y aprobación institucional:
@@ -168,8 +192,11 @@ Faltan o requieren confirmación:
 - semestre o ubicación curricular por carrera;
 - carga horaria total y créditos;
 - periodo académico formal;
+- aula;
 - nombre corto del aula de Roger;
 - confirmación de que Hilda y Víctor comparten el curso EDUCA con identificador 1043.
+
+La sección y el turno no podrán completarse definitivamente hasta después de las inscripciones.
 
 ### 16. Perfiles docentes
 
@@ -187,23 +214,30 @@ La propuesta presenta problemas que deben revisarse:
 
 ### 18. Estado público del repositorio
 
-La configuración consultada el 27/07/2026 muestra el repositorio como **público**, mientras que `AGENTS.md` lo describía como privado. Debe confirmarse la intención del equipo y evitar almacenar información reservada, datos personales, soluciones, calificaciones o credenciales.
+La configuración consultada el 27/07/2026 muestra el repositorio como **público**. Debe evitarse almacenar información reservada, datos personales, soluciones, calificaciones o credenciales.
 
 ## Decisiones pendientes prioritarias
 
-1. Confirmar primer y segundo final, horario, sección y turno.
-2. Confirmar la fórmula oficial de calificación final.
-3. Ajustar la planificación a 18 semanas y registrar el trabajo independiente.
-4. Incorporar la metodología de construcción de clases en cada semana.
-5. Clarificar el esquema 50 % parcial y 50 % proceso por etapa.
-6. Definir criterios e instrumentos de evaluación.
-7. Incorporar reglas de IA, accesibilidad y contingencias.
-8. Validar los datos docentes y enlaces de EDUCA.
+1. Confirmar primer y segundo final.
+2. Completar el aula.
+3. Confirmar sección y turno después de las inscripciones.
+4. Ajustar la planificación a 18 semanas y registrar el trabajo independiente.
+5. Incorporar la metodología de construcción de clases en cada semana.
+6. Clarificar el esquema 50 % parcial y 50 % proceso por etapa.
+7. Definir criterios e instrumentos de evaluación.
+8. Incorporar reglas de IA, accesibilidad y contingencias.
+9. Validar los datos docentes y enlaces de EDUCA.
+10. Completar los demás aspectos de la transición hacia la evaluación por proceso.
+
+Ya no están pendientes:
+
+- la fórmula: `EF × 0,4 + PEP × 0,6`;
+- las carreras comprendidas por el calendario: Marketing, Producción y Electrónica.
 
 ## Criterio de uso
 
-Este archivo es el resumen textual vigente de los hallazgos. El informe PDF versión E debe almacenarse en:
+Este archivo es el resumen textual vigente de los hallazgos. El informe PDF versión E permanece almacenado en:
 
 `docs/revisiones/20260727e_informe_revision_concordancia_planeamiento_informatica_aplicada.pdf`
 
-Toda versión posterior debe conservar este historial y señalar qué hallazgos fueron corregidos, aceptados o descartados por decisión documentada del equipo docente.
+El PDF debe interpretarse junto con las confirmaciones posteriores registradas en `docs/contexto/`. Toda versión posterior debe conservar el historial y señalar qué hallazgos fueron corregidos, aceptados o descartados por decisión documentada del equipo docente.
