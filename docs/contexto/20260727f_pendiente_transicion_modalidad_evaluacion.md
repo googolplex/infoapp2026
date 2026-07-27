@@ -1,19 +1,37 @@
-# Pendiente: transición de modalidad de evaluación
+# Transición de modalidad de evaluación
 
 **Asignatura:** Informática Aplicada 2026  
-**Fecha de registro:** 27 de julio de 2026  
-**Estado:** `[PENDIENTE DE DEFINICIÓN Y VALIDACIÓN INSTITUCIONAL/DOCENTE]`
+**Fecha de registro inicial:** 27 de julio de 2026  
+**Estado:** `[PARCIALMENTE RESUELTO — TRANSICIÓN AÚN EN CURSO]`
 
 ## Situación registrada
 
 El equipo se encuentra en un proceso de cambio desde la modalidad de evaluación anterior hacia una **modalidad de evaluación por proceso**.
 
-Por este motivo, se deja pendiente la corrección definitiva de la sección **Evaluación final** del planeamiento, incluyendo:
+La fórmula y ponderación entre `EF` y `PEP` ya fueron confirmadas. Continúan pendientes de definición o ajuste integral:
 
-- la denominación de la calificación final (`PF` o `RP`);
-- la fórmula y ponderación entre `EF` y `PEP`;
-- la redacción de los requisitos para acceder a la evaluación final;
-- la modalidad concreta del examen final y su relación con la evaluación por proceso.
+- la denominación final de la calificación (`PF`, `RP` u otra sigla institucional);
+- la redacción completa de los requisitos para acceder a la evaluación final;
+- la modalidad concreta del examen final y su relación con la evaluación por proceso;
+- la articulación definitiva entre actividades de proceso, evaluaciones parciales, instrumentos y evidencias.
+
+## Fórmula confirmada
+
+La directora **Ellen Méndez** confirmó que debe utilizarse:
+
+> **EF × 0,4 + PEP × 0,6**
+
+Equivalente a:
+
+> **0,4 × EF + 0,6 × PEP**
+
+La confirmación fue comunicada para su registro por **Roger Román Armoa Garcia**.
+
+El registro específico está en:
+
+`docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`
+
+No debe utilizarse la fórmula inversa `0,6 × EF + 0,4 × PEP`.
 
 ## Fuente normativa incorporada
 
@@ -31,14 +49,14 @@ El Reglamento Académico homologado establece, entre otros puntos:
 
 ## Regla temporal de trabajo
 
-Hasta que el equipo docente y la instancia institucional competente definan cómo se implementará la transición:
+Mientras continúa la transición:
 
-1. no modificar silenciosamente la fórmula o modalidad consignada en el planeamiento;
-2. no considerar aprobada la fórmula anterior ni una nueva redacción por el solo hecho de aparecer en un borrador;
-3. marcar la sección como `[PENDIENTE DE DEFINICIÓN Y VALIDACIÓN]`;
-4. conservar la contradicción documentada y contrastarla con el Reglamento Académico;
-5. actualizar el planeamiento, el informe de concordancia y `AGENTS.md` cuando exista una decisión confirmada.
+1. aplicar la ponderación confirmada de **40 % EF y 60 % PEP**;
+2. corregir en la próxima versión del planeamiento cualquier fórmula invertida;
+3. no considerar resueltos por inferencia los demás aspectos de modalidad, requisitos o instrumentos;
+4. marcar los demás puntos como `[PENDIENTE DE DEFINICIÓN Y VALIDACIÓN]` cuando corresponda;
+5. actualizar el planeamiento y los informes cuando se documenten nuevas decisiones.
 
 ## Alcance
 
-Este registro no suspende la vigencia del Reglamento Académico ni lo reemplaza. Documenta que la **aplicación concreta en el planeamiento de la asignatura** permanece pendiente durante el proceso de transición hacia la evaluación por proceso.
+Este registro no suspende ni reemplaza el Reglamento Académico. La fórmula quedó confirmada; la **implementación integral de la modalidad de evaluación por proceso** continúa en desarrollo.
