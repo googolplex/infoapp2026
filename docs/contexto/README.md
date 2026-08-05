@@ -15,6 +15,7 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
 7. Para cualquier trabajo que mencione sección o turno, leer `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md`.
 8. Para interpretar el alcance del calendario por carrera, leer `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md`.
 9. Para operar sobre el repositorio, aplicar la autorización continua registrada en `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md`.
+10. Cuando el usuario active el comando `adversarial pass protocol` o `use an adversarial pass`, leer y aplicar íntegramente `reglas/20260805a_protocolo_adversarial_pass_v1.md` antes de emitir la respuesta final.
 
 ## Ubicación de documentos
 
@@ -56,6 +57,28 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Secciones y turnos | `docs/contexto/20260727h_pendiente_confirmacion_secciones_post_inscripcion.md` | La identificación definitiva se confirmará después de las inscripciones y de la comunicación institucional correspondiente. |
 | Alcance del calendario | `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md` | Confirma que el mismo calendario comprende Marketing, Producción y Electrónica. |
 | Autorización continua | `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md` | Autoriza el uso continuo del repositorio y las operaciones rutinarias sin solicitar nuevamente permiso general en cada tarea. |
+| Protocolo adversarial | `reglas/20260805a_protocolo_adversarial_pass_v1.md` | Regla permanente que define el comando `adversarial pass protocol`, sus exclusiones, controles por dominio y formato obligatorio de salida. |
+
+## Comando `adversarial pass protocol`
+
+Cuando el usuario emplee claramente como instrucción:
+
+- `adversarial pass protocol`; o
+- `use an adversarial pass`;
+
+se debe realizar una auditoría adversarial completa antes de responder y aplicar íntegramente:
+
+`reglas/20260805a_protocolo_adversarial_pass_v1.md`
+
+El disparador no se activa cuando la frase aparece solamente citada, reproducida en documentación, incluida en código, usada como ejemplo o discutida metalingüísticamente.
+
+Cuando el comando se envíe como mensaje independiente, se aplicará a la respuesta sustantiva inmediatamente anterior, salvo que el usuario identifique otro objeto.
+
+La salida debe contener:
+
+1. **Análisis auditado**;
+2. **Certificado de auditoría**;
+3. un veredicto: **Aprobado**, **Aprobado con salvedades**, **Indeterminado** o **Reprobado**.
 
 ## Autorización de uso continuo del repositorio
 
