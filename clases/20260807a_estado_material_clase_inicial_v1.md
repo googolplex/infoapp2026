@@ -108,3 +108,64 @@ Al iniciar una misión posterior relacionada con las clases o con el Volumen 1:
 4. utilizar como bibliografía de referencia la copia versionada indicada arriba, salvo que exista una versión posterior;
 5. mantener la directiva de no modificar `main.tex` sin autorización expresa y específica del usuario;
 6. conservar la metodología de construcción de clases en toda planificación, actividad o material nuevo.
+
+## Actualización posterior — calendario y aula virtual EDUCA
+
+Después del cierre inicial de la misión se recibió una nueva versión del material. La actualización detallada se registra en:
+
+`misiones/clase20260807a_actualizacion_20260807b.md`
+
+### Estado técnico más reciente recibido
+
+Los archivos `main.tex` y `main_v03.tex` recibidos en esta actualización son idénticos entre sí:
+
+- SHA-256: `79ae99e63e6faa5de272480daa575f733ad5a45771f048908a7c79dbb8b129a5`.
+
+Los archivos `main.pdf` y `20260907b_infoapp20206b.pdf` recibidos son también idénticos entre sí:
+
+- SHA-256: `e20939c6b9019bdfb222a898683d39e5d0d581a9c2d43f02b42e14bf2f355711`.
+
+La compilación más reciente contiene **19 páginas**. El estado anterior de 18 páginas se conserva arriba como registro histórico y no debe interpretarse como la versión más reciente.
+
+`main.tex` continúa bajo control directo del usuario y **no fue modificado ni subido al repositorio**.
+
+### Calendario de evaluaciones incorporado
+
+La versión más reciente incorpora el apéndice **C. Calendario de evaluaciones**, diseñado como una tabla breve y coloreada para facilitar la lectura humana y la extracción de información cuando el PDF se utiliza como fuente en NotebookLM.
+
+Fechas actualmente reflejadas en el PDF:
+
+- 22/08/2026 — Actividad Sumativa 1, primera etapa, 25 %;
+- 05/09/2026 — Actividad Sumativa 2, primera etapa, 25 %;
+- 19/09/2026 — Evaluación de primera etapa, 50 %;
+- 03/10/2026 — Actividad Sumativa 3, segunda etapa, 20 %;
+- 10/10/2026 — Actividad Sumativa 4, segunda etapa, 15 %;
+- 17/10/2026 — Actividad Sumativa 5, segunda etapa, 15 %;
+- 14/11/2026 — Evaluación de segunda etapa, 50 %;
+- 05/12/2026 — Primera evaluación final;
+- 19/12/2026 — Segunda evaluación final.
+
+El usuario estableció como modalidad deseada **dos tareas sumativas más el examen de etapa en cada etapa**. La primera etapa ya coincide con ese esquema. La segunda etapa del PDF conserva por ahora tres actividades sumativas. No eliminar ni reclasificar una de ellas por inferencia; queda pendiente la decisión docente sobre cuáles dos conservarán carácter sumativo.
+
+La fórmula final sigue siendo:
+
+`EF × 0,4 + PEP × 0,6`.
+
+### Aula virtual en EDUCA
+
+La versión más reciente incorpora el apéndice **D. Aula virtual en EDUCA** con el enlace:
+
+`https://grado.pol.una.py/course/view.php?id=8662`
+
+La contraseña de matriculación se comunica presencialmente por el profesor durante la clase en el laboratorio. **No registrar la contraseña en el PDF, en la misión ni en el repositorio.**
+
+Esta decisión permite que el documento pueda compartirse, conservarse o cargarse como fuente en NotebookLM sin divulgar una credencial operativa de matriculación.
+
+### Finalidad documental del PDF
+
+El usuario busca que el PDF pueda cumplir simultáneamente dos funciones:
+
+- ser suficientemente breve, legible y agradable para la consulta directa del estudiante;
+- funcionar como fuente estructurada para NotebookLM, con títulos explícitos, fechas, tablas, enlaces y reglas académicas fácilmente recuperables.
+
+El calendario, el aula virtual y los demás recursos se integran con la metodología de **construcción de clases**: el docente presenta la estructura inicial, los estudiantes construyen y alimentan la base de conocimientos y la matriz, el contenido se discute y valida, se integran texto, gráficos y videos cuando corresponde y se realiza una síntesis personal antes del cierre.
