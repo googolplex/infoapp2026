@@ -16,7 +16,8 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
 8. Para interpretar el alcance del calendario por carrera, leer `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md`.
 9. Para operar sobre el repositorio, aplicar la autorización continua registrada en `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md`.
 10. Cuando el usuario active el comando `adversarial pass protocol` o `use an adversarial pass`, leer y aplicar íntegramente `reglas/20260805a_protocolo_adversarial_pass_v1.md` antes de emitir la respuesta final.
-11. Para continuar el desarrollo del Volumen 1 o preparar una misión posterior a la clase inicial, leer primero `clases/20260807c_estado_auditoria_vol1_v2.md`; consultar además `clases/20260807a_estado_material_clase_inicial_v1.md` para el estado histórico completo y utilizar la bibliografía versionada allí indicada, salvo que exista una versión posterior.
+11. Aplicar en todas las conversaciones y materiales la regla `reglas/20260807b_estilo_espanol_sin_voceo.md`: utilizar español general o neutral y evitar voseo y argentinismos, salvo citas literales, títulos oficiales, nombres propios o excepciones expresamente documentadas.
+12. Para continuar el desarrollo del Volumen 1 o preparar una misión posterior a la clase inicial, leer primero `clases/20260807c_estado_auditoria_vol1_v2.md`; consultar además `clases/20260807a_estado_material_clase_inicial_v1.md` para el estado histórico completo y utilizar la bibliografía versionada allí indicada, salvo que exista una versión posterior.
 
 ## Ubicación de documentos
 
@@ -59,6 +60,7 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Alcance del calendario | `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md` | Confirma que el mismo calendario comprende Marketing, Producción y Electrónica. |
 | Autorización continua | `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md` | Autoriza el uso continuo del repositorio y las operaciones rutinarias sin solicitar nuevamente permiso general en cada tarea. |
 | Protocolo adversarial | `reglas/20260805a_protocolo_adversarial_pass_v1.md` | Regla permanente que define el comando `adversarial pass protocol`, sus exclusiones, controles por dominio y formato obligatorio de salida. |
+| Estilo lingüístico | `reglas/20260807b_estilo_espanol_sin_voceo.md` | Regla permanente: usar español general o neutral y evitar voseo y argentinismos en conversaciones y materiales del proyecto, salvo excepciones documentales. |
 | Estado histórico de la clase inicial | `clases/20260807a_estado_material_clase_inicial_v1.md` | Registro histórico del Volumen 1: estructura inicial, decisiones pedagógicas, puntos de control, hashes y pendientes editoriales. |
 | Estado de auditoría del Volumen 1 | `clases/20260807c_estado_auditoria_vol1_v2.md` | Estado vigente de continuidad tras el control de calidad: PDF de 21 páginas, carga académica, calendario, perfiles de egreso localizados y pendientes de auditoría. |
 | Actualización de misión por auditoría | `misiones/clase20260807a_actualizacion_20260807c_auditoria.md` | Detalle de hallazgos atendidos, pendientes, fuentes oficiales de perfiles de egreso y criterios para cerrar la auditoría. |
@@ -148,6 +150,14 @@ Permanecen pendientes de cierre la trazabilidad exacta de `18 semanas / 144 h / 
 El archivo `main.tex` continúa bajo control directo del usuario y **no debe modificarse, subirse ni commitearse** sin autorización expresa y específica.
 
 La metodología de **construcción de clases** continúa siendo obligatoria para toda nueva planificación, actividad o material: esqueleto inicial del docente, construcción estudiantil de la base de conocimientos y matriz, discusión y validación, integración de texto, gráficos y videos, y síntesis personal antes de finalizar.
+
+## Regla de estilo lingüístico
+
+En las conversaciones de trabajo y en todos los materiales del proyecto se utiliza español general o neutral, evitando voseo y argentinismos. Esta regla se aplica también a textos destinados a estudiantes y a materiales editoriales o de conservación institucional. Se exceptúan citas textuales, títulos oficiales, nombres propios y otros casos en los que conservar la formulación original sea documentalmente necesario.
+
+Consultar la regla completa:
+
+`reglas/20260807b_estilo_espanol_sin_voceo.md`
 
 ## Convención de nombres
 
