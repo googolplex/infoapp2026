@@ -121,7 +121,7 @@ Los archivos `main.tex` y `main_v03.tex` recibidos en esta actualización son id
 
 - SHA-256: `79ae99e63e6faa5de272480daa575f733ad5a45771f048908a7c79dbb8b129a5`.
 
-Los archivos `main.pdf` y `20260907b_infoapp20206b.pdf` recibidos son también idénticos entre sí:
+Los archivos `main.pdf` y `20260807b_infoapp20206b.pdf` recibidos son también idénticos entre sí:
 
 - SHA-256: `e20939c6b9019bdfb222a898683d39e5d0d581a9c2d43f02b42e14bf2f355711`.
 
