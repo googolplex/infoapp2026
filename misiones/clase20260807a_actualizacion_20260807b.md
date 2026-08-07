@@ -13,7 +13,7 @@ El usuario entregó nuevamente los fuentes LaTeX y la compilación PDF del Volum
 - `main.tex`;
 - `main_v03.tex`;
 - `main.pdf`;
-- `20260907b_infoapp20206b.pdf`.
+- `20260807b_infoapp20206b.pdf`.
 
 Los dos archivos LaTeX recibidos son idénticos entre sí y tienen la huella SHA-256:
 
@@ -84,5 +84,5 @@ Los nuevos elementos se mantienen vinculados con la metodología de **construcci
 
 - El PDF actual ya contiene los apéndices `C. Calendario de evaluaciones` y `D. Aula virtual en EDUCA`.
 - El calendario coloreado compila correctamente con `xcolor` y `colortbl` en el entorno actual de LaTeX.
-- El nombre recibido `20260907b_infoapp20206b.pdf` contiene una codificación de fecha que no coincide con el 07/08/2026; no se renombra ni se corrige por inferencia.
+- El nombre corregido del archivo es `20260807b_infoapp20206b.pdf`. La huella SHA-256 coincide con la versión previamente recibida y con `main.pdf`, por lo que la corrección corresponde al nombre del archivo y no al contenido del PDF.
 - La misión original conserva su valor histórico; este documento registra la actualización posterior y evita perder trazabilidad.
