@@ -16,7 +16,7 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
 8. Para interpretar el alcance del calendario por carrera, leer `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md`.
 9. Para operar sobre el repositorio, aplicar la autorización continua registrada en `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md`.
 10. Cuando el usuario active el comando `adversarial pass protocol` o `use an adversarial pass`, leer y aplicar íntegramente `reglas/20260805a_protocolo_adversarial_pass_v1.md` antes de emitir la respuesta final.
-11. Para continuar el desarrollo del Volumen 1 o preparar una misión posterior a la clase inicial, leer `clases/20260807a_estado_material_clase_inicial_v1.md` y utilizar la bibliografía versionada allí indicada, salvo que exista una versión posterior.
+11. Para continuar el desarrollo del Volumen 1 o preparar una misión posterior a la clase inicial, leer primero `clases/20260807c_estado_auditoria_vol1_v2.md`; consultar además `clases/20260807a_estado_material_clase_inicial_v1.md` para el estado histórico completo y utilizar la bibliografía versionada allí indicada, salvo que exista una versión posterior.
 
 ## Ubicación de documentos
 
@@ -59,8 +59,10 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Alcance del calendario | `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md` | Confirma que el mismo calendario comprende Marketing, Producción y Electrónica. |
 | Autorización continua | `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md` | Autoriza el uso continuo del repositorio y las operaciones rutinarias sin solicitar nuevamente permiso general en cada tarea. |
 | Protocolo adversarial | `reglas/20260805a_protocolo_adversarial_pass_v1.md` | Regla permanente que define el comando `adversarial pass protocol`, sus exclusiones, controles por dominio y formato obligatorio de salida. |
-| Estado de la clase inicial | `clases/20260807a_estado_material_clase_inicial_v1.md` | Registro de continuidad del Volumen 1: estructura alcanzada, decisiones pedagógicas, puntos de control, hashes de los archivos finales recibidos y pendientes editoriales. |
-| Bibliografía versionada del Volumen 1 | `recursos/bibliografia/20260807a_referencias_cuaderno_vol1_v1.bib` | Copia versionada del `referencias.bib` recibido al cierre de la clase inicial. Usar como referencia hasta que se registre una versión posterior. |
+| Estado histórico de la clase inicial | `clases/20260807a_estado_material_clase_inicial_v1.md` | Registro histórico del Volumen 1: estructura inicial, decisiones pedagógicas, puntos de control, hashes y pendientes editoriales. |
+| Estado de auditoría del Volumen 1 | `clases/20260807c_estado_auditoria_vol1_v2.md` | Estado vigente de continuidad tras el control de calidad: PDF de 21 páginas, carga académica, calendario, perfiles de egreso localizados y pendientes de auditoría. |
+| Actualización de misión por auditoría | `misiones/clase20260807a_actualizacion_20260807c_auditoria.md` | Detalle de hallazgos atendidos, pendientes, fuentes oficiales de perfiles de egreso y criterios para cerrar la auditoría. |
+| Bibliografía versionada del Volumen 1 | `recursos/bibliografia/20260807a_referencias_cuaderno_vol1_v1.bib` | Snapshot histórico del `referencias.bib` recibido al cierre de la clase inicial. No sobrescribir; crear una nueva versión cuando las referencias nuevas estén efectivamente incorporadas. |
 
 ## Comando `adversarial pass protocol`
 
@@ -129,15 +131,21 @@ La confirmación se realizará después del proceso de inscripción de estudiant
 
 El calendario y horario ya están cargados en `docs/fuentes/`, pero no sustituyen la confirmación posterior a la matrícula efectiva.
 
-## Estado de continuidad de la clase inicial — 07/08/2026
+## Estado de continuidad del Volumen 1 — 07/08/2026
 
-El cierre de la primera misión quedó registrado en:
+El cierre histórico de la primera misión se conserva en:
 
 `clases/20260807a_estado_material_clase_inicial_v1.md`
 
-Ese documento conserva las decisiones editoriales y operativas de la clase inicial, la estructura del PDF compilado, las fuentes bibliográficas incorporadas, la convención de nombres de las evidencias, la advertencia de privacidad sobre firmas manuscritas, la actividad «Hola, mundo», la estimación de 4 horas HTI, el receso y los puntos de control de la mañana.
+El estado vigente posterior a la auditoría académica se conserva en:
 
-El archivo `main.tex` continúa bajo control directo del usuario y **no debe modificarse, subirse ni commitearse** sin autorización expresa y específica. El estado recibido se documenta mediante su huella SHA-256 en el registro de la clase.
+`clases/20260807c_estado_auditoria_vol1_v2.md`
+
+La compilación más reciente documentada contiene **21 páginas** e incorpora calendario académico, calendario de clases y una tabla explicativa de carga académica. También quedan registradas las fuentes oficiales de FP-UNA localizadas para contextualizar la asignatura según los perfiles de egreso de Marketing, Sistemas de Producción y Electrónica.
+
+Permanecen pendientes de cierre la trazabilidad exacta de `18 semanas / 144 h / 27 h / 5 CA-PY`, la confirmación del tratamiento del 21/11/2026, la corrección de la cita bibliográfica del feriado del 15/08 y la incorporación efectiva de las referencias de perfiles de egreso en una futura compilación.
+
+El archivo `main.tex` continúa bajo control directo del usuario y **no debe modificarse, subirse ni commitearse** sin autorización expresa y específica.
 
 La metodología de **construcción de clases** continúa siendo obligatoria para toda nueva planificación, actividad o material: esqueleto inicial del docente, construcción estudiantil de la base de conocimientos y matriz, discusión y validación, integración de texto, gráficos y videos, y síntesis personal antes de finalizar.
 
