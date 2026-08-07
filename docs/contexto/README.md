@@ -16,6 +16,7 @@ Este índice debe consultarse al iniciar una nueva conversación, misión o revi
 8. Para interpretar el alcance del calendario por carrera, leer `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md`.
 9. Para operar sobre el repositorio, aplicar la autorización continua registrada en `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md`.
 10. Cuando el usuario active el comando `adversarial pass protocol` o `use an adversarial pass`, leer y aplicar íntegramente `reglas/20260805a_protocolo_adversarial_pass_v1.md` antes de emitir la respuesta final.
+11. Para continuar el desarrollo del Volumen 1 o preparar una misión posterior a la clase inicial, leer `clases/20260807a_estado_material_clase_inicial_v1.md` y utilizar la bibliografía versionada allí indicada, salvo que exista una versión posterior.
 
 ## Ubicación de documentos
 
@@ -58,6 +59,8 @@ Guardar aquí documentos metodológicos, incluida la metodología denominada **c
 | Alcance del calendario | `docs/contexto/20260727i_confirmacion_calendario_tres_carreras.md` | Confirma que el mismo calendario comprende Marketing, Producción y Electrónica. |
 | Autorización continua | `docs/contexto/20260727j_autorizacion_uso_continuo_repositorio.md` | Autoriza el uso continuo del repositorio y las operaciones rutinarias sin solicitar nuevamente permiso general en cada tarea. |
 | Protocolo adversarial | `reglas/20260805a_protocolo_adversarial_pass_v1.md` | Regla permanente que define el comando `adversarial pass protocol`, sus exclusiones, controles por dominio y formato obligatorio de salida. |
+| Estado de la clase inicial | `clases/20260807a_estado_material_clase_inicial_v1.md` | Registro de continuidad del Volumen 1: estructura alcanzada, decisiones pedagógicas, puntos de control, hashes de los archivos finales recibidos y pendientes editoriales. |
+| Bibliografía versionada del Volumen 1 | `recursos/bibliografia/20260807a_referencias_cuaderno_vol1_v1.bib` | Copia versionada del `referencias.bib` recibido al cierre de la clase inicial. Usar como referencia hasta que se registre una versión posterior. |
 
 ## Comando `adversarial pass protocol`
 
@@ -125,6 +128,18 @@ La confirmación se realizará después del proceso de inscripción de estudiant
 `[SECCIÓN/TURNO PENDIENTE DE CONFIRMACIÓN POSTERIOR A LAS INSCRIPCIONES]`
 
 El calendario y horario ya están cargados en `docs/fuentes/`, pero no sustituyen la confirmación posterior a la matrícula efectiva.
+
+## Estado de continuidad de la clase inicial — 07/08/2026
+
+El cierre de la primera misión quedó registrado en:
+
+`clases/20260807a_estado_material_clase_inicial_v1.md`
+
+Ese documento conserva las decisiones editoriales y operativas de la clase inicial, la estructura del PDF compilado, las fuentes bibliográficas incorporadas, la convención de nombres de las evidencias, la advertencia de privacidad sobre firmas manuscritas, la actividad «Hola, mundo», la estimación de 4 horas HTI, el receso y los puntos de control de la mañana.
+
+El archivo `main.tex` continúa bajo control directo del usuario y **no debe modificarse, subirse ni commitearse** sin autorización expresa y específica. El estado recibido se documenta mediante su huella SHA-256 en el registro de la clase.
+
+La metodología de **construcción de clases** continúa siendo obligatoria para toda nueva planificación, actividad o material: esqueleto inicial del docente, construcción estudiantil de la base de conocimientos y matriz, discusión y validación, integración de texto, gráficos y videos, y síntesis personal antes de finalizar.
 
 ## Convención de nombres
 
