@@ -7,7 +7,8 @@ Este registro resume el estado más reciente del **Volumen 1 de Cuadernos de Inf
 Debe leerse junto con:
 
 - `clases/20260807a_estado_material_clase_inicial_v1.md`, que conserva el estado histórico de la clase inicial;
-- `misiones/clase20260807a_actualizacion_20260807c_auditoria.md`, que documenta en detalle los hallazgos y decisiones derivados de la auditoría.
+- `misiones/clase20260807a_actualizacion_20260807c_auditoria.md`, que documenta en detalle los hallazgos y decisiones derivados de la auditoría;
+- `misiones/clase20260807a_actualizacion_20260807d_autoria_portada.md`, que registra la actualización de autoría y portada.
 
 ## Última compilación recibida
 
@@ -82,6 +83,22 @@ La contextualización pedagógica puede resumirse así:
 - Electrónica: datos, documentación y herramientas informáticas relacionadas con sistemas y tecnologías.
 
 El criterio es mantener una **base común para las tres carreras** y variar ejemplos o actividades cuando sea pedagógicamente pertinente, apoyándose siempre en los perfiles institucionales publicados por FP-UNA.
+
+## Autoría y portada — actualización posterior
+
+La autoría prevista del Volumen 1 queda integrada por:
+
+1. **Roger Román Armoa García**;
+2. **Hilda Echegaray de Palacios**;
+3. **Víctor Hugo Santacruz Delvalle**.
+
+La próxima compilación debe mantener esta autoría de forma coherente en portada, metadatos de LaTeX, página legal y demás elementos editoriales pertinentes.
+
+Se preparó durante la sesión una nueva portada gráfica en formato PNG con los tres nombres bajo la denominación **Autores**. El archivo generado tiene dimensiones **1024 × 1536 px** y SHA-256 `74ae39c3e23bd3e26a9ad5f0f251d36476ee6b5ee5c6f3ed929a7436428d9d8d`.
+
+La imagen no fue incorporada al repositorio. Antes de versionar recursos gráficos nuevos debe considerarse la lista de exclusión de archivos que el usuario definirá para GitHub.
+
+`main.tex` continúa bajo control directo del usuario; la actualización de autoría en el fuente se realiza manualmente salvo autorización expresa posterior.
 
 ## Bibliografía versionada
 
