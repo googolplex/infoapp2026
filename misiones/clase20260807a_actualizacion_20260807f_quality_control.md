@@ -26,13 +26,9 @@ Se incorpora como regla de proyecto:
 
 `reglas/20260807d_protocolo_quality_control_v1.md`
 
-El comando canónico es:
+El único comando válido es:
 
-`quality control`
-
-También se reconoce, por compatibilidad con la formulación original empleada por el usuario:
-
-`qualisty control`
+`quality control protocol`
 
 Cuando el comando aparece inequívocamente como instrucción después del párrafo que contiene la pregunta o criterio de control, se debe aplicar el protocolo al PDF adjunto y devolver un **Reporte de auditoría — Control de calidad**.
 
@@ -40,7 +36,7 @@ El párrafo inmediatamente anterior al comando constituye por defecto el criteri
 
 ## Relación con el protocolo adversarial
 
-`quality control` y `adversarial pass protocol` son mecanismos distintos.
+`quality control protocol` y `adversarial pass protocol` son mecanismos distintos.
 
 El control de calidad **no activa automáticamente** una revisión adversarial.
 
@@ -66,4 +62,4 @@ Este procedimiento se integra con la metodología de **construcción de clases**
 
 ## Regla de continuidad
 
-Las futuras misiones que incluyan recepción, revisión o aceptación de PDF elaborados por estudiantes deben consultar el protocolo permanente de `quality control` antes de ejecutar una auditoría solicitada mediante ese comando.
+Las futuras misiones que incluyan recepción, revisión o aceptación de PDF elaborados por estudiantes deben consultar el protocolo permanente de `quality control protocol` antes de ejecutar una auditoría solicitada mediante ese comando.
