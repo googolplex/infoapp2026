@@ -1,10 +1,10 @@
-# Cierre final de la misión clase20260807a — preparación de la clase del 08/08/2026
+# Cierre final de la Misión 1 — clase20260807a — preparación de la clase del 08/08/2026
 
 ## Estado
 
-**Misión concluida.**
+**Misión 1 concluida definitivamente.**
 
-Este registro formaliza el cierre operativo de la misión dedicada a preparar la clase inicial de Informática Aplicada prevista para el **sábado 08/08/2026**.
+Este registro formaliza el cierre de la misión dedicada a preparar la clase inicial de Informática Aplicada prevista para el **sábado 08/08/2026**.
 
 El cierre no elimina ni modifica los registros históricos anteriores. Las actualizaciones previas continúan disponibles para conservar la trazabilidad de las decisiones tomadas durante la preparación del material.
 
@@ -42,6 +42,20 @@ La próxima compilación deberá mantener esta autoría de manera coherente en l
 
 Durante la preparación se generó una portada gráfica con los tres autores. La imagen no fue incorporada al repositorio.
 
+## Última revisión editorial tratada
+
+Como última observación de auditoría de esta misión se revisó la ausencia de coma entre autor y año en las citas parentéticas producidas con `biblatex`, por ejemplo `(Echegaray de Palacios 2026)`.
+
+La solución indicada para el preámbulo es mantener las citas mediante `\parencite{...}` y establecer el delimitador autor-año con:
+
+```latex
+\renewcommand*{\nameyeardelim}{\addcomma\space}
+```
+
+De esta forma se obtiene la puntuación esperada, por ejemplo `(Echegaray de Palacios, 2026)`, sin escribir manualmente las citas en el cuerpo del documento.
+
+Esta corrección fue proporcionada para que el usuario la aplique manualmente en `main_v07.tex`. No se modificó ni se versionó el archivo LaTeX desde el repositorio y no se registró una compilación posterior que permita verificar el resultado final. Si fuera necesario comprobarlo, esa verificación corresponde a una futura misión editorial.
+
 ## Metodología de la clase
 
 La clase mantiene la metodología de **construcción de clases** adoptada para la asignatura: el docente presenta una estructura inicial de temas y subtemas; los estudiantes construyen y alimentan la base de conocimientos y la matriz de información; los contenidos se discuten y validan conjuntamente; se incorporan texto, gráficos y videos cuando corresponde; y cada estudiante realiza una síntesis personal antes de finalizar la jornada.
@@ -54,14 +68,15 @@ Los siguientes asuntos **no bloquean la clase del 08/08/2026** y pasan a futuras
 
 1. completar la trazabilidad institucional exacta de `18 semanas / 144 h / 27 h / 5 CA-PY`;
 2. confirmar el tratamiento académico específico del sábado 21/11/2026;
-3. corregir en una futura compilación la cita bibliográfica del feriado del 15/08/2026;
+3. verificar en una futura compilación la corrección bibliográfica del feriado del 15/08/2026;
 4. incorporar efectivamente en el PDF las referencias de los perfiles de egreso de Marketing, Ingeniería en Sistemas de Producción e Ingeniería en Electrónica;
 5. decidir cuáles dos actividades de la segunda etapa conservarán carácter sumativo;
-6. continuar las correcciones editoriales pendientes antes de una edición destinada a depósito institucional.
+6. continuar las correcciones editoriales pendientes antes de una edición destinada a depósito institucional;
+7. verificar, cuando exista una nueva compilación, que la puntuación autor-año de las citas parentéticas aparezca correctamente.
 
 ## Reglas de continuidad
 
-- `main.tex` continúa bajo control directo del usuario y no debe modificarse, sobrescribirse, subirse ni commitearse sin autorización expresa y específica.
+- `main.tex` y sus versiones de trabajo continúan bajo control directo del usuario y no deben modificarse, sobrescribirse, subirse ni commitearse sin autorización expresa y específica.
 - Se utiliza español general o neutral y se evitan voseo y argentinismos en conversaciones y materiales del proyecto, salvo excepciones documentales.
 - Los archivos auxiliares de compilación `*.log`, `*.aux`, `*.out` y `*.bcf` están excluidos del repositorio mediante `.gitignore` y la regla permanente correspondiente.
 - La bibliografía histórica versionada no debe sobrescribirse; cuando exista una compilación con las nuevas referencias efectivamente incorporadas, se debe crear una nueva versión.
@@ -72,8 +87,8 @@ Los siguientes asuntos **no bloquean la clase del 08/08/2026** y pasan a futuras
 Para cualquier nueva misión relacionada con el Volumen 1, la clase inicial o las siguientes clases, utilizar como punto de partida:
 
 - `clases/20260807c_estado_auditoria_vol1_v2.md`;
-- este cierre final;
+- este cierre final de la **Misión 1**;
 - `docs/contexto/README.md`;
 - los documentos oficiales y reglas permanentes indicados en el contexto del proyecto.
 
-Con este registro se considera **formalmente concluida la misión de preparación de la clase inicial del 08/08/2026**.
+Con este registro se considera **formal y definitivamente concluida la Misión 1: preparación de la clase inicial del 08/08/2026**.
