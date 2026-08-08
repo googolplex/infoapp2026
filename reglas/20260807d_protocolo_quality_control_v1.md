@@ -1,4 +1,4 @@
-# Protocolo `quality control`
+# Protocolo `quality control protocol`
 
 **Proyecto:** Informática Aplicada 2026  
 **Repositorio:** `googolplex/infoapp2026`  
@@ -8,25 +8,21 @@
 
 ## 1. Propósito
 
-El protocolo **`quality control`** establece el procedimiento para auditar un documento PDF presentado como evidencia de aprendizaje por un estudiante.
+El protocolo **`quality control protocol`** establece el procedimiento para auditar un documento PDF presentado como evidencia de aprendizaje por un estudiante.
 
 Su función es comprobar, de manera breve, trazable y reproducible, si el PDF satisface las preguntas o criterios de control de calidad indicados por el profesor antes de considerar la evidencia apta respecto de esos criterios.
 
 El control de calidad no debe inventar requisitos que no aparezcan en la consigna, en el párrafo de control, en el material de la actividad o en una fuente institucional aplicable.
 
-## 2. Disparadores
+## 2. Disparador
 
-El comando canónico es:
+El único comando válido es:
 
-`quality control`
-
-Por compatibilidad con la formulación utilizada al definir esta regla, también se acepta:
-
-`qualisty control`
+`quality control protocol`
 
 El disparador se considera una instrucción cuando aparece de forma inequívoca, normalmente en una línea independiente inmediatamente después del párrafo que contiene la pregunta o los criterios que deben auditarse.
 
-No se activa cuando las expresiones aparecen solamente dentro de una cita, un ejemplo, código, documentación, un archivo reproducido o una explicación metalingüística sobre el propio protocolo.
+No se activa cuando la expresión aparece solamente dentro de una cita, un ejemplo, código, documentación, un archivo reproducido o una explicación metalingüística sobre el propio protocolo.
 
 ## 3. Documento que debe auditarse
 
@@ -66,7 +62,7 @@ El enlace concreto de Google Drive puede variar entre cohortes o actividades y n
 
 ## 6. Método de auditoría
 
-Al ejecutar `quality control` se debe:
+Al ejecutar `quality control protocol` se debe:
 
 1. identificar el archivo PDF auditado;
 2. identificar textualmente la pregunta o los criterios de control;
@@ -111,7 +107,7 @@ No deben fabricarse errores para completar el reporte. Si el criterio se cumple,
 
 ## 9. Relación con `adversarial pass protocol`
 
-El comando **`quality control` no activa por sí mismo el protocolo adversarial**.
+El comando **`quality control protocol` no activa por sí mismo el protocolo adversarial**.
 
 El protocolo adversarial se añade al análisis **si y solo si el usuario solicita expresamente `adversarial pass protocol`** además del control de calidad.
 
