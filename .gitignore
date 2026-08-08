@@ -11,6 +11,12 @@ Thumbs.db
 *.bak
 *~
 
+# Archivos auxiliares de compilación LaTeX
+*.log
+*.aux
+*.out
+*.bcf
+
 # Credenciales y configuración local
 .env
 .env.*
