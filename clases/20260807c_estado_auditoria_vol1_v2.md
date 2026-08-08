@@ -8,7 +8,8 @@ Debe leerse junto con:
 
 - `clases/20260807a_estado_material_clase_inicial_v1.md`, que conserva el estado histórico de la clase inicial;
 - `misiones/clase20260807a_actualizacion_20260807c_auditoria.md`, que documenta en detalle los hallazgos y decisiones derivados de la auditoría;
-- `misiones/clase20260807a_actualizacion_20260807d_autoria_portada.md`, que registra la actualización de autoría y portada.
+- `misiones/clase20260807a_actualizacion_20260807d_autoria_portada.md`, que registra la actualización de autoría y portada;
+- `misiones/clase20260807a_cierre_final_20260807e.md`, que formaliza el cierre operativo de la misión de preparación de la clase del 08/08/2026.
 
 ## Última compilación recibida
 
@@ -111,3 +112,13 @@ No sobrescribirla. Cuando el usuario entregue una nueva compilación que incluya
 ## Metodología
 
 La incorporación de ejemplos por carrera y los demás ajustes derivados de la auditoría deben seguir la metodología de **construcción de clases**: estructura inicial del docente, construcción estudiantil de la base de conocimientos y matriz de información, discusión y validación conjunta, integración de texto, gráficos y videos, y síntesis personal antes del cierre de cada clase.
+
+## Cierre operativo de la misión
+
+La misión de preparación de la clase inicial prevista para el **08/08/2026** queda **formalmente concluida** mediante:
+
+`misiones/clase20260807a_cierre_final_20260807e.md`
+
+Los pendientes enumerados en este documento quedan transferidos a futuras misiones de revisión editorial, curricular o de continuidad del Volumen 1 y **no se consideran bloqueantes para el desarrollo de la clase inicial**.
+
+Las reglas permanentes de estilo, control de `main.tex`, exclusión de archivos auxiliares de Git y metodología de construcción de clases continúan vigentes después del cierre.
