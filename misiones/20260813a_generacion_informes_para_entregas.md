@@ -2,24 +2,47 @@
 
 Objetivo: definir un estándar verificable para informes académicos de entrega en Informática Aplicada 2026, coherente con la metodología de construcción de clases, las reglas de evaluación vigentes y `quality control protocol`.
 
-La misión deberá producir requisitos generales, una estructura base, una plantilla reutilizable y una lista de cotejo, distinguiendo requisitos confirmados de propuestas o aspectos pendientes de validación. Incluirá identificación, objetivo, desarrollo, evidencias, análisis de resultados, conclusiones, fuentes, autoría, evidencia individual en trabajos grupales, declaración de uso de IA, accesibilidad y formato de entrega.
+La misión debe producir requisitos generales, una estructura base, una plantilla reutilizable y una lista de cotejo, distinguiendo requisitos confirmados de requisitos particulares de cada actividad.
 
-No se fijarán arbitrariamente páginas, tipografía, márgenes, estilo bibliográfico ni ponderaciones. El estándar deberá ser aplicable a Marketing, Ingeniería en Sistemas de Producción e Ingeniería en Electrónica y mantener trazabilidad con `AGENTS.md`, `docs/contexto/README.md`, `docs/20260725a_Construccion_de_clases_Informatica_Aplicada_2026.pdf`, `docs/evaluacion.md`, `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`, `reglas/20260807a_criterio_editorial_materiales_deposito_institucional.md`, `reglas/20260807b_estilo_espanol_sin_voceo.md` y `reglas/20260807d_protocolo_quality_control_v1.md`.
-
-Entregas previstas: `reglas/20260813a_requisitos_informes_estudiantes_v1.md`, `recursos/20260813a_plantilla_informe_entrega_v1.md` y `evaluaciones/20260813a_lista_cotejo_informe_entrega_v1.md`.
-
-## Regla 1 confirmada — Nombre del archivo PDF
+## Regla 1 confirmada — nombre del PDF
 
 Todo informe presentado en formato PDF debe utilizar:
 
 `YYYYMMDDa_nombre_del_alumno_tema.pdf`
 
-La regla completa queda registrada en `reglas/20260813a_requisitos_informes_estudiantes_v1.md`.
+La regla completa se registra en `reglas/20260813a_requisitos_informes_estudiantes_v1.md`.
+
+## Hallazgos de la primera clase
+
+El material de la clase inicial y sus registros de estado documentan que:
+
+- la primera entrega en PDF funciona como «Hola, mundo» para validar formato, identificación, generación, nomenclatura y entrega;
+- las evidencias se recopilan en la carpeta de Google Drive indicada por el profesor;
+- cada estudiante debe manipular únicamente sus propios archivos en carpetas compartidas;
+- deben protegerse los elementos sensibles en carpetas de acceso amplio;
+- las actividades deben conservar evidencias y una síntesis personal;
+- la práctica específica de eliminación de fondo exige al menos tres procedimientos, herramientas y pasos, evidencia gráfica, comparación de resultados y síntesis personal.
+
+Los requisitos de la práctica de eliminación de fondo no se convierten en requisitos generales de todos los informes.
 
 ## Agente operativo `entrega_informe`
 
-Se incorpora `agentes/entrega_informe.md` como protocolo para construir el nombre correcto del archivo.
+El agente se conserva en `agentes/entrega_informe.md`.
 
-Al activar el comando `entrega_informe`, la primera respuesta debe solicitar el nombre completo del alumno. Una vez recibido, el agente determina la fecha, utiliza el tema ya conocido o lo solicita si falta, sustituye espacios por `_` y devuelve el nombre exacto del PDF que debe utilizarse para la entrega en Google Drive.
+Al activar `entrega_informe`, la primera respuesta solicita el nombre completo del alumno. Después identifica o solicita el tema, determina la fecha, construye el nombre del PDF y puede mostrar la estructura o generar el informe cuando exista información suficiente.
 
-El agente no debe registrar nombres de alumnos en el repositorio.
+El agente no debe inventar datos faltantes ni afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
+
+## Entregables
+
+- `reglas/20260813a_requisitos_informes_estudiantes_v1.md`;
+- `recursos/20260813a_plantilla_informe_entrega_v1.md`;
+- `evaluaciones/20260813a_lista_cotejo_informe_entrega_v1.md`.
+
+## Límites actuales
+
+No fijar arbitrariamente páginas, tipografía, márgenes, estilo bibliográfico o ponderaciones. Esos elementos se incorporarán únicamente cuando exista una decisión o consigna que los establezca.
+
+## Metodología
+
+Los informes se integran a la metodología de **construcción de clases**: estructura inicial del docente, construcción estudiantil de conocimientos y evidencias, discusión y validación, integración de texto, gráficos y videos cuando corresponda y síntesis personal.
