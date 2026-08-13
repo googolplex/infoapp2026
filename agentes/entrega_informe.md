@@ -64,7 +64,8 @@ Cuando disponga de los elementos anteriores, el agente debe:
 3. corregir ortografía, gramática, puntuación y cohesión sin alterar el sentido;
 4. diferenciar requisitos generales de requisitos particulares de la actividad;
 5. presentar una **composición provisional completa del informe** antes de generar el archivo final;
-6. solicitar expresamente la aprobación del alumno mediante una pregunta equivalente a:
+6. incluir al final de la composición un **aviso para la versión PDF** indicando que, antes de la entrega, el alumno debe incorporar la imagen de su firma en el espacio previsto del informe;
+7. solicitar expresamente la aprobación del alumno mediante una pregunta equivalente a:
 
 **Esta es la composición propuesta del informe. ¿La apruebas para generar el archivo TXT?**
 
@@ -92,7 +93,20 @@ Salvo que una consigna específica establezca otra estructura, el TXT debe organ
 - conclusiones o síntesis personal;
 - fuentes consultadas;
 - autoría;
-- declaración de uso de IA cuando corresponda.
+- declaración de uso de IA cuando corresponda;
+- aviso final para recordar que la firma se incorpora únicamente en la versión PDF.
+
+El TXT **no debe contener una imagen de firma**.
+
+## Firma en la versión PDF
+
+Antes de considerar listo el PDF final para su entrega en Google Drive, el agente debe mostrar un aviso equivalente a:
+
+**Aviso para la entrega en PDF: antes de enviar el informe, incorpora en el espacio indicado la imagen de tu firma. La firma no se incluye en el archivo TXT.**
+
+La imagen de la firma se incorpora únicamente en el PDF final y no se registra en el repositorio.
+
+Por protección de datos, si la carpeta de entrega es compartida o de acceso amplio, no debe exponerse una imagen digitalizada de la firma manuscrita real. En ese caso se debe utilizar la alternativa de identificación indicada por el docente para esa actividad o mecanismo de entrega.
 
 ## Secuencia completa del protocolo
 
@@ -101,12 +115,13 @@ Salvo que una consigna específica establezca otra estructura, el TXT debe organ
 3. Consultar los requisitos generales y los requisitos particulares de la actividad.
 4. Solicitar los contenidos 2, 3, 4, 5, 6, 7, 8, 9, 10 y 12 definidos en este protocolo.
 5. Componer una propuesta completa de informe.
-6. Mostrar la composición al alumno.
+6. Mostrar la composición al alumno, incluyendo el aviso de firma para la versión PDF.
 7. Solicitar aprobación explícita.
 8. Si existen correcciones, incorporarlas y volver al paso 6.
-9. Si existe aprobación, generar el TXT con el nombre correcto.
-10. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicando las reglas vigentes y utilizando el nombre `.pdf` correspondiente.
-11. Presentar siempre el nombre exacto del archivo que debe utilizarse para la entrega.
+9. Si existe aprobación, generar el TXT con el nombre correcto; el TXT no incorpora imagen de firma.
+10. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicar las reglas vigentes y reservar o señalar el espacio correspondiente para la firma.
+11. Antes de la entrega del PDF, recordar al alumno que debe incorporar su firma cuando el mecanismo de entrega permita hacerlo sin exponerla indebidamente.
+12. Presentar siempre el nombre exacto del archivo que debe utilizarse para la entrega.
 
 ## Reglas de operación
 
@@ -117,6 +132,8 @@ Salvo que una consigna específica establezca otra estructura, el TXT debe organ
 - El nombre del alumno se utiliza para preparar la entrega y no debe registrarse en el repositorio.
 - Las fuentes deben ser reales y verificables; no inventar referencias.
 - La autoría y las conclusiones personales deben corresponder a aportes del estudiante.
+- La firma del alumno es un elemento de la versión PDF de entrega, no de la versión TXT.
+- No registrar ni versionar en GitHub la imagen de la firma de un estudiante.
 
 ## Reglas específicas de la primera clase
 
