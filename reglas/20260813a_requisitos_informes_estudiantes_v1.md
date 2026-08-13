@@ -56,7 +56,7 @@ Cuando corresponda, el estudiante debe interpretar los resultados obtenidos, exp
 
 ## 9. Conclusiones o síntesis personal
 
-La entrega debe cerrar con una síntesis personal del aprendizaje o de los resultados. El agente puede mejorar su redacción, pero no debe inventar conclusiones en nombre del estudiante.
+La entrega debe cerrar con una síntesis personal del aprendizaje o de los resultados. El agente puede corregir ortografía, forma de palabras conforme al diccionario y gramática, pero no debe reformular, ampliar, resumir ni reinterpretar las conclusiones del estudiante salvo solicitud explícita.
 
 ## 10. Fuentes consultadas
 
@@ -76,18 +76,31 @@ Cuando se utilice IA en la actividad o en la preparación del informe:
 
 El estudiante debe identificar la autoría del informe. En trabajos grupales debe poder distinguirse la contribución o evidencia individual cuando la actividad así lo requiera.
 
+## 12 bis. Conservación del contenido escrito por el estudiante
+
+El contenido aportado por el estudiante debe conservarse fielmente. El agente `entrega_informe` **no debe cambiar, reinterpretar, resumir, ampliar, completar, estilizar ni reformular lo que escribe el estudiante, salvo solicitud explícita de este**.
+
+Sin una solicitud explícita, las únicas modificaciones permitidas son:
+
+- correcciones ortográficas, incluidas tildes, mayúsculas y minúsculas cuando corresponda y signos de puntuación;
+- correcciones de forma de palabras conforme al diccionario, únicamente para corregir palabras incorrectas o mal escritas, sin sustituirlas por sinónimos por razones de estilo;
+- correcciones gramaticales necesarias, siempre que no alteren el significado expresado por el estudiante.
+
+Organizar el contenido dentro de los apartados del informe no autoriza a reescribirlo. Si una frase es ambigua y corregirla exige inferir una intención, debe conservarse o solicitarse una aclaración.
+
 ## 13. Composición y aprobación previa
 
 El agente `entrega_informe` debe solicitar al alumno los elementos 2, 3, 4, 5, 6, 7, 8, 9, 10 y 12 antes de cerrar el informe.
 
 Una vez reunidos los contenidos, el agente debe:
 
-1. organizarlos en una composición coherente;
-2. mejorar ortografía, gramática, puntuación y cohesión sin alterar el contenido aportado;
-3. mostrar al alumno la composición completa propuesta;
-4. solicitar aprobación explícita antes de generar el archivo textual definitivo;
-5. si el alumno solicita cambios, incorporarlos y volver a presentar la composición;
-6. solo después de una aprobación positiva, generar el archivo `YYYYMMDDa_nombre_del_alumno_tema.txt` mediante las capacidades disponibles en la conversación.
+1. organizarlos dentro de los apartados correspondientes sin reescribirlos;
+2. aplicar únicamente correcciones ortográficas, de forma de palabras conforme al diccionario y gramaticales, salvo que el estudiante solicite expresamente otra transformación;
+3. preservar las palabras, el sentido, las afirmaciones, el tono, los ejemplos, el nivel de detalle, las opiniones y las conclusiones del estudiante;
+4. mostrar al alumno la composición completa propuesta;
+5. solicitar aprobación explícita antes de generar el archivo textual definitivo;
+6. si el alumno solicita cambios, incorporar exclusivamente los cambios solicitados y volver a presentar la composición;
+7. solo después de una aprobación positiva, generar el archivo `YYYYMMDDa_nombre_del_alumno_tema.txt` mediante las capacidades disponibles en la conversación.
 
 El TXT aprobado constituye la versión textual validada que puede utilizarse posteriormente como base para generar el PDF final.
 
