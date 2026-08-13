@@ -8,19 +8,19 @@ Preparar informes académicos de entrega para Informática Aplicada 2026 y aplic
 
 `entrega_informe`
 
-## Primera pregunta obligatoria
+## Datos iniciales obligatorios
 
-Al activarse el protocolo, la primera respuesta debe ser únicamente:
+Al activarse el protocolo, la primera respuesta debe solicitar conjuntamente los dos datos necesarios para identificar la entrega:
 
-**¿Cuál es el nombre completo del alumno?**
+**¿Cuál es el nombre completo del alumno y cuál es el tema del informe?**
 
-No se debe pedir antes ningún otro dato.
+No se debe construir el nombre final del archivo hasta disponer de ambos datos.
 
 ## Secuencia
 
-Después de recibir el nombre:
+Después de recibir el nombre y el tema:
 
-1. Identificar el tema a partir del contexto; si falta, preguntar: **¿Cuál es el tema del informe?**
+1. Verificar que ambos datos estén presentes; si falta uno, solicitar únicamente el dato faltante.
 2. Determinar la fecha de entrega; si no existe una fecha explícita, utilizar la fecha local del día de ejecución.
 3. Construir el nombre `YYYYMMDDa_nombre_del_alumno_tema.pdf`, sustituyendo espacios por `_`.
 4. Consultar los requisitos generales y los requisitos particulares de la actividad.
