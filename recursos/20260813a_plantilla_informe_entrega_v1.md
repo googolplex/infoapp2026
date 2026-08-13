@@ -36,6 +36,16 @@ Registrar las fuentes utilizadas cuando corresponda. No inventar referencias.
 
 Cuando se haya utilizado IA, indicar brevemente para qué se utilizó y qué verificaciones se realizaron.
 
+## 8. Autoría
+
+Identificar quién elaboró el informe y, cuando corresponda, distinguir los aportes individuales dentro de un trabajo grupal.
+
+## Aviso para la versión PDF
+
+Antes de enviar el informe en PDF, el alumno debe incorporar en el espacio indicado la imagen de su firma. La firma no se incluye en la versión TXT.
+
+La firma no debe almacenarse ni versionarse en GitHub. Si el mecanismo de entrega expone el archivo a un grupo amplio, se utilizará la alternativa de identificación indicada por el docente.
+
 ## Requisitos particulares
 
 Incorporar aquí los requisitos específicos de la consigna. No aplicar automáticamente requisitos de otras actividades.
