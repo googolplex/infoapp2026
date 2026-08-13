@@ -29,7 +29,7 @@ Los requisitos de la práctica de eliminación de fondo no se convierten en requ
 
 El agente se conserva en `agentes/entrega_informe.md`.
 
-Al activar `entrega_informe`, la primera respuesta solicita el nombre completo del alumno. Después identifica o solicita el tema, determina la fecha, construye el nombre del PDF y puede mostrar la estructura o generar el informe cuando exista información suficiente.
+Al activar `entrega_informe`, la primera respuesta debe solicitar conjuntamente **el nombre completo del alumno y el tema del informe**, porque ambos datos son necesarios para construir el nombre final del PDF. Si uno de los dos ya está disponible, el agente solicita únicamente el dato faltante. Después determina la fecha, construye el nombre del PDF y puede mostrar la estructura o generar el informe cuando exista información suficiente.
 
 El agente no debe inventar datos faltantes ni afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
 
