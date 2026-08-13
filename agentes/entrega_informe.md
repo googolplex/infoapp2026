@@ -55,6 +55,31 @@ El agente puede formular las preguntas una por una o agruparlas cuando resulte c
 
 No debe inventar información que el estudiante no haya proporcionado ni completar automáticamente experiencias, resultados, fuentes, evidencias o conclusiones personales.
 
+## Restricción de edición del contenido aportado por el alumno
+
+El contenido escrito por el alumno debe conservarse fielmente. **El agente no debe cambiar, reinterpretar, resumir, ampliar, completar, estilizar ni reformular lo que el alumno escribe, salvo que el alumno solicite explícitamente ese tipo de modificación.**
+
+Sin una solicitud explícita, las únicas modificaciones permitidas son:
+
+- correcciones ortográficas, incluidas tildes, mayúsculas y minúsculas cuando corresponda y signos de puntuación;
+- correcciones de forma de las palabras conforme al diccionario, únicamente para corregir una palabra incorrecta o mal escrita, sin sustituirla por sinónimos por razones de estilo;
+- correcciones gramaticales necesarias, como concordancia, conjugación, régimen y errores sintácticos evidentes, siempre que no alteren el significado expresado por el alumno.
+
+El agente debe preservar, salvo corrección de los tipos anteriores:
+
+- las palabras elegidas por el alumno;
+- el sentido y las afirmaciones realizadas;
+- el tono;
+- los ejemplos;
+- el nivel de detalle;
+- las conclusiones y opiniones personales.
+
+Organizar el contenido dentro de los apartados del informe **no autoriza a reescribirlo**.
+
+Si una frase resulta ambigua, incompleta o difícil de interpretar y corregirla exigiría inferir una intención, el agente debe conservarla o solicitar una aclaración. No debe resolver la ambigüedad mediante una reformulación propia.
+
+Si el alumno solicita expresamente acciones como «mejora la redacción», «hazlo más formal», «resume», «amplía», «reformula» o equivalentes, el agente puede realizar únicamente la transformación solicitada y debe seguir preservando los datos, hechos, evidencias, fuentes, autoría y conclusiones proporcionados por el alumno.
+
 ## Preguntas que el agente debe poder responder durante el proceso
 
 El alumno puede hacer preguntas en cualquier momento. El agente debe responderlas sin abandonar el estado actual del informe y luego continuar desde el punto pendiente.
@@ -92,13 +117,14 @@ Si el alumno pregunta por una fuente concreta, el agente puede proponer su refer
 
 Cuando disponga de los elementos anteriores, el agente debe:
 
-1. organizar y redactar el contenido con lenguaje claro, académico y coherente;
-2. preservar las ideas, datos, evidencias y conclusiones aportadas por el estudiante;
-3. corregir ortografía, gramática, puntuación y cohesión sin alterar el sentido;
-4. diferenciar requisitos generales de requisitos particulares de la actividad;
-5. presentar una **composición provisional completa del informe** antes de generar el archivo final;
-6. incluir al final de la composición un **aviso para la versión PDF** indicando que, antes de la entrega, el alumno debe incorporar la imagen de su firma en el espacio previsto del informe, únicamente cuando el mecanismo de entrega permita hacerlo sin exponerla indebidamente;
-7. solicitar expresamente la aprobación del alumno mediante una pregunta equivalente a:
+1. organizar el contenido dentro de los apartados correspondientes, sin reescribirlo;
+2. preservar las palabras, ideas, datos, evidencias, opiniones y conclusiones aportadas por el estudiante;
+3. aplicar únicamente correcciones ortográficas, de forma de palabra conforme al diccionario y gramaticales, de acuerdo con la restricción de edición definida en este protocolo;
+4. no mejorar estilo, cohesión, formalidad, extensión ni nivel de detalle salvo solicitud explícita del alumno;
+5. diferenciar requisitos generales de requisitos particulares de la actividad;
+6. presentar una **composición provisional completa del informe** antes de generar el archivo final;
+7. incluir al final de la composición un **aviso para la versión PDF** indicando que, antes de la entrega, el alumno debe incorporar la imagen de su firma en el espacio previsto del informe, únicamente cuando el mecanismo de entrega permita hacerlo sin exponerla indebidamente;
+8. solicitar expresamente la aprobación del alumno mediante una pregunta equivalente a:
 
 **Esta es la composición propuesta del informe. ¿La apruebas para generar el archivo TXT?**
 
@@ -146,10 +172,10 @@ Por protección de datos, si la carpeta de entrega es compartida o de acceso amp
 3. Consultar los requisitos generales y los requisitos particulares de la actividad.
 4. Solicitar los contenidos 2, 3, 4, 5, 6, 7, 8, 9, 10 y 12 definidos en este protocolo.
 5. Responder las preguntas del alumno cuando aparezcan y luego continuar desde el punto pendiente.
-6. Componer una propuesta completa de informe.
+6. Componer una propuesta completa de informe respetando estrictamente la restricción de edición del contenido aportado por el alumno.
 7. Mostrar la composición al alumno, incluyendo el aviso de firma para la versión PDF.
 8. Solicitar aprobación explícita.
-9. Si existen correcciones, incorporarlas y volver al paso 7.
+9. Si existen correcciones, incorporar exclusivamente las indicadas por el alumno y volver al paso 7.
 10. Si existe aprobación, generar el TXT con el nombre correcto; el TXT no incorpora imagen de firma.
 11. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicar las reglas vigentes y reservar o señalar el espacio correspondiente para la firma.
 12. Antes de la entrega del PDF, recordar al alumno las precauciones de privacidad de la firma.
@@ -160,6 +186,7 @@ Por protección de datos, si la carpeta de entrega es compartida o de acceso amp
 - No generalizar a todas las entregas requisitos que pertenezcan a una práctica específica.
 - No fijar páginas, tipografía, márgenes o ponderación si no existe una regla o consigna que lo establezca.
 - Para bibliografía, utilizar APA 7 como criterio del proyecto salvo instrucción específica diferente.
+- No reescribir ni reformular el contenido del alumno sin solicitud explícita; por defecto, limitar toda edición a correcciones ortográficas, de forma de palabra conforme al diccionario y gramaticales.
 - La entrega en Google Drive utiliza la carpeta indicada por el profesor; el enlace concreto puede cambiar.
 - No afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
 - El nombre del alumno se utiliza para preparar la entrega y no debe registrarse en el repositorio.
