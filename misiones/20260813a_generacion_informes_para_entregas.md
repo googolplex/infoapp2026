@@ -38,6 +38,39 @@ Si no existe evidencia disponible de un informe anterior en esa fecha, se utiliz
 
 La regla completa se registra en `reglas/20260813a_requisitos_informes_estudiantes_v1.md` y debe mantenerse sincronizada con el protocolo `agentes/entrega_informe.md`.
 
+## Regla 2 confirmada — datos de identificación académica obligatorios
+
+Antes de componer el informe, el agente debe obtener explícitamente del alumno los siguientes datos:
+
+1. nombre completo del alumno;
+2. tema del informe;
+3. asignatura;
+4. carrera;
+5. sección;
+6. nombre del docente;
+7. universidad;
+8. facultad.
+
+Estos datos forman parte de la identificación académica del informe y deben incorporarse en la composición provisional, en el TXT aprobado y en el PDF final cuando corresponda.
+
+### Prohibición de inferencia de datos de identificación
+
+El agente **no debe inferir, completar automáticamente ni reutilizar** la asignatura, la carrera, la sección, el nombre del docente, la universidad o la facultad a partir de:
+
+- información general del proyecto;
+- este repositorio GitHub;
+- conversaciones anteriores;
+- informes anteriores;
+- datos de otros estudiantes;
+- nombres institucionales conocidos por el agente;
+- cualquier otro contexto distinto de la respuesta explícita del alumno para el informe actual.
+
+Aunque un dato parezca evidente o coincida con el contexto de Informática Aplicada 2026, debe ser solicitado para el informe actual.
+
+Si uno o más de estos datos ya fueron proporcionados explícitamente y de manera inequívoca durante la interacción correspondiente al informe actual, no es necesario volver a preguntarlos. El agente debe solicitar únicamente los datos faltantes.
+
+El agente tampoco debe corregir, normalizar, ampliar o sustituir los nombres institucionales proporcionados por el alumno salvo correcciones ortográficas, de forma de palabra conforme al diccionario o gramaticales que no cambien el contenido, o salvo solicitud explícita del alumno.
+
 ## Hallazgos de la primera clase
 
 El material de la clase inicial y sus registros de estado documentan que:
@@ -57,10 +90,11 @@ El agente se conserva en `agentes/entrega_informe.md`.
 
 Al activar `entrega_informe`, el protocolo debe:
 
-1. obtener el nombre completo del alumno y el tema del informe;
-2. determinar la fecha de entrega y la siguiente letra disponible para esa fecha cuando pueda verificarse la existencia de informes anteriores;
-3. construir los nombres previstos `.txt` y `.pdf` utilizando el mismo prefijo `YYYYMMDD<letra>` para ambas versiones;
-4. solicitar al estudiante los contenidos correspondientes a:
+1. obtener explícitamente del alumno los datos de identificación del informe: nombre completo, tema, asignatura, carrera, sección, nombre del docente, universidad y facultad;
+2. no inferir ninguno de esos datos desde otro contexto y solicitar únicamente los que todavía falten;
+3. determinar la fecha de entrega y la siguiente letra disponible para esa fecha cuando pueda verificarse la existencia de informes anteriores;
+4. construir los nombres previstos `.txt` y `.pdf` utilizando el mismo prefijo `YYYYMMDD<letra>` para ambas versiones;
+5. solicitar al estudiante los contenidos correspondientes a:
    - título del informe;
    - objetivo;
    - introducción o contexto;
@@ -71,11 +105,12 @@ Al activar `entrega_informe`, el protocolo debe:
    - conclusiones o síntesis personal;
    - fuentes consultadas;
    - autoría;
-5. componer una propuesta completa de informe preservando el contenido aportado por el alumno y respetando las restricciones vigentes de edición;
-6. mostrar la composición al alumno y solicitar aprobación explícita;
-7. si existen correcciones, incorporar únicamente las permitidas o solicitadas y volver a solicitar aprobación;
-8. solamente después de una aprobación positiva, generar el TXT correspondiente;
-9. utilizar posteriormente ese contenido aprobado como base para el PDF final cuando se solicite, conservando la misma letra asignada al TXT.
+6. componer una propuesta completa de informe preservando el contenido aportado por el alumno y respetando las restricciones vigentes de edición;
+7. incluir en la composición provisional la identificación académica completa proporcionada por el alumno;
+8. mostrar la composición al alumno y solicitar aprobación explícita;
+9. si existen correcciones, incorporar únicamente las permitidas o solicitadas y volver a solicitar aprobación;
+10. solamente después de una aprobación positiva, generar el TXT correspondiente;
+11. utilizar posteriormente ese contenido aprobado como base para el PDF final cuando se solicite, conservando la misma letra asignada al TXT.
 
 El agente no debe inventar datos, experiencias, evidencias, resultados, fuentes, autoría o conclusiones personales. Tampoco debe afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
 
@@ -91,4 +126,4 @@ No fijar arbitrariamente páginas, tipografía, márgenes, estilo bibliográfico
 
 ## Metodología
 
-Los informes se integran a la metodología de **construcción de clases**: estructura inicial del docente, construcción estudiantil de conocimientos y evidencias, composición organizada del contenido, discusión y validación, integración de texto, gráficos y videos cuando corresponda y síntesis personal. La aprobación previa del alumno forma parte explícita de la etapa de validación antes de generar la versión textual definitiva.
+Los informes se integran a la metodología de **construcción de clases**: estructura inicial del docente, construcción estudiantil de conocimientos y evidencias, composición organizada del contenido, discusión y validación, integración de texto, gráficos y videos cuando corresponda y síntesis personal. La solicitud explícita de los datos de identificación y la aprobación previa del alumno forman parte de la etapa de construcción y validación antes de generar la versión textual definitiva.
