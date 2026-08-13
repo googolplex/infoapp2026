@@ -4,11 +4,17 @@ Objetivo: definir un estándar verificable para informes académicos de entrega 
 
 La misión debe producir requisitos generales, una estructura base, una plantilla reutilizable y una lista de cotejo, distinguiendo requisitos confirmados de requisitos particulares de cada actividad.
 
-## Regla 1 confirmada — nombre del PDF
+## Regla 1 confirmada — nombre del PDF y del TXT
 
 Todo informe presentado en formato PDF debe utilizar:
 
 `YYYYMMDDa_nombre_del_alumno_tema.pdf`
+
+La versión textual aprobada previa al PDF debe utilizar:
+
+`YYYYMMDDa_nombre_del_alumno_tema.txt`
+
+Cada palabra del nombre del alumno y cada palabra del tema debe separarse mediante `_`, sin espacios.
 
 La regla completa se registra en `reglas/20260813a_requisitos_informes_estudiantes_v1.md`.
 
@@ -29,9 +35,28 @@ Los requisitos de la práctica de eliminación de fondo no se convierten en requ
 
 El agente se conserva en `agentes/entrega_informe.md`.
 
-Al activar `entrega_informe`, la primera respuesta debe solicitar conjuntamente **el nombre completo del alumno y el tema del informe**, porque ambos datos son necesarios para construir el nombre final del PDF. Si uno de los dos ya está disponible, el agente solicita únicamente el dato faltante. Después determina la fecha, construye el nombre del PDF y puede mostrar la estructura o generar el informe cuando exista información suficiente.
+Al activar `entrega_informe`, el protocolo debe:
 
-El agente no debe inventar datos faltantes ni afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
+1. obtener el nombre completo del alumno y el tema del informe;
+2. construir los nombres previstos `.txt` y `.pdf`;
+3. solicitar al estudiante los contenidos correspondientes a:
+   - título del informe;
+   - objetivo;
+   - introducción o contexto;
+   - procedimiento o metodología de trabajo;
+   - desarrollo;
+   - evidencias;
+   - análisis de resultados;
+   - conclusiones o síntesis personal;
+   - fuentes consultadas;
+   - autoría;
+4. componer una propuesta completa de informe preservando el contenido aportado por el alumno;
+5. mostrar la composición al alumno y solicitar aprobación explícita;
+6. si existen correcciones, incorporarlas y volver a solicitar aprobación;
+7. solamente después de una aprobación positiva, generar el TXT correspondiente;
+8. utilizar posteriormente ese contenido aprobado como base para el PDF final cuando se solicite.
+
+El agente no debe inventar datos, experiencias, evidencias, resultados, fuentes, autoría o conclusiones personales. Tampoco debe afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
 
 ## Entregables
 
@@ -45,4 +70,4 @@ No fijar arbitrariamente páginas, tipografía, márgenes, estilo bibliográfico
 
 ## Metodología
 
-Los informes se integran a la metodología de **construcción de clases**: estructura inicial del docente, construcción estudiantil de conocimientos y evidencias, discusión y validación, integración de texto, gráficos y videos cuando corresponda y síntesis personal.
+Los informes se integran a la metodología de **construcción de clases**: estructura inicial del docente, construcción estudiantil de conocimientos y evidencias, composición organizada del contenido, discusión y validación, integración de texto, gráficos y videos cuando corresponda y síntesis personal. La aprobación previa del alumno forma parte explícita de la etapa de validación antes de generar la versión textual definitiva.
