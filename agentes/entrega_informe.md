@@ -10,13 +10,40 @@ Preparar informes académicos de entrega para Informática Aplicada 2026 y aplic
 
 ## Datos iniciales obligatorios
 
-Al activarse el protocolo, la primera respuesta debe solicitar conjuntamente los dos datos necesarios para identificar la entrega:
+Al activarse el protocolo, el agente debe obtener explícitamente del alumno los siguientes datos para el informe actual:
 
-**¿Cuál es el nombre completo del alumno y cuál es el tema del informe?**
+1. **Nombre completo del alumno.**
+2. **Tema del informe.**
+3. **Asignatura.**
+4. **Carrera.**
+5. **Sección.**
+6. **Nombre del docente.**
+7. **Universidad.**
+8. **Facultad.**
 
-Si uno de esos datos ya fue proporcionado de forma inequívoca, solicitar únicamente el dato faltante.
+La primera respuesta debe solicitar conjuntamente los datos que todavía no hayan sido proporcionados de forma explícita e inequívoca durante la interacción del informe actual. Una formulación válida cuando no se dispone de ninguno es:
 
-No se debe construir el nombre final del archivo hasta disponer de ambos datos.
+**Indica, por favor: nombre completo del alumno, tema del informe, asignatura, carrera, sección, nombre del docente, universidad y facultad.**
+
+Si uno o más de esos datos ya fueron proporcionados explícitamente durante la interacción del informe actual, solicitar únicamente los datos faltantes.
+
+### Prohibición de inferencia de la identificación académica
+
+El agente **no debe inferir, completar automáticamente ni reutilizar** la asignatura, la carrera, la sección, el nombre del docente, la universidad o la facultad a partir de:
+
+- información general del proyecto;
+- el repositorio GitHub;
+- conversaciones anteriores;
+- informes anteriores;
+- datos de otros estudiantes;
+- nombres institucionales conocidos por el agente;
+- cualquier otro contexto distinto de la respuesta explícita del alumno para el informe actual.
+
+Aunque alguno de esos datos parezca evidente o coincida con el contexto del proyecto, debe ser solicitado para el informe actual.
+
+El agente tampoco debe corregir, normalizar, ampliar o sustituir los nombres institucionales proporcionados por el alumno salvo correcciones ortográficas, de forma de palabra conforme al diccionario o gramaticales que no cambien el contenido, o salvo solicitud explícita del alumno.
+
+No se debe construir el nombre final del archivo hasta disponer, como mínimo, del nombre completo del alumno y del tema del informe.
 
 ## Nomenclatura
 
@@ -43,18 +70,18 @@ Reglas de construcción:
 
 ## Contenidos que el agente debe solicitar
 
-Después de obtener nombre y tema, el agente debe solicitar al estudiante información para los siguientes elementos del informe:
+Después de obtener la identificación académica obligatoria, el agente debe solicitar al estudiante información para los siguientes elementos del informe:
 
-2. **Título del informe.**
-3. **Objetivo.**
-4. **Introducción o contexto.**
-5. **Procedimiento o metodología de trabajo.**
-6. **Desarrollo.**
-7. **Evidencias.**
-8. **Análisis de resultados.**
-9. **Conclusiones o síntesis personal.**
-10. **Fuentes consultadas.**
-12. **Autoría.**
+1. **Título del informe.**
+2. **Objetivo.**
+3. **Introducción o contexto.**
+4. **Procedimiento o metodología de trabajo.**
+5. **Desarrollo.**
+6. **Evidencias.**
+7. **Análisis de resultados.**
+8. **Conclusiones o síntesis personal.**
+9. **Fuentes consultadas.**
+10. **Autoría.**
 
 El agente puede formular las preguntas una por una o agruparlas cuando resulte claro para el estudiante, pero debe asegurarse de obtener una respuesta o una declaración explícita de que un elemento no corresponde a la actividad.
 
@@ -120,16 +147,17 @@ Si el alumno pregunta por una fuente concreta, el agente puede proponer su refer
 
 ## Composición provisional
 
-Cuando disponga de los elementos anteriores, el agente debe:
+Cuando disponga de la identificación académica y de los contenidos anteriores, el agente debe:
 
-1. organizar el contenido dentro de los apartados correspondientes, sin reescribirlo;
-2. preservar las palabras, ideas, datos, evidencias, opiniones y conclusiones aportadas por el estudiante;
-3. aplicar únicamente correcciones ortográficas, de forma de palabra conforme al diccionario y gramaticales, de acuerdo con la restricción de edición definida en este protocolo;
-4. no mejorar estilo, cohesión, formalidad, extensión ni nivel de detalle salvo solicitud explícita del alumno;
-5. diferenciar requisitos generales de requisitos particulares de la actividad;
-6. presentar una **composición provisional completa del informe** antes de generar el archivo final;
-7. incluir al final de la composición un **aviso para la versión PDF** indicando que, antes de la entrega, el alumno debe incorporar la imagen de su firma en el espacio previsto del informe, únicamente cuando el mecanismo de entrega permita hacerlo sin exponerla indebidamente;
-8. solicitar expresamente la aprobación del alumno mediante una pregunta equivalente a:
+1. incorporar la identificación académica completa proporcionada explícitamente por el alumno: nombre, asignatura, carrera, sección, docente, universidad y facultad, además del tema y la fecha correspondiente;
+2. organizar el contenido dentro de los apartados correspondientes, sin reescribirlo;
+3. preservar las palabras, ideas, datos, evidencias, opiniones y conclusiones aportadas por el estudiante;
+4. aplicar únicamente correcciones ortográficas, de forma de palabra conforme al diccionario y gramaticales, de acuerdo con la restricción de edición definida en este protocolo;
+5. no mejorar estilo, cohesión, formalidad, extensión ni nivel de detalle salvo solicitud explícita del alumno;
+6. diferenciar requisitos generales de requisitos particulares de la actividad;
+7. presentar una **composición provisional completa del informe** antes de generar el archivo final;
+8. incluir al final de la composición un **aviso para la versión PDF** indicando que, antes de la entrega, el alumno debe incorporar la imagen de su firma en el espacio previsto del informe, únicamente cuando el mecanismo de entrega permita hacerlo sin exponerla indebidamente;
+9. solicitar expresamente la aprobación del alumno mediante una pregunta equivalente a:
 
 **Esta es la composición propuesta del informe. ¿La apruebas para generar el archivo TXT?**
 
@@ -146,7 +174,14 @@ El TXT aprobado constituye la versión textual validada del informe y puede util
 
 Salvo que una consigna específica establezca otra estructura, el TXT debe organizarse con:
 
-- identificación del alumno y de la entrega;
+- universidad;
+- facultad;
+- asignatura;
+- carrera;
+- sección;
+- nombre del docente;
+- nombre completo del alumno;
+- tema y fecha de la entrega;
 - título;
 - objetivo;
 - introducción o contexto;
@@ -172,20 +207,21 @@ Por protección de datos, si la carpeta de entrega es compartida o de acceso amp
 
 ## Secuencia completa del protocolo
 
-1. Solicitar nombre completo del alumno y tema.
-2. Determinar la fecha y la siguiente letra disponible para esa fecha cuando pueda verificarse la existencia de informes anteriores.
-3. Construir los nombres previstos `.pdf` y `.txt` utilizando el mismo prefijo `YYYYMMDD<letra>` para ambas versiones.
-4. Consultar los requisitos generales y los requisitos particulares de la actividad.
-5. Solicitar los contenidos 2, 3, 4, 5, 6, 7, 8, 9, 10 y 12 definidos en este protocolo.
-6. Responder las preguntas del alumno cuando aparezcan y luego continuar desde el punto pendiente.
-7. Componer una propuesta completa de informe respetando estrictamente la restricción de edición del contenido aportado por el alumno.
-8. Mostrar la composición al alumno, incluyendo el aviso de firma para la versión PDF.
-9. Solicitar aprobación explícita.
-10. Si existen correcciones, incorporar exclusivamente las indicadas por el alumno y volver al paso 8.
-11. Si existe aprobación, generar el TXT con el nombre correcto; el TXT no incorpora imagen de firma.
-12. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicar las reglas vigentes y conservar la misma letra asignada al TXT.
-13. Antes de la entrega del PDF, recordar al alumno las precauciones de privacidad de la firma.
-14. Presentar siempre el nombre exacto del archivo que debe utilizarse para la entrega.
+1. Solicitar explícitamente los datos faltantes de identificación: nombre completo del alumno, tema, asignatura, carrera, sección, nombre del docente, universidad y facultad.
+2. No inferir ni reutilizar asignatura, carrera, sección, docente, universidad o facultad desde otro contexto.
+3. Determinar la fecha y la siguiente letra disponible para esa fecha cuando pueda verificarse la existencia de informes anteriores.
+4. Construir los nombres previstos `.pdf` y `.txt` utilizando el mismo prefijo `YYYYMMDD<letra>` para ambas versiones.
+5. Consultar los requisitos generales y los requisitos particulares de la actividad.
+6. Solicitar título, objetivo, introducción o contexto, procedimiento o metodología, desarrollo, evidencias, análisis de resultados, conclusiones o síntesis personal, fuentes consultadas y autoría.
+7. Responder las preguntas del alumno cuando aparezcan y luego continuar desde el punto pendiente.
+8. Componer una propuesta completa de informe respetando estrictamente la restricción de edición del contenido aportado por el alumno e incluyendo la identificación académica explícitamente proporcionada.
+9. Mostrar la composición al alumno, incluyendo el aviso de firma para la versión PDF.
+10. Solicitar aprobación explícita.
+11. Si existen correcciones, incorporar exclusivamente las indicadas por el alumno y volver al paso 9.
+12. Si existe aprobación, generar el TXT con el nombre correcto; el TXT no incorpora imagen de firma.
+13. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicar las reglas vigentes y conservar la misma letra asignada al TXT.
+14. Antes de la entrega del PDF, recordar al alumno las precauciones de privacidad de la firma.
+15. Presentar siempre el nombre exacto del archivo que debe utilizarse para la entrega.
 
 ## Reglas de operación
 
@@ -193,6 +229,7 @@ Por protección de datos, si la carpeta de entrega es compartida o de acceso amp
 - No fijar páginas, tipografía, márgenes o ponderación si no existe una regla o consigna que lo establezca.
 - Para bibliografía, utilizar APA 7 como criterio del proyecto salvo instrucción específica diferente.
 - No reescribir ni reformular el contenido del alumno sin solicitud explícita; por defecto, limitar toda edición a correcciones ortográficas, de forma de palabra conforme al diccionario y gramaticales.
+- No inferir ni reutilizar desde otro contexto la asignatura, carrera, sección, nombre del docente, universidad o facultad del informe actual.
 - Para varios informes generados en una misma fecha, utilizar letras secuenciales `a`, `b`, `c`, etc., siempre que el orden anterior pueda verificarse; al cambiar la fecha, reiniciar en `a`.
 - El TXT y el PDF del mismo informe deben conservar la misma letra de secuencia.
 - La entrega en Google Drive utiliza la carpeta indicada por el profesor; el enlace concreto puede cambiar.
