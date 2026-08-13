@@ -8,15 +8,35 @@ La misión debe producir requisitos generales, una estructura base, una plantill
 
 Todo informe presentado en formato PDF debe utilizar:
 
-`YYYYMMDDa_nombre_del_alumno_tema.pdf`
+`YYYYMMDD<letra>_nombre_del_alumno_tema.pdf`
 
 La versión textual aprobada previa al PDF debe utilizar:
 
-`YYYYMMDDa_nombre_del_alumno_tema.txt`
+`YYYYMMDD<letra>_nombre_del_alumno_tema.txt`
 
 Cada palabra del nombre del alumno y cada palabra del tema debe separarse mediante `_`, sin espacios.
 
-La regla completa se registra en `reglas/20260813a_requisitos_informes_estudiantes_v1.md`.
+### Secuencia diaria de la letra
+
+La letra que sigue a `YYYYMMDD` identifica el orden de los informes generados en una misma fecha.
+
+- El primer informe generado en el día utiliza `a`.
+- El segundo informe generado en el mismo día utiliza `b`.
+- El tercero utiliza `c`.
+- Los informes posteriores continúan con la secuencia alfabética correspondiente.
+- Al cambiar la fecha, la secuencia vuelve a comenzar en `a`.
+
+Ejemplo para tres informes generados el 13/08/2026:
+
+- `20260813a_nombre_del_alumno_tema.pdf`
+- `20260813b_nombre_del_alumno_otro_tema.pdf`
+- `20260813c_nombre_de_otro_alumno_tema.pdf`
+
+El agente debe utilizar la siguiente letra disponible cuando pueda comprobar que ya se generó otro informe en la misma fecha dentro del contexto, archivos o sesión disponibles. No debe reutilizar deliberadamente una letra ya asignada a otro informe del mismo día cuando esa información sea verificable.
+
+Si no existe evidencia disponible de un informe anterior en esa fecha, se utiliza `a`. La letra forma parte tanto del nombre del TXT aprobado como del PDF final correspondiente y debe mantenerse igual entre ambas versiones del mismo informe.
+
+La regla completa se registra en `reglas/20260813a_requisitos_informes_estudiantes_v1.md` y debe mantenerse sincronizada con el protocolo `agentes/entrega_informe.md`.
 
 ## Hallazgos de la primera clase
 
@@ -38,8 +58,9 @@ El agente se conserva en `agentes/entrega_informe.md`.
 Al activar `entrega_informe`, el protocolo debe:
 
 1. obtener el nombre completo del alumno y el tema del informe;
-2. construir los nombres previstos `.txt` y `.pdf`;
-3. solicitar al estudiante los contenidos correspondientes a:
+2. determinar la fecha de entrega y la siguiente letra disponible para esa fecha cuando pueda verificarse la existencia de informes anteriores;
+3. construir los nombres previstos `.txt` y `.pdf` utilizando el mismo prefijo `YYYYMMDD<letra>` para ambas versiones;
+4. solicitar al estudiante los contenidos correspondientes a:
    - título del informe;
    - objetivo;
    - introducción o contexto;
@@ -50,11 +71,11 @@ Al activar `entrega_informe`, el protocolo debe:
    - conclusiones o síntesis personal;
    - fuentes consultadas;
    - autoría;
-4. componer una propuesta completa de informe preservando el contenido aportado por el alumno;
-5. mostrar la composición al alumno y solicitar aprobación explícita;
-6. si existen correcciones, incorporarlas y volver a solicitar aprobación;
-7. solamente después de una aprobación positiva, generar el TXT correspondiente;
-8. utilizar posteriormente ese contenido aprobado como base para el PDF final cuando se solicite.
+5. componer una propuesta completa de informe preservando el contenido aportado por el alumno y respetando las restricciones vigentes de edición;
+6. mostrar la composición al alumno y solicitar aprobación explícita;
+7. si existen correcciones, incorporar únicamente las permitidas o solicitadas y volver a solicitar aprobación;
+8. solamente después de una aprobación positiva, generar el TXT correspondiente;
+9. utilizar posteriormente ese contenido aprobado como base para el PDF final cuando se solicite, conservando la misma letra asignada al TXT.
 
 El agente no debe inventar datos, experiencias, evidencias, resultados, fuentes, autoría o conclusiones personales. Tampoco debe afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
 
