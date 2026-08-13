@@ -22,16 +22,21 @@ No se debe construir el nombre final del archivo hasta disponer de ambos datos.
 
 El nombre del archivo PDF debe utilizar:
 
-`YYYYMMDDa_nombre_del_alumno_tema.pdf`
+`YYYYMMDD<letra>_nombre_del_alumno_tema.pdf`
 
 El nombre del archivo TXT correspondiente debe utilizar el mismo nombre base:
 
-`YYYYMMDDa_nombre_del_alumno_tema.txt`
+`YYYYMMDD<letra>_nombre_del_alumno_tema.txt`
 
 Reglas de construcción:
 
 - `YYYYMMDD`: fecha de entrega; si no existe una fecha explícita, utilizar la fecha local del día de ejecución.
-- `a`: letra literal `a`.
+- `<letra>`: letra secuencial que identifica el orden de los informes generados en una misma fecha.
+- El primer informe generado en el día utiliza `a`, el segundo `b`, el tercero `c` y los siguientes continúan con la secuencia alfabética correspondiente.
+- Al cambiar la fecha, la secuencia vuelve a comenzar en `a`.
+- Cuando el agente pueda verificar que ya se generó uno o más informes en la misma fecha dentro del contexto, archivos o sesión disponibles, debe utilizar la siguiente letra disponible y no reutilizar deliberadamente una letra ya asignada.
+- Si no existe evidencia disponible de un informe anterior en esa fecha, utilizar `a`.
+- El TXT aprobado y el PDF final del mismo informe deben conservar exactamente la misma letra.
 - Cada palabra del nombre completo del alumno debe quedar separada por `_`, sin espacios.
 - Cada palabra del tema debe quedar separada por `_`, sin espacios.
 - No inventar todavía reglas adicionales de mayúsculas/minúsculas, eliminación de tildes o abreviación.
@@ -133,7 +138,7 @@ Cuando disponga de los elementos anteriores, el agente debe:
 - Si el alumno **no aprueba**, no generar todavía el TXT. Solicitar o aplicar las correcciones indicadas y volver a presentar la composición para aprobación.
 - Si el alumno **aprueba**, generar el contenido definitivo del informe en formato de texto y crear, mediante las capacidades disponibles en la conversación, el archivo:
 
-`YYYYMMDDa_nombre_del_alumno_tema.txt`
+`YYYYMMDD<letra>_nombre_del_alumno_tema.txt`
 
 El TXT aprobado constituye la versión textual validada del informe y puede utilizarse posteriormente como base para generar el PDF final.
 
@@ -168,18 +173,19 @@ Por protección de datos, si la carpeta de entrega es compartida o de acceso amp
 ## Secuencia completa del protocolo
 
 1. Solicitar nombre completo del alumno y tema.
-2. Determinar la fecha y construir los nombres previstos `.pdf` y `.txt`.
-3. Consultar los requisitos generales y los requisitos particulares de la actividad.
-4. Solicitar los contenidos 2, 3, 4, 5, 6, 7, 8, 9, 10 y 12 definidos en este protocolo.
-5. Responder las preguntas del alumno cuando aparezcan y luego continuar desde el punto pendiente.
-6. Componer una propuesta completa de informe respetando estrictamente la restricción de edición del contenido aportado por el alumno.
-7. Mostrar la composición al alumno, incluyendo el aviso de firma para la versión PDF.
-8. Solicitar aprobación explícita.
-9. Si existen correcciones, incorporar exclusivamente las indicadas por el alumno y volver al paso 7.
-10. Si existe aprobación, generar el TXT con el nombre correcto; el TXT no incorpora imagen de firma.
-11. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicar las reglas vigentes y reservar o señalar el espacio correspondiente para la firma.
-12. Antes de la entrega del PDF, recordar al alumno las precauciones de privacidad de la firma.
-13. Presentar siempre el nombre exacto del archivo que debe utilizarse para la entrega.
+2. Determinar la fecha y la siguiente letra disponible para esa fecha cuando pueda verificarse la existencia de informes anteriores.
+3. Construir los nombres previstos `.pdf` y `.txt` utilizando el mismo prefijo `YYYYMMDD<letra>` para ambas versiones.
+4. Consultar los requisitos generales y los requisitos particulares de la actividad.
+5. Solicitar los contenidos 2, 3, 4, 5, 6, 7, 8, 9, 10 y 12 definidos en este protocolo.
+6. Responder las preguntas del alumno cuando aparezcan y luego continuar desde el punto pendiente.
+7. Componer una propuesta completa de informe respetando estrictamente la restricción de edición del contenido aportado por el alumno.
+8. Mostrar la composición al alumno, incluyendo el aviso de firma para la versión PDF.
+9. Solicitar aprobación explícita.
+10. Si existen correcciones, incorporar exclusivamente las indicadas por el alumno y volver al paso 8.
+11. Si existe aprobación, generar el TXT con el nombre correcto; el TXT no incorpora imagen de firma.
+12. Si posteriormente se solicita el **PDF final**, generar el PDF a partir del contenido aprobado, aplicar las reglas vigentes y conservar la misma letra asignada al TXT.
+13. Antes de la entrega del PDF, recordar al alumno las precauciones de privacidad de la firma.
+14. Presentar siempre el nombre exacto del archivo que debe utilizarse para la entrega.
 
 ## Reglas de operación
 
@@ -187,6 +193,8 @@ Por protección de datos, si la carpeta de entrega es compartida o de acceso amp
 - No fijar páginas, tipografía, márgenes o ponderación si no existe una regla o consigna que lo establezca.
 - Para bibliografía, utilizar APA 7 como criterio del proyecto salvo instrucción específica diferente.
 - No reescribir ni reformular el contenido del alumno sin solicitud explícita; por defecto, limitar toda edición a correcciones ortográficas, de forma de palabra conforme al diccionario y gramaticales.
+- Para varios informes generados en una misma fecha, utilizar letras secuenciales `a`, `b`, `c`, etc., siempre que el orden anterior pueda verificarse; al cambiar la fecha, reiniciar en `a`.
+- El TXT y el PDF del mismo informe deben conservar la misma letra de secuencia.
 - La entrega en Google Drive utiliza la carpeta indicada por el profesor; el enlace concreto puede cambiar.
 - No afirmar que un archivo fue cargado a Google Drive sin confirmación de una herramienta conectada.
 - El nombre del alumno se utiliza para preparar la entrega y no debe registrarse en el repositorio.
@@ -207,6 +215,7 @@ La práctica de eliminación de fondo exige, solo cuando corresponda a esa activ
 - `recursos/20260813a_plantilla_informe_entrega_v1.md`
 - `evaluaciones/20260813a_lista_cotejo_informe_entrega_v1.md`
 - `clases/20260807a_estado_material_clase_inicial_v1.md`
+- `misiones/20260813a_generacion_informes_para_entregas.md`
 
 `quality control protocol` permanece separado y solo se activa por solicitud expresa.
 
