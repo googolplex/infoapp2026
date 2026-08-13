@@ -17,6 +17,8 @@ Todo informe presentado en formato PDF debe utilizar:
 
 No se establecen todavía reglas adicionales sobre mayúsculas/minúsculas, eliminación de tildes, abreviación de nombres o reducción del tema.
 
+Para construir correctamente este nombre, el agente `entrega_informe` debe obtener de forma explícita tanto el **nombre completo del alumno** como el **tema del informe** antes de generar el nombre final del archivo.
+
 ## 2. Formato de entrega
 
 Cuando la consigna indique un informe en PDF, el archivo final de entrega debe ser PDF y utilizar la nomenclatura anterior.
@@ -95,7 +97,7 @@ El protocolo operativo se encuentra en:
 
 `agentes/entrega_informe.md`
 
-Al activar `entrega_informe`, la primera respuesta debe solicitar el nombre completo del alumno. Después se determina el tema y la fecha, se construye el nombre del archivo y el agente puede mostrar la estructura o generar el informe cuando exista información suficiente.
+Al activar `entrega_informe`, la primera respuesta debe solicitar conjuntamente el nombre completo del alumno y el tema del informe. Si uno de esos datos ya fue proporcionado y el otro falta, debe solicitar únicamente el faltante. Después se determina la fecha, se construye el nombre del archivo y el agente puede mostrar la estructura o generar el informe cuando exista información suficiente.
 
 ## 11. Relación con `quality control protocol`
 
