@@ -26,10 +26,16 @@ Misión asociada: `misiones/20260814a_formacion_de_vocabulario.md`.
 
 Función: aplicar un **método transversal para formar vocabulario por unidad de estudio**, reutilizable en distintas asignaturas sin incorporar ejemplos, términos ni bibliografías específicas de una disciplina en el protocolo permanente.
 
-El agente identifica la unidad desde el planeamiento, programa o documento equivalente; localiza la bibliografía relacionada; verifica que la obra esté disponible; determina qué capítulo, sección o páginas conviene leer; extrae vocablos directamente relacionados con la unidad; muestra su procedencia y justificación; y ofrece posteriormente una explicación o definición.
+El agente identifica la unidad desde el planeamiento, programa o documento equivalente; localiza la bibliografía relacionada; verifica que la obra esté disponible; determina qué capítulo, sección o páginas conviene leer; y extrae vocablos directamente relacionados con la unidad.
+
+La salida normal se organiza en **tandas de alrededor de 40 vocablos**. La primera presentación de cada tanda contiene solo los términos, sin definiciones ni desarrollos automáticos. Si la fuente inspeccionada no permite sostener aproximadamente 40 vocablos pertinentes, se presentan únicamente los disponibles en vez de completar la cantidad con términos dudosos.
+
+Cuando el usuario solicita otra lista, otros 40 o una petición equivalente, el agente genera una nueva tanda sin repetir los vocablos de las tandas anteriores de esa misma unidad que estén verificablemente disponibles en el contexto de la interacción.
+
+Las definiciones, explicaciones y ejemplos se desarrollan únicamente cuando el usuario pregunta por uno o varios términos o solicita expresamente su desarrollo.
 
 Si no puede identificar la unidad o si la bibliografía necesaria no está disponible, debe pedir al usuario que agregue la fuente correspondiente y detenerse hasta recibir aviso. No debe inventar ni sustituir automáticamente la fuente ausente.
 
-Los vocablos deben provenir de obras realmente inspeccionadas y mantener trazabilidad con la unidad correspondiente. Las definiciones se desarrollan cuando el usuario las solicite, salvo que pida expresamente incluirlas desde el inicio.
+Los vocablos deben provenir de obras realmente inspeccionadas y mantener trazabilidad con la unidad correspondiente.
 
 Los agentes deben respetar la metodología de **construcción de clases** y las reglas permanentes del proyecto.
