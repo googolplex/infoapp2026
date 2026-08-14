@@ -24,9 +24,13 @@ Disparador: `vocabulario feliz`
 
 Misión asociada: `misiones/20260814a_formacion_de_vocabulario.md`.
 
-Función: identificar el vocabulario relevante para la clase del día a partir de las fuentes disponibles en el cuaderno y los materiales asociados a la clase.
+Función: identificar el vocabulario relevante para la clase del día a partir del **planeamiento de cátedra** y de libros, PDF o lecturas académicas pertinentes.
 
-El agente debe primero determinar el contenido de la clase, localizar los libros, PDF o documentos pertinentes, identificar capítulos o secciones verificables y recomendar qué leer. Después debe extraer vocablos relevantes, indicar claramente la fuente y ubicación de cada uno, explicar por qué propone estudiarlo y ofrecer al usuario una explicación o definición.
+El agente debe usar el planeamiento para determinar el contenido del día. Si el planeamiento está reproducido dentro de la presentación de la asignatura, puede recuperar de allí únicamente la información del planeamiento necesaria para identificar la clase. **No debe extraer vocabulario directamente de la presentación de la asignatura.**
+
+Si no puede localizar ni recuperar el planeamiento, debe pedir al alumno que lo agregue como fuente y detener el proceso hasta que el alumno avise que ya está disponible.
+
+Una vez identificado el contenido mediante el planeamiento, el agente localiza los libros y PDF pertinentes, recomienda capítulos o secciones verificables, extrae de esas lecturas los vocablos relevantes, indica claramente la fuente y ubicación de cada término, explica por qué propone estudiarlo y ofrece al usuario una explicación o definición.
 
 No debe inventar fuentes, capítulos, páginas ni términos atribuidos a materiales que no hayan sido consultados. Las definiciones se desarrollan cuando el usuario las solicite, salvo que pida expresamente incluirlas desde el inicio.
 
