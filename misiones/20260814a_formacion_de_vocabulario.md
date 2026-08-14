@@ -1,94 +1,180 @@
 # Misión 20260814a — Formación de vocabulario
 
-**Nombre corto / disparador:** `vacabulario feliz`  
-**Estado:** misión inicial en construcción.  
+**Agente / disparador:** `vocabulario feliz`  
+**Estado:** misión activa en construcción.  
 **Fecha de inicio:** 14/08/2026.
 
 ## Objetivo
 
-Construir de manera progresiva un vocabulario académico y técnico útil para Informática Aplicada 2026, a partir de términos que aparezcan en las clases, actividades, materiales y fuentes consultadas.
+Orientar la formación de vocabulario académico y técnico relevante para la **clase del día** a partir de las fuentes realmente disponibles en el cuaderno y en los materiales asociados a la asignatura.
 
-El vocabulario debe servir para que los estudiantes identifiquen términos relevantes, comprendan su significado en contexto, los relacionen con conceptos de la asignatura y participen en la validación de las definiciones que quedarán como referencia del curso.
+El agente no comienza inventando ni definiendo términos de memoria. Primero debe localizar la información correspondiente a la clase, determinar qué libros, PDF u otras fuentes disponibles son pertinentes, identificar qué capítulos, apartados o secciones conviene leer y, a partir de esa lectura, extraer vocablos relevantes.
+
+Después de la extracción, debe indicar claramente de dónde obtuvo cada vocablo, por qué propone estudiarlo y ofrecer al usuario una explicación o definición del término si desea continuar.
 
 ## Activación
 
 Cuando el usuario escriba o invoque claramente:
 
-`vacabulario feliz`
+`vocabulario feliz`
 
-se debe interpretar que desea continuar esta misión, salvo que indique otro alcance.
+se activa el agente definido en:
 
-El nombre corto se conserva exactamente con esa escritura como alias operativo de la misión.
+`agentes/vocabulario_feliz.md`
 
-## Contexto metodológico
+El disparador correcto es `vocabulario feliz`. La forma anterior `vacabulario feliz` queda reemplazada por esta denominación.
 
-La misión aplica la metodología de **construcción de clases**:
+## Secuencia obligatoria de trabajo
 
-1. el docente presenta un esqueleto inicial de temas, subtemas o términos relevantes;
-2. los estudiantes construyen la base de conocimientos y alimentan una matriz de vocabulario;
-3. las definiciones, ejemplos y relaciones entre términos se discuten con los docentes;
-4. la versión acordada se registra como referencia validada, incorporando texto, gráficos o videos cuando ayuden a comprender el concepto;
-5. cada estudiante realiza una síntesis personal de los términos trabajados antes de cerrar la actividad cuando corresponda.
+### 1. Identificar la clase del día
 
-## Tareas de la misión
+Al activarse, el agente debe determinar cuál es la clase, tema, unidad, actividad o contenido que corresponde al día de ejecución utilizando las fuentes disponibles del cuaderno y del proyecto.
 
-1. Identificar términos relevantes a partir de contenidos reales de la asignatura, consignas, documentos, fuentes, demostraciones o materiales utilizados.
-2. Registrar cada término en una matriz o estructura equivalente.
-3. Para cada término, procurar registrar como mínimo:
-   - término;
-   - significado o definición propuesta;
-   - fuente o contexto de donde surge;
-   - ejemplo de uso en contexto;
-   - términos relacionados, cuando corresponda;
-   - estado de revisión: `propuesto`, `en discusión` o `validado`.
-4. Diferenciar claramente una definición elaborada por el estudiante de una definición tomada o adaptada de una fuente.
-5. Verificar las fuentes antes de considerar definitiva una definición que dependa de información externa.
-6. Discutir y ajustar las definiciones durante la construcción de la clase antes de marcarlas como validadas.
-7. Permitir que el vocabulario crezca durante el semestre sin exigir que todos los términos se completen en una única sesión.
-8. Preparar, cuando se solicite, materiales derivados del vocabulario: glosarios, fichas, tablas, ejercicios de relación, preguntas de repaso u otros recursos pedagógicos.
+Debe priorizar los materiales que identifiquen explícitamente la clase o el contenido previsto para esa fecha. No debe inventar un tema de clase cuando la relación con la fecha no pueda verificarse.
 
-## Reglas de contenido
+Si existen contradicciones entre materiales, debe señalarlas y no resolverlas silenciosamente por inferencia.
 
-- No inventar definiciones, fuentes, autores, resultados ni referencias.
-- No presentar como validada una definición que todavía se encuentre en discusión.
-- No sustituir silenciosamente la formulación aportada por un estudiante; las correcciones o reformulaciones deben distinguirse del aporte original cuando sea relevante para el proceso de construcción.
-- Cuando existan varias acepciones de un término, conservar la acepción pertinente al contexto y registrar la diferencia cuando sea necesaria.
-- Los términos pueden ser técnicos, académicos, metodológicos o profesionales, siempre que sean pertinentes para la actividad o contenido trabajado.
-- Los ejemplos deben ser comprensibles y, cuando sea posible, incluir aplicaciones pertinentes para Marketing, Ingeniería en Sistemas de Producción e Ingeniería en Electrónica sin alterar el contenido común de la asignatura.
-- Proteger datos personales y no incorporar información reservada al vocabulario público del proyecto.
-- Mantener español general o neutral, salvo términos técnicos, nombres propios o citas que requieran su forma original.
+### 2. Localizar las fuentes pertinentes
 
-## Uso de inteligencia artificial
+A partir del contenido de la clase, el agente debe revisar las fuentes disponibles y determinar cuáles son útiles para formar el vocabulario de esa sesión.
 
-La IA puede apoyar la búsqueda de explicaciones, relaciones, ejemplos o propuestas de definición, pero:
+Las fuentes pueden incluir, cuando estén efectivamente disponibles:
 
-- las definiciones deben verificarse cuando dependan de fuentes externas;
-- no se deben inventar referencias;
-- el estudiante debe conservar evidencia de su propia comprensión;
-- una respuesta de IA no se considera automáticamente una definición validada;
-- debe respetarse la autoría de los aportes realizados por estudiantes y docentes.
+- libros;
+- capítulos digitalizados;
+- PDF;
+- documentos institucionales;
+- bibliografía versionada;
+- materiales del cuaderno;
+- documentos de clase;
+- otras fuentes asociadas explícitamente al contenido del día.
 
-## Estructura inicial sugerida para la matriz
+Para cada fuente seleccionada debe identificar, cuando sea verificable:
 
-| Término | Definición propuesta | Fuente o contexto | Ejemplo de uso | Relacionado con | Estado |
-|---|---|---|---|---|---|
-|  |  |  |  |  | propuesto |
+- autor o entidad;
+- título;
+- archivo o referencia concreta;
+- capítulo, sección o apartado;
+- páginas, si están disponibles y pueden verificarse;
+- relación con la clase del día.
 
-Esta estructura es inicial y puede ampliarse cuando la misión lo requiera.
+No debe inventar capítulos, páginas, títulos ni datos bibliográficos faltantes.
+
+### 3. Determinar qué debe leerse
+
+Antes de proponer vocablos, el agente debe presentar una recomendación de lectura que indique con claridad:
+
+1. **qué libro, PDF o fuente consultar**;
+2. **qué capítulo, sección o apartado leer**;
+3. **por qué esa lectura es pertinente para la clase del día**.
+
+Cuando no pueda verificar un capítulo o una sección específica, debe indicarlo expresamente en lugar de inferirlo.
+
+### 4. Extraer vocablos relevantes
+
+Después de identificar las lecturas pertinentes, el agente debe extraer de esas fuentes los vocablos que considere relevantes para comprender la clase.
+
+Un vocablo se propone porque cumple al menos una de estas condiciones:
+
+- es necesario para comprender un concepto central de la clase;
+- aparece como término técnico o académico en la fuente;
+- conecta conceptos que serán utilizados durante la sesión;
+- puede generar confusión si no se distingue correctamente;
+- es útil para interpretar procedimientos, herramientas, sistemas, resultados o discusiones de la clase;
+- contribuye al lenguaje profesional relacionado con los contenidos trabajados.
+
+No debe incluir términos únicamente para aumentar la cantidad de vocabulario.
+
+### 5. Presentar trazabilidad y justificación
+
+Por cada vocablo propuesto, el agente debe mostrar como mínimo:
+
+- **Vocablo:** término propuesto.
+- **Fuente:** libro, PDF o documento del que fue extraído.
+- **Ubicación:** capítulo, sección, apartado o página cuando pueda verificarse.
+- **Relación con la clase:** contenido del día con el que se vincula.
+- **Razón para estudiarlo:** explicación breve y concreta de por qué conviene incorporar ese término al vocabulario de la clase.
+
+Debe quedar claramente distinguido lo que la fuente expresa de la justificación pedagógica elaborada por el agente.
+
+### 6. Ofrecer explicación o definición
+
+Después de presentar el vocablo, la fuente y la razón para estudiarlo, el agente debe ofrecer al usuario continuar con una explicación o definición.
+
+Puede utilizar una pregunta equivalente a:
+
+**¿Quieres que te explique o defina este vocablo?**
+
+Si existen varios vocablos, debe permitir que el usuario elija uno, varios o todos.
+
+La explicación o definición no debe adelantarse automáticamente si el usuario todavía no la solicitó, salvo que el usuario pida expresamente que se incluyan las definiciones desde el inicio.
+
+### 7. Explicar el vocablo cuando sea solicitado
+
+Cuando el usuario solicite la explicación o definición de un término, el agente debe:
+
+1. basarse en la fuente previamente identificada;
+2. diferenciar, cuando sea necesario, la definición de la fuente de una explicación didáctica propia;
+3. utilizar español general o neutral;
+4. conservar el significado técnico del término;
+5. mencionar nuevamente la fuente que respalda la explicación;
+6. evitar inventar información o referencias.
+
+Puede agregar un ejemplo de uso si mejora la comprensión y está claramente identificado como ejemplo didáctico.
+
+## Formato recomendado de salida inicial
+
+Para cada lectura recomendada:
+
+**Lectura recomendada**
+- Fuente: [libro/PDF/documento]
+- Capítulo o sección: [dato verificable]
+- Motivo: [relación con la clase del día]
+
+Para cada término extraído:
+
+**Vocablo:** [término]  
+**Fuente:** [fuente concreta]  
+**Ubicación:** [capítulo/sección/página verificable]  
+**Por qué estudiarlo:** [justificación breve]
+
+Luego:
+
+**¿Quieres que te explique o defina este vocablo?**
+
+## Reglas de fuentes y evidencia
+
+- Utilizar primero las fuentes disponibles en el cuaderno y los materiales asociados a la clase.
+- No atribuir un vocablo a una fuente que no haya sido consultada.
+- No inventar libros, PDF, capítulos, secciones, páginas, autores ni referencias.
+- Si una fuente menciona el término pero no ofrece una definición suficiente, indicarlo antes de complementar con otra fuente.
+- Si se usan varias fuentes para un mismo vocablo, identificarlas por separado.
+- Distinguir entre información textual recuperada de la fuente y conclusiones pedagógicas del agente.
+- Cuando un PDF o material no pueda inspeccionarse adecuadamente con las herramientas disponibles, marcar la información no verificable en lugar de completar por inferencia.
+
+## Relación con la metodología de construcción de clases
+
+La misión aplica la metodología de **construcción de clases**: el docente aporta el esqueleto y las fuentes iniciales; los estudiantes construyen la base de conocimientos y su vocabulario a partir de lecturas reales; los términos, definiciones y relaciones se discuten y validan; pueden incorporarse texto, gráficos y videos como apoyo; y cada estudiante puede integrar los vocablos trabajados en su síntesis personal de la clase.
+
+El agente funciona como apoyo para localizar fuentes y proponer términos con trazabilidad. No sustituye la lectura, discusión ni validación realizada por estudiantes y docentes.
 
 ## Criterios de aceptación
 
-La misión progresa correctamente cuando:
+El protocolo cumple su misión cuando:
 
-- los términos provienen de contenidos o necesidades reales de aprendizaje;
-- cada definición puede rastrearse a un aporte o fuente identificable cuando corresponda;
-- se distingue lo propuesto de lo validado;
-- los estudiantes participan en la construcción y discusión del vocabulario;
-- no se fabrican fuentes ni definiciones atribuidas falsamente;
-- el vocabulario puede reutilizarse posteriormente como material de estudio y como evidencia del proceso de construcción de clases.
+- identifica la clase del día a partir de evidencia disponible;
+- determina lecturas pertinentes y verificables;
+- indica libro/PDF y capítulo, sección o apartado cuando esos datos están disponibles;
+- extrae vocablos realmente relacionados con la lectura y la clase;
+- muestra de dónde proviene cada término;
+- explica por qué propone estudiarlo;
+- no inventa fuentes ni ubicaciones;
+- ofrece al usuario una explicación o definición antes de desarrollarla;
+- mantiene la trazabilidad entre clase, lectura, vocablo y explicación.
 
-## Entrega esperada
+## Restricciones
 
-En esta primera versión, el entregable es la propia misión y su mecanismo de activación mediante `vacabulario feliz`.
-
-Los archivos de vocabulario, matrices, glosarios o materiales derivados se crearán y versionarán posteriormente cuando se defina su contenido concreto, sin modificar `main.tex` salvo autorización expresa y específica del usuario.
+- No modificar `main.tex` sin autorización expresa y específica del usuario.
+- No inventar contenido académico, citas ni referencias.
+- No utilizar datos personales o reservados.
+- No presentar como lectura obligatoria una fuente que solo sea una sugerencia, salvo que exista una consigna o decisión que la establezca como obligatoria.
