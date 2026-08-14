@@ -3,21 +3,26 @@
 **Fecha:** 14/08/2026  
 **Agente / disparador:** `vocabulario feliz`  
 **Agente operativo:** `agentes/vocabulario_feliz.md`  
-**Misión principal:** `misiones/20260814a_formacion_de_vocabulario.md`
+**Misión principal:** `misiones/20260814a_formacion_de_vocabulario.md`  
+**Estado:** aprobado — protocolo transversal vigente para múltiples asignaturas.
 
 ## Propósito de este registro
 
-Documentar el estado vigente del protocolo de formación de vocabulario después de las actualizaciones realizadas durante el 14/08/2026, sin sustituir el agente operativo ni la misión principal.
+Documentar el estado aprobado y vigente del protocolo de formación de vocabulario después de las actualizaciones realizadas durante el 14/08/2026, sin sustituir el agente operativo ni la misión principal.
 
 ## Estado vigente
 
-El agente se define como un protocolo **transversal**, reutilizable en distintas asignaturas y unidades de estudio. Sus reglas permanentes no deben incluir ejemplos, términos, autores, libros ni contenidos específicos de una disciplina.
+El agente se define y aprueba como un protocolo **transversal**, reutilizable en distintas asignaturas y unidades de estudio. Sus reglas permanentes no deben incluir ejemplos, términos, autores, libros ni contenidos específicos de una disciplina.
+
+La transversalidad es obligatoria: el protocolo no debe quedar vinculado de manera permanente a Informática Aplicada ni a ninguna otra asignatura concreta.
 
 Cada ejecución construye el vocabulario a partir de:
 
-1. la unidad, tema o contenido identificados mediante el planeamiento, programa o documento equivalente;
+1. la unidad, tema o contenido identificados mediante el planeamiento, programa o documento equivalente de la asignatura correspondiente;
 2. la bibliografía relacionada con esa unidad;
 3. la obra bibliográfica realmente disponible e inspeccionada.
+
+Las reglas de operación se mantienen constantes entre asignaturas. Los contenidos, fuentes y vocablos concretos cambian según la unidad y la bibliografía de cada contexto.
 
 ## Secuencia operativa vigente
 
@@ -33,6 +38,22 @@ Cada ejecución construye el vocabulario a partir de:
 10. Cuando el usuario solicite otra lista, generar una nueva tanda de alrededor de 40 vocablos que no repita términos de las tandas anteriores de esa misma unidad que estén verificablemente disponibles en el contexto.
 11. Si no existen suficientes términos nuevos y pertinentes para completar aproximadamente 40, entregar únicamente los disponibles; no inventar, forzar ni repetir vocablos para alcanzar la cantidad.
 12. Explicar o definir uno o varios vocablos únicamente cuando el usuario lo solicite.
+
+## Alcance transversal obligatorio
+
+El agente debe poder utilizarse en distintas asignaturas sin reescribir sus reglas permanentes.
+
+Por lo tanto, no debe incorporar de forma fija:
+
+- nombres de asignaturas concretas;
+- unidades temáticas específicas;
+- términos técnicos propios de una sola disciplina;
+- ejemplos temáticos predeterminados;
+- autores obligatorios;
+- libros o bibliografías preseleccionados;
+- listas cerradas de vocabulario.
+
+Cuando se use en una nueva asignatura, debe identificar nuevamente la unidad y la bibliografía que correspondan a ese contexto antes de producir vocabulario.
 
 ## Reglas de evidencia
 
@@ -68,6 +89,8 @@ Las fuentes y términos concretos se determinan en cada ejecución según la uni
 ## Metodología de construcción de clases
 
 Este protocolo se integra a la metodología de **construcción de clases**: el docente aporta el esqueleto y las fuentes iniciales; los estudiantes construyen la base de conocimientos y vocabulario desde lecturas reales; la información se discute y valida con los docentes; pueden incorporarse texto, gráficos y videos; y cada estudiante realiza una síntesis personal.
+
+La metodología acompaña el uso académico del agente cuando corresponda y no altera su carácter transversal entre asignaturas.
 
 ## Archivos sincronizados
 
