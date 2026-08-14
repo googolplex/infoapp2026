@@ -2,9 +2,9 @@
 
 ## Propósito
 
-Identificar el vocabulario académico y técnico que conviene estudiar para la clase del día, manteniendo trazabilidad entre **planeamiento de cátedra, bibliografía indicada en el planeamiento, contenido de la clase, lectura académica y vocablos**.
+Aplicar un método reutilizable para formar vocabulario relevante en **cualquier asignatura y para cada unidad de estudio**, sin incorporar contenidos, ejemplos ni términos propios de una disciplina concreta dentro del protocolo.
 
-El agente utiliza el planeamiento para determinar el contenido de la clase y para identificar la bibliografía asociada. **El planeamiento no debe proponerse como fuente de lectura ni como fuente de extracción de vocabulario.** Los vocablos deben extraerse de las obras bibliográficas citadas en el planeamiento, una vez que esas obras estén realmente disponibles entre las fuentes del cuaderno.
+El agente debe identificar la unidad que corresponde trabajar, localizar la bibliografía asociada, verificar que esa bibliografía esté realmente disponible, determinar qué parte debe leerse y extraer de esa lectura únicamente los vocablos directamente relacionados con la unidad.
 
 ## Disparador
 
@@ -18,187 +18,180 @@ Este agente implementa:
 
 `misiones/20260814a_formacion_de_vocabulario.md`
 
-## Principio obligatorio de separación de fuentes
+## Principio de neutralidad disciplinar
 
-El agente debe distinguir cuatro funciones diferentes:
+Este protocolo no debe contener ni asumir:
 
-1. **Planeamiento de cátedra:** determina qué contenido corresponde a la clase del día e identifica la bibliografía asociada a ese contenido.
-2. **Presentación de la asignatura:** puede utilizarse únicamente para localizar o recuperar información del planeamiento cuando este esté reproducido allí. No debe utilizarse directamente como fuente de vocabulario.
-3. **Referencia bibliográfica indicada en el planeamiento:** debe presentarse al usuario en formato APA cuando los datos disponibles permitan construirla sin inventar información.
-4. **Obra bibliográfica disponible como fuente:** libro, PDF, capítulo u otro material académico realmente accesible en el cuaderno; esta es la fuente de la que se extraen los vocablos.
+- vocabulario específico de una asignatura;
+- ejemplos propios de una disciplina;
+- autores u obras predeterminados;
+- contenidos temáticos fijos;
+- una lista previa de términos que el estudiante deba estudiar.
 
-El planeamiento orienta **qué estudiar y qué bibliografía consultar**, pero no sustituye la obra bibliográfica.
+Todo contenido concreto debe surgir de la **unidad de estudio y de la bibliografía disponible para esa unidad**.
+
+## Separación obligatoria de funciones
+
+El agente debe distinguir:
+
+1. **Planeamiento, programa o documento equivalente:** identifica la unidad, tema o contenido que corresponde trabajar y, cuando esté indicado, la bibliografía relacionada.
+2. **Presentaciones u otros materiales introductorios:** pueden ayudar a localizar información del planeamiento, pero no deben sustituir la bibliografía de la unidad como fuente para formar vocabulario.
+3. **Referencia bibliográfica:** identifica la obra asociada con la unidad y debe expresarse en APA 7 cuando existan datos suficientes y verificables.
+4. **Obra bibliográfica disponible:** libro, PDF, capítulo, artículo, documento u otra fuente académica realmente accesible; de esta fuente se extraen los vocablos.
+
+El documento de planificación orienta **qué estudiar**. La bibliografía aporta el contenido del que surge el vocabulario.
 
 ## Secuencia obligatoria
 
-### 1. Identificar la clase del día mediante el planeamiento
+### 1. Identificar la unidad de estudio
 
-Consultar primero el **planeamiento de cátedra** disponible entre las fuentes para determinar la unidad, tema, subtema, actividad o contenido correspondiente a la fecha de ejecución.
+Consultar el planeamiento, programa o documento equivalente disponible para determinar la unidad, tema, subtema o contenido que corresponde trabajar.
 
-Si el planeamiento no aparece como documento independiente, el agente puede revisar la presentación de la asignatura únicamente para comprobar si allí está reproducido, resumido o incorporado el planeamiento. En ese caso debe recuperar solo la información necesaria para identificar la clase y la bibliografía que el planeamiento asocia con ella.
+No inventar la unidad ni completarla por inferencia cuando no pueda verificarse.
 
-No debe utilizar el contenido expositivo, definiciones, ejemplos ni terminología de la presentación como fuente directa del vocabulario.
-
-Si existen contradicciones entre versiones del planeamiento, mostrarlas y no resolverlas silenciosamente por inferencia.
-
-### 2. Qué hacer si el planeamiento no está disponible
-
-Si después de revisar las fuentes disponibles no puede localizarse ni recuperarse el planeamiento de cátedra, el agente debe detener el protocolo.
-
-Debe pedir al alumno que agregue el planeamiento de cátedra como fuente y continuar únicamente cuando el alumno confirme que ya está disponible.
+Si el documento necesario no está disponible, detener el protocolo y pedir al usuario que lo agregue como fuente.
 
 Mensaje base:
 
-**No encuentro el planeamiento de cátedra entre las fuentes disponibles. Agrégalo como fuente y avísame cuando esté disponible; entonces podré identificar la clase y la bibliografía correspondiente.**
+**No encuentro entre las fuentes el documento necesario para identificar la unidad de estudio. Agrégalo como fuente y avísame cuando esté disponible; entonces continuaré con la bibliografía y el vocabulario.**
 
-Después de ese mensaje, no debe seleccionar bibliografía, proponer lecturas ni extraer vocablos por inferencia.
+### 2. Identificar la bibliografía relacionada
 
-### 3. Extraer del planeamiento la bibliografía pertinente
+Localizar la bibliografía vinculada con la unidad identificada.
 
-Una vez identificado el contenido de la clase, localizar en el planeamiento la bibliografía relacionada con ese tema, unidad o contenido.
-
-El agente debe presentar esa bibliografía como **referencia bibliográfica**, no como contenido del planeamiento.
-
-Cuando los datos disponibles sean suficientes, expresar cada referencia en **formato APA 7**. Si faltan datos necesarios para una referencia APA completa, indicar cuáles faltan y no inventarlos.
+Cuando existan datos suficientes, presentar la referencia en **formato APA 7**. Si faltan datos, indicar cuáles faltan y no inventarlos.
 
 Formato base:
 
-**Bibliografía indicada en el planeamiento**  
-**Referencia APA:** [referencia construida con datos verificables]  
-**Relación con la clase:** [tema o subtema del planeamiento con el que se vincula]
+**Bibliografía relacionada con la unidad**  
+**Referencia APA:** [referencia verificable]  
+**Unidad o tema:** [dato verificable]
 
-Si el planeamiento contiene varias obras, seleccionar o priorizar las que tengan una relación verificable con el contenido del día. No proponer el propio planeamiento como bibliografía.
+El planeamiento, programa o presentación no deben presentarse como sustitutos de la obra bibliográfica salvo que ellos mismos sean expresamente la fuente académica definida para esa unidad.
 
-### 4. Verificar si la obra bibliográfica está disponible entre las fuentes
+### 3. Verificar que la bibliografía esté disponible
 
-Después de identificar la referencia bibliográfica, comprobar si la obra correspondiente está realmente disponible entre las fuentes del cuaderno en una forma que permita leerla: libro digital, PDF, capítulo, extracto u otro material académico equivalente.
+Comprobar si la obra correspondiente está realmente disponible entre las fuentes en una forma que permita leerla.
 
-La presencia de una referencia en el planeamiento **no significa que la obra esté disponible para lectura**.
+La existencia de una referencia bibliográfica no significa que la obra esté disponible.
 
-Si la obra no está disponible, el agente debe detenerse y pedir al usuario que la agregue como fuente.
+Si la obra no está disponible, detenerse y pedir al usuario que la agregue.
 
 Mensaje base:
 
-**El planeamiento indica esta bibliografía: [referencia APA o referencia disponible]. No encuentro esa obra entre las fuentes del cuaderno. Agrégala como fuente y avísame cuando esté disponible; entonces continuaré con la selección de capítulos y la extracción de vocabulario.**
+**La unidad remite a esta bibliografía: [referencia APA o referencia disponible]. No encuentro esa obra entre las fuentes. Agrégala y avísame cuando esté disponible; entonces continuaré con la selección de la lectura y la formación del vocabulario.**
 
-Mientras el usuario no confirme que la bibliografía fue agregada o no identifique inequívocamente la obra disponible, el agente no debe:
+Mientras la obra no esté disponible, el agente no debe:
 
-- sustituirla automáticamente por otra obra;
-- proponer el planeamiento como fuente alternativa;
-- extraer vocablos de la presentación;
-- inventar capítulos, páginas o contenido;
-- continuar la extracción de vocabulario.
+- inventar bibliografía;
+- sustituir automáticamente la obra por otra;
+- formar vocabulario desde conocimiento general o memoria;
+- atribuir términos a una fuente no leída;
+- inventar capítulos, páginas o contenidos.
 
-### 5. Determinar qué capítulo o sección leer
+### 4. Determinar qué debe leerse
 
-Cuando la obra bibliográfica ya esté disponible, inspeccionarla y localizar qué capítulo, sección, apartado o páginas corresponden al contenido del día indicado en el planeamiento.
+Cuando la obra esté disponible, inspeccionarla y localizar el capítulo, sección, apartado o páginas directamente relacionados con la unidad.
 
-La recomendación debe mostrar:
+Mostrar:
 
 **Lectura recomendada**  
-**Referencia APA:** [obra indicada en el planeamiento]  
-**Fuente disponible:** [nombre del libro/PDF/archivo]  
+**Referencia APA:** [obra]  
+**Fuente disponible:** [archivo o documento]  
 **Capítulo o sección:** [dato verificable]  
 **Páginas:** [si pueden verificarse]  
-**Relación con el planeamiento:** [tema o subtema de la clase]  
-**Por qué conviene leerlo:** [justificación pedagógica breve]
+**Relación con la unidad:** [explicación breve]  
+**Por qué conviene leerlo:** [justificación breve]
 
-Si no puede verificarse un capítulo, sección o página, escribir `no verificado` en lugar de inferirlo.
+Si un dato de ubicación no puede verificarse, escribir `no verificado` en lugar de inferirlo.
 
-### 6. Extraer vocablos únicamente de la obra bibliográfica disponible
+### 5. Extraer vocablos directamente relacionados con la unidad
 
-Leer las partes pertinentes de la obra identificada y extraer términos relevantes para comprender la clase.
+Leer las partes pertinentes de la bibliografía y seleccionar términos que sean necesarios o útiles para comprender los contenidos propios de la unidad.
 
-No extraer vocablos directamente del planeamiento ni de la presentación de la asignatura.
+Un término puede proponerse cuando, según la fuente consultada:
 
-Proponer un término únicamente cuando exista una razón académica concreta, por ejemplo:
+- representa un concepto central de la unidad;
+- pertenece al lenguaje técnico o disciplinar necesario para comprenderla;
+- permite distinguir conceptos que podrían confundirse;
+- ayuda a interpretar procesos, relaciones, métodos, objetos, fenómenos o resultados propios del contenido estudiado;
+- forma parte del lenguaje profesional o académico directamente vinculado con la unidad.
 
-- es un concepto central del contenido;
-- es un término técnico utilizado en la lectura;
-- conecta conceptos de la clase;
-- es necesario para interpretar un procedimiento, herramienta, sistema o resultado;
-- presenta una distinción conceptual que puede generar confusión;
-- forma parte del lenguaje profesional pertinente al tema.
+No seleccionar términos solo porque aparecen repetidamente en la fuente ni para completar una cantidad predeterminada.
 
-No seleccionar vocablos solo para completar una cantidad predeterminada.
+### 6. Control de pertinencia
 
-### 7. Mostrar procedencia y razón de cada vocablo
+Antes de mostrar cada vocablo, comprobar:
 
-Por cada término propuesto, presentar:
+1. ¿Aparece o se desarrolla en la bibliografía realmente inspeccionada?
+2. ¿Está directamente relacionado con la unidad identificada?
+3. ¿Contribuye a comprender el contenido de esa unidad?
+
+Si alguna de estas condiciones no puede sostenerse, no incluir el término.
+
+### 7. Mostrar trazabilidad y justificación
+
+Por cada término aceptado, presentar:
 
 **Vocablo:** [término]  
-**Referencia APA:** [obra indicada en el planeamiento]  
-**Fuente de lectura:** [libro/PDF/archivo realmente inspeccionado]  
+**Referencia APA:** [obra]  
+**Fuente de lectura:** [archivo inspeccionado]  
 **Ubicación:** [capítulo/sección/apartado/página verificable]  
-**Relación con la clase:** [tema o subtema identificado en el planeamiento]  
-**Por qué propongo estudiarlo:** [justificación pedagógica breve]
+**Unidad o contenido relacionado:** [dato verificable]  
+**Por qué conviene estudiarlo:** [justificación breve]
 
-La referencia, fuente y ubicación deben corresponder a información realmente verificada. La frase **por qué propongo estudiarlo** es una justificación del agente y debe quedar claramente diferenciada del contenido de la fuente.
+La justificación del agente debe distinguirse claramente del contenido recuperado de la fuente.
 
 ### 8. Ofrecer explicación o definición
 
-Después de presentar uno o varios vocablos con su trazabilidad, ofrecer al usuario continuar.
-
-Pregunta base:
+Después de presentar los vocablos con su trazabilidad, preguntar:
 
 **¿Quieres que te explique o defina alguno de estos vocablos?**
 
-Si hay varios términos, permitir que el usuario elija uno, varios o todos.
+Si existen varios, permitir que el usuario elija uno, varios o todos.
 
-No desarrollar automáticamente las definiciones en la primera salida, salvo que el usuario solicite expresamente que se incluyan desde el inicio.
+No desarrollar automáticamente las definiciones en la primera salida salvo solicitud expresa.
 
-### 9. Explicar o definir cuando el usuario lo solicite
+### 9. Explicar cuando el usuario lo solicite
 
-Para el vocablo elegido:
+Para cada término elegido:
 
-1. volver a indicar la referencia APA y la fuente de lectura de la que surge;
+1. volver a indicar la referencia APA y la fuente de lectura;
 2. explicar el término apoyándose en esa fuente;
-3. distinguir una definición recuperada o parafraseada de la fuente de una explicación didáctica propia;
-4. conservar el significado técnico;
+3. distinguir la información recuperada o parafraseada de la fuente de una explicación didáctica propia;
+4. conservar el significado disciplinar correspondiente;
 5. utilizar español general o neutral;
-6. indicar si la fuente menciona el término pero no contiene una definición suficiente;
-7. utilizar otra fuente solo si el usuario lo solicita o si la regla académica aplicable lo permite, identificándola claramente como fuente complementaria;
-8. no inventar información ni referencias.
+6. no inventar información ni referencias.
 
-Puede agregar un ejemplo didáctico cuando ayude a comprender el término, identificándolo como ejemplo y no como texto de la fuente.
+Puede agregarse un ejemplo didáctico cuando ayude a comprender el término, identificándolo como ejemplo y no como contenido textual de la fuente.
+
+## Preguntas fuera del vocabulario de la unidad
+
+El estudiante puede preguntar por cualquier concepto que no haya sido seleccionado como vocabulario de estudio.
+
+Responder esas consultas como preguntas independientes, sin incorporar automáticamente el término a la lista de vocabulario de la unidad.
 
 ## Reglas de trazabilidad
 
-- La relación **clase del día → tema** debe provenir del planeamiento de cátedra o de una reproducción verificable de este en la presentación.
-- La relación **tema → bibliografía** debe provenir del planeamiento.
-- La referencia bibliográfica debe expresarse en APA 7 cuando existan datos suficientes y no deben inventarse datos faltantes.
-- La relación **vocablo → fuente** debe provenir de la obra bibliográfica realmente disponible e inspeccionada.
-- El planeamiento nunca debe presentarse como sustituto de la bibliografía que cita.
-- No atribuir un término a una obra que no haya sido inspeccionada.
-- No afirmar que un término aparece en un capítulo o página si esa ubicación no pudo verificarse.
-- Cuando existan varias obras indicadas en el planeamiento, identificar cuál originó el término y cuáles solo complementan su explicación.
-- No confundir el texto de una fuente con una conclusión pedagógica elaborada por el agente.
-
-## Forma de trabajo con PDF y libros
-
-Cuando la bibliografía indicada por el planeamiento esté disponible como PDF o libro digital, inspeccionar su contenido mediante las herramientas disponibles y localizar el capítulo, sección o páginas pertinentes antes de atribuir vocablos a esa fuente.
-
-Si solo está disponible la referencia bibliográfica pero no la obra, el agente debe pedir al usuario que agregue la obra como fuente y esperar su aviso. No debe afirmar que extrajo vocablos de una obra que no pudo leer.
-
-## Uso de fuentes externas
-
-El objetivo principal es trabajar con la bibliografía indicada por el planeamiento y disponible entre las fuentes del cuaderno. No sustituir automáticamente una obra ausente por resultados de búsqueda externa.
-
-Solo incorporar una fuente externa diferente cuando el usuario lo solicite expresamente o cuando las reglas de la actividad lo permitan, y debe distinguirse claramente de la bibliografía indicada por el planeamiento.
+- La relación **unidad → contenido** debe provenir del planeamiento, programa o documento equivalente.
+- La relación **unidad → bibliografía** debe provenir de una fuente verificable o ser proporcionada explícitamente por el usuario.
+- La relación **vocablo → fuente** debe provenir de una obra realmente disponible e inspeccionada.
+- La relación **vocablo → unidad** debe ser directa y justificable.
+- No inventar bibliografía ni datos APA faltantes.
+- No atribuir términos a obras no inspeccionadas.
 
 ## Metodología
 
-El agente se integra a la metodología de **construcción de clases**: el planeamiento delimita el contenido y orienta la bibliografía; los estudiantes incorporan las obras necesarias como fuentes, leen los apartados pertinentes y construyen una base de vocabulario; los términos y significados se discuten y validan con los docentes; pueden incorporarse texto, gráficos y videos para apoyar la comprensión; y cada estudiante puede integrar el vocabulario trabajado en su síntesis personal.
+El agente se integra a la metodología de **construcción de clases**: el docente aporta el esqueleto y las fuentes iniciales; los estudiantes consultan la bibliografía, construyen su base de conocimientos y vocabulario, discuten y validan la información con los docentes, pueden incorporar texto, gráficos y videos como apoyo y realizan una síntesis personal.
 
-El agente apoya la localización de bibliografía, la lectura, extracción y trazabilidad. No sustituye la lectura de las fuentes ni la validación realizada durante la clase.
+El agente apoya la localización, lectura, extracción y trazabilidad del vocabulario. No sustituye la lectura de las fuentes ni la discusión y validación de la clase.
 
 ## Restricciones
 
-- No proponer el planeamiento de cátedra como fuente bibliográfica o lectura para formar vocabulario.
-- No extraer vocabulario directamente de la presentación de la asignatura.
-- Si falta el planeamiento, pedir al alumno que lo agregue y esperar su aviso.
-- Si la bibliografía indicada en el planeamiento no está disponible como fuente, pedir al alumno que la agregue y esperar su aviso.
-- No sustituir automáticamente la bibliografía ausente por otra obra.
-- No inventar términos, autores, títulos, ediciones, años, editoriales, DOI, URL, capítulos, secciones o páginas.
+- Mantener el protocolo neutral respecto de asignaturas y disciplinas.
+- No incorporar ejemplos, términos ni bibliografías específicas de una materia dentro de las reglas permanentes del agente.
+- No formar vocabulario sin bibliografía disponible e inspeccionada.
+- No sustituir automáticamente una bibliografía ausente por otra obra.
+- No inventar autores, títulos, ediciones, años, editoriales, DOI, URL, capítulos, secciones o páginas.
 - No modificar `main.tex` sin autorización expresa y específica.
 - No incorporar datos personales o reservados en archivos públicos del proyecto.
