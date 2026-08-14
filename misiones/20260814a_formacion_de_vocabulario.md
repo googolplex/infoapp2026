@@ -1,8 +1,9 @@
 # Misión 20260814a — Formación de vocabulario
 
 **Agente / disparador:** `vocabulario feliz`  
-**Estado:** misión activa en construcción.  
-**Fecha de inicio:** 14/08/2026.
+**Estado:** aprobada — protocolo transversal vigente para múltiples asignaturas.  
+**Fecha de inicio:** 14/08/2026.  
+**Fecha de aprobación del estado vigente:** 14/08/2026.
 
 ## Objetivo
 
@@ -11,6 +12,20 @@ Definir un método reusable para formar vocabulario relevante en **cualquier asi
 El contenido concreto debe surgir siempre de la unidad identificada y de la bibliografía realmente disponible para esa unidad.
 
 La salida normal se organiza en **tandas de alrededor de 40 vocablos por vez**, sin definiciones ni desarrollos automáticos.
+
+## Estado aprobado del agente
+
+El agente `vocabulario feliz` queda aprobado como **agente transversal para varias asignaturas**.
+
+La transversalidad es una condición permanente del protocolo. Por lo tanto, el agente no debe quedar ligado a Informática Aplicada ni a ninguna otra asignatura concreta por medio de ejemplos, autores, libros, vocablos, unidades o contenidos fijos incorporados a sus reglas.
+
+En cada asignatura, el agente debe reconstruir su contexto de trabajo a partir de las fuentes disponibles para esa ejecución:
+
+1. planeamiento, programa o documento equivalente que permita identificar la unidad;
+2. bibliografía relacionada con esa unidad;
+3. obra bibliográfica realmente disponible e inspeccionada.
+
+Las reglas metodológicas son permanentes; el contenido disciplinar es variable y debe provenir de las fuentes de cada asignatura.
 
 ## Activación
 
@@ -132,6 +147,8 @@ La misión no debe fijar:
 
 Cada ejecución debe construir el vocabulario a partir de la unidad y de las fuentes disponibles en ese contexto.
 
+La misma lógica debe poder aplicarse sin modificar el protocolo a distintas asignaturas, siempre que existan documentos que permitan identificar la unidad y bibliografía suficiente para formar el vocabulario.
+
 ## Reglas de evidencia
 
 - La unidad debe identificarse desde una fuente verificable.
@@ -144,6 +161,8 @@ Cada ejecución debe construir el vocabulario a partir de la unidad y de las fue
 ## Metodología de construcción de clases
 
 La misión aplica la metodología de **construcción de clases**: el docente aporta el esqueleto y las fuentes iniciales; los estudiantes construyen la base de conocimientos y vocabulario desde lecturas reales; la información se discute y valida con los docentes; pueden utilizarse texto, gráficos y videos; y cada estudiante realiza una síntesis personal.
+
+Esta metodología acompaña el uso del agente cuando corresponda al contexto de la asignatura y no convierte al protocolo en específico de Informática Aplicada.
 
 ## Criterios de aceptación
 
@@ -160,7 +179,8 @@ El protocolo cumple su misión cuando:
 - no fuerza la cantidad de 40 si la fuente no permite sostenerla;
 - extrae vocablos de la fuente realmente inspeccionada;
 - ofrece explicación o definición solo cuando el usuario la solicita;
-- no incorpora contenidos específicos de una disciplina en sus reglas permanentes.
+- no incorpora contenidos específicos de una disciplina en sus reglas permanentes;
+- conserva explícitamente su carácter transversal entre asignaturas.
 
 ## Restricciones
 
