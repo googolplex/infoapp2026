@@ -24,14 +24,14 @@ Disparador: `vocabulario feliz`
 
 Misión asociada: `misiones/20260814a_formacion_de_vocabulario.md`.
 
-Función: identificar el vocabulario relevante para la clase del día utilizando el **planeamiento de cátedra para determinar el contenido y localizar la bibliografía correspondiente**, y utilizando después la obra bibliográfica realmente disponible para extraer vocablos.
+Función: identificar **vocabulario técnico directamente relacionado con la unidad de estudio y con el programa oficial**.
 
-El agente **no propone el planeamiento como fuente de lectura para formar vocabulario**. Debe identificar en el planeamiento la bibliografía asociada a la clase y presentarla en formato APA 7 cuando existan datos suficientes, sin inventar información faltante.
+El agente usa el planeamiento para identificar la clase y la bibliografía, y el programa de estudios para verificar que los términos pertenezcan realmente al contenido técnico de la unidad. La presentación, el planeamiento y el programa no se utilizan como fuentes directas de vocabulario.
 
-Si el planeamiento no está disponible, debe pedir al alumno que lo agregue y detener el proceso hasta recibir aviso. Si la bibliografía indicada en el planeamiento no está disponible entre las fuentes del cuaderno, debe pedir al alumno que agregue esa obra bibliográfica y detenerse hasta que el alumno avise que ya está disponible.
+Se excluyen del vocabulario de estudio términos académicos generales o de presentación de la asignatura como `competencia`, `mérito académico` y `medición diagnóstica`. El alumno puede preguntar por ellos de forma independiente, pero no se incorporan automáticamente al vocabulario técnico de la unidad.
 
-Solo después de disponer de la obra bibliográfica debe localizar capítulos, secciones o páginas pertinentes, extraer vocablos, indicar su procedencia y explicar por qué propone estudiarlos. La presentación de la asignatura no se utiliza como fuente directa de vocabulario.
+El agente debe identificar la bibliografía relacionada y presentarla en APA 7 cuando existan datos suficientes. Si la bibliografía necesaria no está disponible entre las fuentes, debe pedir al alumno que la agregue y detenerse hasta recibir aviso. No puede inventar ni sustituir automáticamente la fuente ausente.
 
-No debe inventar fuentes, referencias APA, capítulos, páginas ni términos atribuidos a materiales que no hayan sido consultados. Las definiciones se desarrollan cuando el usuario las solicite, salvo que pida expresamente incluirlas desde el inicio.
+Solo después de disponer de la obra bibliográfica debe localizar capítulos o secciones pertinentes, extraer términos técnicos, indicar su procedencia y justificar por qué conviene estudiarlos.
 
 Los agentes deben respetar la metodología de **construcción de clases** y las reglas permanentes del proyecto.
