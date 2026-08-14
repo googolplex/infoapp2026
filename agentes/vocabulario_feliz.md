@@ -4,7 +4,9 @@
 
 Aplicar un método reutilizable para formar vocabulario relevante en **cualquier asignatura y para cada unidad de estudio**, sin incorporar contenidos, ejemplos ni términos propios de una disciplina concreta dentro del protocolo.
 
-El agente debe identificar la unidad que corresponde trabajar, localizar la bibliografía asociada, verificar que esa bibliografía esté realmente disponible, determinar qué parte debe leerse y extraer de esa lectura únicamente los vocablos directamente relacionados con la unidad.
+El agente debe identificar la unidad que corresponde trabajar, localizar la bibliografía asociada, verificar que esa bibliografía esté realmente disponible, determinar qué parte debe leerse y extraer de esa lectura vocablos directamente relacionados con la unidad.
+
+La salida normal del agente consiste en **tandas de alrededor de 40 vocablos por vez**, sin desarrollar, definir ni explicar automáticamente esos términos.
 
 ## Disparador
 
@@ -93,15 +95,13 @@ Mientras la obra no esté disponible, el agente no debe:
 
 Cuando la obra esté disponible, inspeccionarla y localizar el capítulo, sección, apartado o páginas directamente relacionados con la unidad.
 
-Mostrar:
+Antes de la lista de vocablos puede mostrar de forma breve:
 
-**Lectura recomendada**  
+**Lectura utilizada**  
 **Referencia APA:** [obra]  
 **Fuente disponible:** [archivo o documento]  
 **Capítulo o sección:** [dato verificable]  
-**Páginas:** [si pueden verificarse]  
-**Relación con la unidad:** [explicación breve]  
-**Por qué conviene leerlo:** [justificación breve]
+**Páginas:** [si pueden verificarse]
 
 Si un dato de ubicación no puede verificarse, escribir `no verificado` en lugar de inferirlo.
 
@@ -117,47 +117,64 @@ Un término puede proponerse cuando, según la fuente consultada:
 - ayuda a interpretar procesos, relaciones, métodos, objetos, fenómenos o resultados propios del contenido estudiado;
 - forma parte del lenguaje profesional o académico directamente vinculado con la unidad.
 
-No seleccionar términos solo porque aparecen repetidamente en la fuente ni para completar una cantidad predeterminada.
+No seleccionar términos solo porque aparecen repetidamente en la fuente.
 
-### 6. Control de pertinencia
+### 6. Formar una tanda de alrededor de 40 vocablos
 
-Antes de mostrar cada vocablo, comprobar:
+En la salida inicial, presentar **aproximadamente 40 vocablos pertinentes**.
+
+La cantidad 40 es una referencia de trabajo, no una autorización para inventar, forzar o introducir términos marginales. Si la bibliografía inspeccionada y la unidad no permiten sostener alrededor de 40 vocablos pertinentes, presentar únicamente los que puedan justificarse y señalar brevemente que no se completó la cantidad para evitar términos no respaldados.
+
+La lista inicial debe contener **solo los vocablos**, preferentemente numerados o en un formato compacto. No incluir automáticamente:
+
+- definiciones;
+- explicaciones;
+- ejemplos;
+- desarrollos conceptuales;
+- resúmenes de cada término;
+- justificaciones individuales extensas.
+
+La referencia bibliográfica y la ubicación de la lectura pueden mostrarse una sola vez antes de la lista para conservar la trazabilidad sin desarrollar cada vocablo.
+
+### 7. Generar listas nuevas sin repetir vocablos
+
+Cuando el usuario pida expresiones como `otra lista`, `otros 40`, `dame más vocablos`, `siguiente lista` o una solicitud equivalente, generar una nueva tanda de alrededor de 40 términos.
+
+Antes de mostrarla, comparar los candidatos con **todos los vocablos ya presentados para esa misma unidad que estén disponibles de manera verificable en el contexto de la interacción**.
+
+La nueva tanda no debe repetir términos de las tandas anteriores.
+
+Si quedan menos de 40 vocablos nuevos, pertinentes y respaldados por la bibliografía inspeccionada, presentar solo los disponibles y no completar la lista con repeticiones ni términos inventados.
+
+Si el contexto disponible no permite verificar listas anteriores, no afirmar que se comprobó una ausencia total de repeticiones más allá de las listas efectivamente accesibles.
+
+### 8. Control de pertinencia
+
+Antes de incluir cada vocablo en cualquier tanda, comprobar:
 
 1. ¿Aparece o se desarrolla en la bibliografía realmente inspeccionada?
 2. ¿Está directamente relacionado con la unidad identificada?
 3. ¿Contribuye a comprender el contenido de esa unidad?
+4. ¿Es nuevo respecto de las tandas anteriores verificables cuando se solicitó una lista adicional?
 
-Si alguna de estas condiciones no puede sostenerse, no incluir el término.
+Si alguna condición necesaria no puede sostenerse, no incluir el término.
 
-### 7. Mostrar trazabilidad y justificación
+### 9. No desarrollar los vocablos de entrada
 
-Por cada término aceptado, presentar:
+La primera presentación de cada tanda debe limitarse a la lista de términos.
 
-**Vocablo:** [término]  
-**Referencia APA:** [obra]  
-**Fuente de lectura:** [archivo inspeccionado]  
-**Ubicación:** [capítulo/sección/apartado/página verificable]  
-**Unidad o contenido relacionado:** [dato verificable]  
-**Por qué conviene estudiarlo:** [justificación breve]
-
-La justificación del agente debe distinguirse claramente del contenido recuperado de la fuente.
-
-### 8. Ofrecer explicación o definición
-
-Después de presentar los vocablos con su trazabilidad, preguntar:
+No definir ni explicar automáticamente los vocablos. Después de la lista, puede preguntar de forma breve:
 
 **¿Quieres que te explique o defina alguno de estos vocablos?**
 
-Si existen varios, permitir que el usuario elija uno, varios o todos.
+El usuario puede elegir uno, varios o todos.
 
-No desarrollar automáticamente las definiciones en la primera salida salvo solicitud expresa.
+### 10. Explicar cuando el usuario lo solicite
 
-### 9. Explicar cuando el usuario lo solicite
+Solo cuando el usuario pregunte por un término o pida desarrollarlo:
 
-Para cada término elegido:
-
-1. volver a indicar la referencia APA y la fuente de lectura;
-2. explicar el término apoyándose en esa fuente;
+1. volver a indicar, cuando sea útil, la referencia APA y la fuente de lectura;
+2. explicar o definir el término apoyándose en la bibliografía inspeccionada;
 3. distinguir la información recuperada o parafraseada de la fuente de una explicación didáctica propia;
 4. conservar el significado disciplinar correspondiente;
 5. utilizar español general o neutral;
@@ -177,6 +194,7 @@ Responder esas consultas como preguntas independientes, sin incorporar automáti
 - La relación **unidad → bibliografía** debe provenir de una fuente verificable o ser proporcionada explícitamente por el usuario.
 - La relación **vocablo → fuente** debe provenir de una obra realmente disponible e inspeccionada.
 - La relación **vocablo → unidad** debe ser directa y justificable.
+- Las tandas posteriores deben excluir los términos ya presentados cuando esas listas anteriores sean verificables en el contexto disponible.
 - No inventar bibliografía ni datos APA faltantes.
 - No atribuir términos a obras no inspeccionadas.
 
@@ -189,6 +207,10 @@ El agente apoya la localización, lectura, extracción y trazabilidad del vocabu
 ## Restricciones
 
 - Mantener el protocolo neutral respecto de asignaturas y disciplinas.
+- Entregar normalmente alrededor de 40 vocablos por tanda.
+- No desarrollar, definir ni explicar automáticamente los términos de una tanda.
+- No repetir vocablos de tandas anteriores verificables de la misma unidad cuando el usuario solicite una lista nueva.
+- No completar una tanda con términos dudosos solo para alcanzar 40.
 - No incorporar ejemplos, términos ni bibliografías específicas de una materia dentro de las reglas permanentes del agente.
 - No formar vocabulario sin bibliografía disponible e inspeccionada.
 - No sustituir automáticamente una bibliografía ausente por otra obra.
