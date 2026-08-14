@@ -10,6 +10,8 @@ Definir un método reusable para formar vocabulario relevante en **cualquier asi
 
 El contenido concreto debe surgir siempre de la unidad identificada y de la bibliografía realmente disponible para esa unidad.
 
+La salida normal se organiza en **tandas de alrededor de 40 vocablos por vez**, sin definiciones ni desarrollos automáticos.
+
 ## Activación
 
 Cuando el usuario escriba o invoque claramente:
@@ -48,14 +50,12 @@ Mientras la obra no esté disponible, no inventar bibliografía, no sustituirla 
 
 Inspeccionar la obra disponible y localizar el capítulo, sección, apartado o páginas directamente relacionados con la unidad.
 
-La recomendación debe indicar:
+La salida puede indicar brevemente, una sola vez antes de la tanda:
 
 - referencia APA;
 - fuente o archivo disponible;
 - capítulo o sección verificable;
-- páginas, cuando puedan comprobarse;
-- relación con la unidad;
-- motivo de la recomendación.
+- páginas, cuando puedan comprobarse.
 
 Si una ubicación no puede verificarse, indicarlo en lugar de inferirla.
 
@@ -65,38 +65,58 @@ Seleccionar únicamente términos que ayuden a comprender el contenido propio de
 
 Pueden incluir conceptos centrales, lenguaje técnico o disciplinar, distinciones necesarias, procesos, relaciones, métodos, objetos, fenómenos o resultados pertinentes a la unidad.
 
-No incluir términos solo para completar una cantidad predeterminada.
+No incluir términos solo porque aparezcan repetidamente en la fuente.
 
-### 6. Control de pertinencia
+### 6. Presentar una tanda de alrededor de 40 vocablos
+
+La salida normal debe contener aproximadamente **40 términos**.
+
+La cantidad es orientativa: si no existen alrededor de 40 vocablos pertinentes y respaldados, presentar únicamente los disponibles. No inventar, forzar ni introducir términos marginales para completar la cantidad.
+
+La tanda debe presentar **solo los vocablos**, preferentemente numerados o en formato compacto.
+
+No incluir automáticamente:
+
+- definiciones;
+- explicaciones;
+- ejemplos;
+- resúmenes individuales;
+- desarrollos conceptuales de cada término.
+
+### 7. Generar tandas posteriores sin repeticiones
+
+Cuando el usuario pida una nueva lista, otros vocablos, otros 40 o una solicitud equivalente, generar una nueva tanda de aproximadamente 40 términos.
+
+Comparar los candidatos con todas las tandas anteriores de esa misma unidad que estén verificablemente disponibles en el contexto de la interacción.
+
+No repetir vocablos ya presentados.
+
+Si quedan menos de 40 términos nuevos, pertinentes y respaldados, presentar únicamente los disponibles. No completar con repeticiones ni con términos inventados.
+
+Si las listas anteriores no están disponibles en el contexto, no afirmar que se verificó la ausencia total de repeticiones más allá de las tandas accesibles.
+
+### 8. Control de pertinencia
 
 Antes de presentar cada vocablo, comprobar:
 
 1. que aparezca o se desarrolle en la bibliografía inspeccionada;
 2. que esté directamente relacionado con la unidad;
-3. que contribuya a comprender el contenido de esa unidad.
+3. que contribuya a comprender el contenido de esa unidad;
+4. cuando corresponda a una tanda posterior, que no haya sido presentado previamente en las listas verificables de esa unidad.
 
-Si alguna condición no puede sostenerse, excluir el término.
+Si alguna condición necesaria no puede sostenerse, excluir el término.
 
-### 7. Trazabilidad
+### 9. Explicar o definir solo cuando el usuario lo pida
 
-Presentar por cada término:
-
-**Vocablo:** [término]  
-**Referencia APA:** [obra]  
-**Fuente de lectura:** [archivo inspeccionado]  
-**Ubicación:** [capítulo/sección/página verificable]  
-**Unidad o contenido relacionado:** [dato verificable]  
-**Por qué conviene estudiarlo:** [justificación breve]
-
-### 8. Ofrecer explicación o definición
-
-Después de presentar los vocablos, preguntar:
+Después de presentar una tanda, puede preguntarse:
 
 **¿Quieres que te explique o defina alguno de estos vocablos?**
 
-No adelantar automáticamente las definiciones salvo solicitud expresa.
+No adelantar automáticamente las definiciones.
 
-### 9. Preguntas independientes
+Cuando el usuario pregunte por uno o varios vocablos, explicarlos apoyándose en la bibliografía inspeccionada y sin inventar información ni referencias.
+
+### 10. Preguntas independientes
 
 El estudiante puede preguntar por cualquier concepto no incluido en el vocabulario de estudio. La respuesta debe tratarse como consulta independiente y no convertir automáticamente ese concepto en vocabulario de la unidad.
 
@@ -117,6 +137,7 @@ Cada ejecución debe construir el vocabulario a partir de la unidad y de las fue
 - La unidad debe identificarse desde una fuente verificable.
 - La bibliografía debe estar disponible antes de extraer vocablos.
 - Los vocablos deben provenir de una obra realmente inspeccionada.
+- Las tandas posteriores deben excluir los vocablos ya presentados cuando las listas anteriores sean verificables.
 - No inventar referencias APA, capítulos, páginas ni términos atribuidos a materiales no leídos.
 - No sustituir automáticamente una fuente ausente por otra.
 
@@ -133,9 +154,12 @@ El protocolo cumple su misión cuando:
 - identifica o solicita la bibliografía relacionada;
 - no continúa si la bibliografía necesaria no está disponible;
 - determina qué parte de la obra conviene leer;
+- entrega normalmente alrededor de 40 vocablos por tanda;
+- no desarrolla automáticamente los términos;
+- evita repetir vocablos en tandas posteriores cuando las listas anteriores son verificables;
+- no fuerza la cantidad de 40 si la fuente no permite sostenerla;
 - extrae vocablos de la fuente realmente inspeccionada;
-- mantiene trazabilidad entre unidad, bibliografía y vocablo;
-- ofrece explicación o definición solo después de presentar los términos;
+- ofrece explicación o definición solo cuando el usuario la solicita;
 - no incorpora contenidos específicos de una disciplina en sus reglas permanentes.
 
 ## Restricciones
