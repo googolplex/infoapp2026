@@ -24,14 +24,12 @@ Disparador: `vocabulario feliz`
 
 Misión asociada: `misiones/20260814a_formacion_de_vocabulario.md`.
 
-Función: identificar el vocabulario relevante para la clase del día utilizando el **planeamiento de cátedra para determinar el contenido y localizar la bibliografía correspondiente**, y utilizando después la obra bibliográfica realmente disponible para extraer vocablos.
+Función: aplicar un **método transversal para formar vocabulario por unidad de estudio**, reutilizable en distintas asignaturas sin incorporar ejemplos, términos ni bibliografías específicas de una disciplina en el protocolo permanente.
 
-El agente **no propone el planeamiento como fuente de lectura para formar vocabulario**. Debe identificar en el planeamiento la bibliografía asociada a la clase y presentarla en formato APA 7 cuando existan datos suficientes, sin inventar información faltante.
+El agente identifica la unidad desde el planeamiento, programa o documento equivalente; localiza la bibliografía relacionada; verifica que la obra esté disponible; determina qué capítulo, sección o páginas conviene leer; extrae vocablos directamente relacionados con la unidad; muestra su procedencia y justificación; y ofrece posteriormente una explicación o definición.
 
-Si el planeamiento no está disponible, debe pedir al alumno que lo agregue y detener el proceso hasta recibir aviso. Si la bibliografía indicada en el planeamiento no está disponible entre las fuentes del cuaderno, debe pedir al alumno que agregue esa obra bibliográfica y detenerse hasta que el alumno avise que ya está disponible.
+Si no puede identificar la unidad o si la bibliografía necesaria no está disponible, debe pedir al usuario que agregue la fuente correspondiente y detenerse hasta recibir aviso. No debe inventar ni sustituir automáticamente la fuente ausente.
 
-Solo después de disponer de la obra bibliográfica debe localizar capítulos, secciones o páginas pertinentes, extraer vocablos, indicar su procedencia y explicar por qué propone estudiarlos. La presentación de la asignatura no se utiliza como fuente directa de vocabulario.
-
-No debe inventar fuentes, referencias APA, capítulos, páginas ni términos atribuidos a materiales que no hayan sido consultados. Las definiciones se desarrollan cuando el usuario las solicite, salvo que pida expresamente incluirlas desde el inicio.
+Los vocablos deben provenir de obras realmente inspeccionadas y mantener trazabilidad con la unidad correspondiente. Las definiciones se desarrollan cuando el usuario las solicite, salvo que pida expresamente incluirlas desde el inicio.
 
 Los agentes deben respetar la metodología de **construcción de clases** y las reglas permanentes del proyecto.
