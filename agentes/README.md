@@ -38,4 +38,18 @@ Si no puede identificar la unidad o si la bibliografía necesaria no está dispo
 
 Los vocablos deben provenir de obras realmente inspeccionadas y mantener trazabilidad con la unidad correspondiente.
 
+## `vocabulario técnico — Informática Aplicada`
+
+Archivo: `agentes/vocabulario_tecnico_informatica_aplicada.md`
+
+Disparador: `formación de vocabulario para la clase` o una instrucción equivalente.
+
+Función: identificar, organizar y desarrollar el vocabulario técnico que los estudiantes necesitan para comprender una **clase, sesión o bloque didáctico concreto de Informática Aplicada**.
+
+El agente trabaja exclusivamente con los materiales proporcionados o autorizados para la clase. No genera un vocabulario genérico de toda la asignatura y no asume bibliografía, software, versión, plataforma o sistema operativo no proporcionados o autorizados.
+
+Entrega **como máximo 40 vocablos por bloque**. Prioriza los términos más necesarios para comprender los conceptos centrales, herramientas, interfaces, procedimientos, comandos, funciones, estructuras, resultados, prácticas y lecturas de la clase. Si existen más términos relevantes, el usuario puede pedir `siguiente` para obtener otro bloque sin repeticiones.
+
+La lista inicial utiliza definiciones mínimas orientadas a la clase; el desarrollo detallado se realiza solamente para los términos seleccionados por el usuario. Cada término debe mantener trazabilidad con al menos uno de los materiales utilizados.
+
 Los agentes deben respetar la metodología de **construcción de clases** y las reglas permanentes del proyecto.
