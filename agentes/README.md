@@ -52,4 +52,6 @@ Entrega **como máximo 40 vocablos por bloque**. Prioriza los términos más nec
 
 La lista inicial utiliza definiciones mínimas orientadas a la clase; el desarrollo detallado se realiza solamente para los términos seleccionados por el usuario. Cada término debe mantener trazabilidad con al menos uno de los materiales utilizados.
 
+Antes de cada tanda, el agente identifica la **bibliografía realmente utilizada** y presenta las referencias en **formato APA 7** cuando existan datos suficientes y verificables. No debe inventar autores, fechas, títulos, ediciones, editoriales, DOI, URL, capítulos ni páginas para completar referencias. Cuando corresponda, también conserva la ubicación concreta de la lectura y puede emplear cita abreviada autor-fecha al desarrollar términos seleccionados.
+
 Los agentes deben respetar la metodología de **construcción de clases** y las reglas permanentes del proyecto.
