@@ -495,3 +495,86 @@ El Camino 2 queda disponible como alternativa de apoyo, especialmente para estud
 El cierre mantiene la metodología de **Construcción de clases** de Informática Aplicada 2026: el docente define la estructura y las condiciones; el estudiante selecciona, construye, analiza e interpreta; y el trabajo se valida mediante explicación y revisión en clase.
 
 No se prevén nuevas modificaciones a esta misión salvo decisión expresa del docente.
+
+
+## Mejora posterior al cierre: conservación del contexto del caso
+
+Luego de probar el flujo completo de la actividad —incluyendo generación de caso, dataset CSV, planilla Excel y PDF— se incorporó una mejora al prompt oficial para evitar que el contexto del problema se pierda cuando el estudiante trabaja únicamente con los archivos finales.
+
+### Ficha maestra del caso
+
+A partir de esta mejora, cuando el estudiante selecciona un caso, Gemini debe conservar durante toda la conversación una **Ficha Maestra del Caso** con, como mínimo:
+
+- especialidad;
+- título del caso;
+- situación o descripción completa;
+- objetivo del análisis;
+- descripción de los datos a analizar.
+
+Esta información no debe regenerarse ni modificarse arbitrariamente en etapas posteriores.
+
+### Incorporación obligatoria en Excel
+
+Cuando se genere una planilla terminada, el archivo debe incluir como primera hoja una hoja independiente denominada:
+
+`CONTEXTO_CASO`
+
+Esta hoja debe contener:
+
+- Actividad Sumativa 3;
+- asignatura Informática Aplicada;
+- Unidad VI — Planillas de cálculo;
+- especialidad;
+- título del caso;
+- situación;
+- objetivo del análisis;
+- datos a analizar;
+- cantidad real de registros;
+- breve propósito del archivo.
+
+La finalidad es que cualquier docente pueda abrir el archivo `.xlsx` y comprender inmediatamente cuál era el problema analizado, sin depender de la conversación previa con Gemini.
+
+### Incorporación obligatoria en PDF
+
+El PDF final debe incluir, antes de los resultados, una sección claramente identificada con:
+
+- título del caso;
+- situación;
+- objetivo del análisis;
+- datos a analizar;
+- cantidad de registros;
+- descripción breve del dataset.
+
+El PDF debe mantener coherencia con la hoja `CONTEXTO_CASO` y con el caso originalmente seleccionado.
+
+### Coherencia entre archivos
+
+Cuando se generen Excel y PDF, ambos deben conservar exactamente el mismo contexto del caso.
+
+No deben existir diferencias relevantes en:
+
+- título;
+- situación;
+- objetivo;
+- dataset;
+- cantidad de registros;
+- indicadores;
+- gráficos;
+- tabla dinámica;
+- conclusiones.
+
+La conclusión final debe responder al objetivo definido originalmente en el caso.
+
+### Ajuste del flujo
+
+El flujo validado queda conceptualizado de la siguiente manera:
+
+**Especialidad → Casos → Selección → Ficha Maestra del Caso → Dataset CSV → Camino 1 o Camino 2 → Excel con CONTEXTO_CASO → Verificación del profesor → PDF con contexto y resultados → Educa**
+
+### Sentido pedagógico
+
+Esta mejora refuerza la metodología de **Construcción de clases** de Informática Aplicada 2026: el docente define la estructura y los requisitos; el estudiante selecciona un problema, construye y analiza la información; y los productos finales deben conservar suficiente contexto para que el trabajo pueda ser comprendido, discutido y validado en clase.
+
+### Estado de la misión
+
+La misión continúa marcada como **COMPLETA**. Esta incorporación se registra como una mejora posterior validada del prompt y de la documentación final, sin reabrir la planificación general de la actividad.
