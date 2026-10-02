@@ -41,6 +41,29 @@ La generación de los **casos de uso** y del **dataset** mediante el Gem de Gemi
 
 En ambos caminos, el estudiante deberá comprender el funcionamiento de la planilla y estar en condiciones de explicar el caso elegido, la estructura y tamaño del dataset, las fórmulas y funciones utilizadas, los resultados, los gráficos, las tablas dinámicas y las conclusiones obtenidas.
 
+## Estado actual — Hoja de ruta cerrada
+
+La **hoja de ruta de la Actividad Sumativa 3 está lista y aprobada para su uso**. La versión de referencia revisada es `20261003k_infoapp_actividad_sumativa_3.odt`.
+
+Esta hoja de ruta ya incorpora:
+
+- contenidos, competencia y ponderación de la actividad;
+- requisitos mínimos de la planilla Excel;
+- uso obligatorio del Gem de Gemini para generar casos de uso y dataset;
+- generación de al menos tres casos diferentes según la especialidad;
+- selección de un caso por parte del estudiante;
+- generación de un dataset suficientemente extenso para justificar el uso de Excel;
+- bifurcación entre **Camino 1 — resolución manual en Excel** y **Camino 2 — resolución con apoyo de Gemini**;
+- presentación presencial del archivo `.xlsx`;
+- exportación a PDF y entrega en Educa;
+- un **diagrama de flujo final** que representa visualmente la secuencia completa de trabajo.
+
+La hoja de ruta se considera **cerrada** para esta etapa y no deberá seguir modificándose salvo indicación expresa del docente.
+
+### Próxima fase
+
+El trabajo continúa con la **generación y ajuste del prompt oficial para el Gem de Gemini** que el profesor proporcionará a los estudiantes. Ese prompt deberá implementar exactamente la hoja de ruta aprobada, sin redefinirla ni alterar sus requisitos.
+
 ## Metodología de construcción de clases
 
 Esta actividad aplica la metodología de **Construcción de clases** definida para Informática Aplicada 2026: el docente establece la estructura, los temas, los requisitos y, en esta ocasión, proporciona el prompt que se utilizará con el Gem de Gemini; los estudiantes generan y seleccionan el problema, construyen la base de datos de trabajo, desarrollan el análisis y explican sus conclusiones. La información y los resultados se contrastan con el docente durante la clase.
@@ -75,22 +98,22 @@ La planilla deberá cumplir, como mínimo, con los siguientes requisitos:
 
 ## Tareas
 
-1. Mantener y cerrar la consigna completa de la Actividad Sumativa 3.
-2. Preparar el **prompt oficial que el profesor proporcionará a los estudiantes** para utilizar con el Gem de Gemini.
-3. Diseñar el prompt para que genere al menos tres casos de uso diferentes y pertinentes para la especialidad del estudiante.
-4. Asegurar que los casos generados introduzcan variaciones entre estudiantes.
-5. Diseñar el prompt para que, una vez elegido el caso, genere un dataset suficientemente extenso y variado.
-6. Asegurar que el dataset justifique el uso de Excel y no pueda resolverse razonablemente de forma manual.
-7. Mantener claramente documentados los dos caminos de resolución de la planilla.
-8. Exigir formatos, referencias de celdas y rangos, fórmulas y funciones estadísticas, lógicas y, cuando corresponda, financieras.
-9. Exigir indicadores de análisis tales como totales, promedios, máximos, mínimos, porcentajes o clasificaciones.
-10. Exigir al menos un gráfico que apoye la interpretación de los datos.
-11. Exigir al menos una tabla dinámica.
-12. Solicitar una breve interpretación o conclusión basada en los resultados obtenidos.
-13. Verificar presencialmente el archivo Excel en el laboratorio antes de la entrega.
-14. Indicar al estudiante que exporte la planilla verificada a PDF y la suba a Educa.
-15. Preparar una rúbrica o lista de cotejo coherente con la ponderación del 25% de la Segunda Etapa.
-16. Preparar, cuando resulte útil para el material de clase, un diagrama de flujo que represente visualmente la secuencia de la actividad y la bifurcación entre Camino 1 y Camino 2.
+1. **Completado:** cerrar la consigna y la hoja de ruta de la Actividad Sumativa 3.
+2. **Completado:** incorporar el diagrama de flujo del proceso completo y la bifurcación entre Camino 1 y Camino 2.
+3. **Siguiente tarea prioritaria:** preparar el **prompt oficial que el profesor proporcionará a los estudiantes** para utilizar con el Gem de Gemini.
+4. Diseñar el prompt para que genere al menos tres casos de uso diferentes y pertinentes para la especialidad del estudiante.
+5. Asegurar que los casos generados introduzcan variaciones entre estudiantes.
+6. Diseñar el prompt para que, una vez elegido el caso, genere un dataset suficientemente extenso y variado.
+7. Asegurar que el dataset justifique el uso de Excel y no pueda resolverse razonablemente de forma manual.
+8. Mantener claramente documentados los dos caminos de resolución de la planilla.
+9. Exigir formatos, referencias de celdas y rangos, fórmulas y funciones estadísticas, lógicas y, cuando corresponda, financieras.
+10. Exigir indicadores de análisis tales como totales, promedios, máximos, mínimos, porcentajes o clasificaciones.
+11. Exigir al menos un gráfico que apoye la interpretación de los datos.
+12. Exigir al menos una tabla dinámica.
+13. Solicitar una breve interpretación o conclusión basada en los resultados obtenidos.
+14. Verificar presencialmente el archivo Excel en el laboratorio antes de la entrega.
+15. Indicar al estudiante que exporte la planilla verificada a PDF y la suba a Educa.
+16. Preparar una rúbrica o lista de cotejo coherente con la ponderación del 25% de la Segunda Etapa.
 
 ## Restricciones
 
@@ -144,4 +167,5 @@ La misión deberá producir, como mínimo:
 6. La descripción inequívoca de los dos caminos de construcción de la planilla.
 7. Una rúbrica o lista de cotejo de evaluación.
 8. Instrucciones claras para la validación presencial y la entrega en Educa.
-9. Cuando corresponda, un diagrama de flujo del proceso completo.
+9. Un diagrama de flujo del proceso completo. **Completado en la hoja de ruta aprobada.**
+10. El prompt oficial del Gem de Gemini como siguiente producto de trabajo.
