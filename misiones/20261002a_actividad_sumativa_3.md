@@ -34,26 +34,63 @@ Construir planillas electrónicas avanzadas mediante fórmulas, funciones y tabl
 
 Cada estudiante deberá elaborar una planilla Excel con análisis de datos, mostrar el archivo funcionando al profesor en el laboratorio y, una vez verificado, generar un PDF a partir de la planilla y subirlo a Educa.
 
-El archivo Excel puede ser elaborado manualmente o con apoyo de un modelo LLM, pero el estudiante debe poder explicar la estructura, las fórmulas, las funciones y las conclusiones de su trabajo.
+La generación de los **casos de uso** y del **dataset** mediante el Gem de Gemini será obligatoria para todos los estudiantes. A partir de la construcción de la planilla Excel, el estudiante podrá continuar por uno de dos caminos:
+
+1. **Camino 1 — Resolución manual en Excel:** construir la planilla directamente en Excel, resolviendo manualmente organización, fórmulas, funciones, indicadores, gráficos, tablas dinámicas y análisis.
+2. **Camino 2 — Resolución con apoyo de Gemini:** continuar utilizando el Gem como asistente para orientar la construcción de la planilla, sin sustituir la comprensión ni la explicación del trabajo por parte del estudiante.
+
+En ambos caminos, el estudiante deberá comprender el funcionamiento de la planilla y estar en condiciones de explicar el caso elegido, la estructura y tamaño del dataset, las fórmulas y funciones utilizadas, los resultados, los gráficos, las tablas dinámicas y las conclusiones obtenidas.
 
 ## Metodología de construcción de clases
 
-Esta actividad debe aplicar brevemente la metodología de **Construcción de clases** definida para Informática Aplicada 2026: el docente presenta la estructura, los temas y las consignas; los estudiantes construyen la base de conocimiento y de datos; la información y los resultados se discuten con el docente para acordar las soluciones más adecuadas; y el trabajo debe integrar texto, elementos gráficos y una síntesis o conclusión personal.
+Esta actividad aplica la metodología de **Construcción de clases** definida para Informática Aplicada 2026: el docente establece la estructura, los temas, los requisitos y, en esta ocasión, proporciona el prompt que se utilizará con el Gem de Gemini; los estudiantes generan y seleccionan el problema, construyen la base de datos de trabajo, desarrollan el análisis y explican sus conclusiones. La información y los resultados se contrastan con el docente durante la clase.
+
+## Flujo general de la actividad
+
+1. El profesor proporciona el prompt preparado para la Actividad Sumativa 3.
+2. El estudiante carga el prompt en el Gem de Gemini.
+3. El Gem genera **al menos tres casos de uso o problemas diferentes**, relacionados específicamente con la especialidad del estudiante: Marketing, Producción o Electrónica.
+4. Los casos deben variar entre estudiantes para evitar que todos trabajen sobre el mismo problema.
+5. El estudiante selecciona uno de los casos propuestos e informa al Gem cuál desea resolver.
+6. El Gem genera el dataset correspondiente al caso elegido.
+7. El dataset debe ser **suficientemente extenso como para que el análisis no pueda resolverse razonablemente mediante cálculos manuales ni mediante revisión fila por fila**.
+8. El estudiante construye la planilla Excel mediante el Camino 1 o el Camino 2.
+9. El estudiante presenta el archivo `.xlsx` funcionando al profesor en el laboratorio y explica el trabajo realizado.
+10. Una vez verificada la planilla, el estudiante la exporta a PDF y la sube a Educa.
+
+## Requisitos de la planilla Excel
+
+La planilla deberá cumplir, como mínimo, con los siguientes requisitos:
+
+1. **Carga y organización de datos:** trabajar con el dataset generado por el Gem, con encabezados claros y datos numéricos y categóricos.
+2. **Formato de la planilla:** títulos, formatos numéricos, moneda o porcentaje cuando corresponda, bordes y presentación legible.
+3. **Fórmulas:** operaciones utilizando referencias de celdas y rangos.
+4. **Funciones:** utilizar al menos una función estadística, una función lógica y, cuando el caso lo permita, una función financiera.
+5. **Análisis de datos:** obtener indicadores útiles, por ejemplo total, promedio, máximo, mínimo, porcentajes o clasificación.
+6. **Gráfico:** crear al menos un gráfico que ayude a interpretar la información.
+7. **Tabla dinámica:** resumir y analizar los datos desde una perspectiva relevante para el caso.
+8. **Interpretación:** incluir una breve conclusión indicando qué muestran los resultados.
+9. **Presentación al profesor:** mostrar el archivo `.xlsx` funcionando en el laboratorio.
+10. **Entrega:** una vez aprobado, exportar la planilla a PDF y subirla a Educa.
 
 ## Tareas
 
-1. Definir la consigna completa de la Actividad Sumativa 3.
-2. Preparar casos o conjuntos de datos adecuados para Marketing, Producción y Electrónica.
-3. Exigir una tabla de datos organizada con encabezados claros y registros suficientes para realizar análisis.
-4. Incluir el uso de formatos y referencias de celdas y rangos.
-5. Incluir fórmulas y funciones estadísticas, lógicas y otras pertinentes al caso.
-6. Incluir indicadores de análisis tales como totales, promedios, máximos, mínimos, porcentajes o clasificaciones.
-7. Incluir al menos un gráfico que apoye la interpretación de los datos.
-8. Incluir al menos una tabla dinámica.
-9. Solicitar una breve interpretación o conclusión basada en los resultados obtenidos.
-10. Verificar presencialmente el archivo Excel en el laboratorio antes de la entrega.
-11. Indicar al estudiante que exporte la planilla verificada a PDF y la suba a Educa.
-12. Preparar una rúbrica o lista de cotejo coherente con la ponderación del 25% de la Segunda Etapa.
+1. Mantener y cerrar la consigna completa de la Actividad Sumativa 3.
+2. Preparar el **prompt oficial que el profesor proporcionará a los estudiantes** para utilizar con el Gem de Gemini.
+3. Diseñar el prompt para que genere al menos tres casos de uso diferentes y pertinentes para la especialidad del estudiante.
+4. Asegurar que los casos generados introduzcan variaciones entre estudiantes.
+5. Diseñar el prompt para que, una vez elegido el caso, genere un dataset suficientemente extenso y variado.
+6. Asegurar que el dataset justifique el uso de Excel y no pueda resolverse razonablemente de forma manual.
+7. Mantener claramente documentados los dos caminos de resolución de la planilla.
+8. Exigir formatos, referencias de celdas y rangos, fórmulas y funciones estadísticas, lógicas y, cuando corresponda, financieras.
+9. Exigir indicadores de análisis tales como totales, promedios, máximos, mínimos, porcentajes o clasificaciones.
+10. Exigir al menos un gráfico que apoye la interpretación de los datos.
+11. Exigir al menos una tabla dinámica.
+12. Solicitar una breve interpretación o conclusión basada en los resultados obtenidos.
+13. Verificar presencialmente el archivo Excel en el laboratorio antes de la entrega.
+14. Indicar al estudiante que exporte la planilla verificada a PDF y la suba a Educa.
+15. Preparar una rúbrica o lista de cotejo coherente con la ponderación del 25% de la Segunda Etapa.
+16. Preparar, cuando resulte útil para el material de clase, un diagrama de flujo que represente visualmente la secuencia de la actividad y la bifurcación entre Camino 1 y Camino 2.
 
 ## Restricciones
 
@@ -62,6 +99,14 @@ Esta actividad debe aplicar brevemente la metodología de **Construcción de cla
   - Sumativa 3: 25%.
   - Sumativa 4: 25%.
   - Segundo Parcial: 50%.
+- En esta ocasión, **el profesor proporcionará el prompt** que utilizarán los estudiantes con el Gem de Gemini.
+- La generación de casos de uso y dataset mediante el Gem es obligatoria en ambos caminos.
+- El Gem deberá generar **al menos tres casos de uso o problemas** vinculados a la especialidad del estudiante.
+- Los casos deberán variar entre estudiantes.
+- El dataset no deberá ser pequeño ni simplificado; deberá ser suficientemente extenso para impedir una resolución razonable mediante cálculos manuales o revisión fila por fila.
+- El dataset deberá contener datos numéricos y categóricos, suficientes registros y variedad de valores para permitir un análisis significativo.
+- El Camino 1 no permite utilizar Gemini para construir la solución de Excel una vez generado el dataset; desde ese punto la resolución será manual en Excel.
+- El Camino 2 permite utilizar Gemini como asistente durante la construcción de la planilla, pero el estudiante sigue siendo responsable de comprender y explicar la solución.
 - No inventar contenido académico no aprobado.
 - La dificultad debe ser apropiada para una asignatura introductoria de Informática Aplicada.
 - La actividad debe evaluar el uso funcional de planillas de cálculo y no únicamente la apariencia del documento.
@@ -75,9 +120,15 @@ Esta actividad debe aplicar brevemente la metodología de **Construcción de cla
 - La ponderación de la Actividad Sumativa 3 figura como **25% de la Segunda Etapa**.
 - La distribución de la Segunda Etapa suma 100%: 25% + 25% + 50%.
 - La actividad requiere una planilla dinámica con análisis de datos.
-- El estudiante debe demostrar uso de fórmulas, funciones, gráficos y tablas dinámicas.
-- La propuesta contempla aplicaciones relacionadas con Marketing, Producción y Electrónica.
+- Queda explícito que el profesor proporciona el prompt oficial en esta ocasión.
+- Queda explícito que todos los estudiantes usan el Gem para generar casos y dataset.
+- El Gem genera al menos tres casos relacionados con Marketing, Producción o Electrónica, según la especialidad del estudiante.
+- Los casos presentan variaciones entre estudiantes.
+- El dataset generado es suficientemente extenso como para justificar el uso de una planilla de cálculo.
+- La bifurcación entre Camino 1 y Camino 2 ocurre únicamente a partir de la construcción de la planilla.
+- El estudiante demuestra uso de fórmulas, funciones, gráficos y tablas dinámicas.
 - El archivo Excel se revisa presencialmente antes de generar el PDF.
+- El estudiante puede explicar el problema, el dataset, las fórmulas, las funciones, los resultados y las conclusiones.
 - La entrega final se realiza en Educa en formato PDF.
 - La actividad incorpora la metodología de Construcción de clases y exige interpretación personal de los resultados.
 
@@ -86,7 +137,11 @@ Esta actividad debe aplicar brevemente la metodología de **Construcción de cla
 La misión deberá producir, como mínimo:
 
 1. Una consigna final para estudiantes.
-2. Una estructura paso a paso para el desarrollo en laboratorio.
-3. Casos o datos de trabajo diferenciados por carrera cuando corresponda.
-4. Una rúbrica o lista de cotejo de evaluación.
-5. Instrucciones claras para la validación presencial y la entrega en Educa.
+2. Un procedimiento paso a paso para el desarrollo en laboratorio.
+3. El prompt oficial proporcionado por el profesor para utilizar con el Gem de Gemini.
+4. La lógica para generar al menos tres casos diferentes por especialidad.
+5. La lógica para generar datasets extensos y adecuados a cada caso elegido.
+6. La descripción inequívoca de los dos caminos de construcción de la planilla.
+7. Una rúbrica o lista de cotejo de evaluación.
+8. Instrucciones claras para la validación presencial y la entrega en Educa.
+9. Cuando corresponda, un diagrama de flujo del proceso completo.
