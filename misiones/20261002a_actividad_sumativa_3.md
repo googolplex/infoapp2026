@@ -60,11 +60,9 @@ Esta hoja de ruta ya incorpora:
 
 La hoja de ruta se considera **cerrada** para esta etapa y no deberá seguir modificándose salvo indicación expresa del docente.
 
-### Próxima fase
+### Estado del prompt
 
-El **prompt oficial para el Gem de Gemini ya fue generado y probado satisfactoriamente**. Se incorpora en esta misión como **versión validada inicial** y deberá implementar exactamente la hoja de ruta aprobada, sin redefinirla ni alterar sus requisitos.
-
-La siguiente fase será observar su funcionamiento con estudiantes reales y realizar ajustes únicamente si aparecen fallos prácticos, por ejemplo: casos poco variados, datasets demasiado pequeños, abreviación del dataset o avance automático entre etapas.
+El **prompt oficial para el Gem de Gemini fue generado, probado y validado**. También se comprobó la generación de CSV, planillas Excel y PDF. La misión queda cerrada; cualquier ajuste futuro se considerará una mejora posterior y no una tarea pendiente de esta misión.
 
 ## Metodología de construcción de clases
 
@@ -453,3 +451,47 @@ Durante su uso con estudiantes, se deberá verificar especialmente que el Gem:
 8. avance paso a paso en el Camino 2;
 9. mantenga la dificultad apropiada para Informática Aplicada;
 10. preserve la responsabilidad del estudiante de comprender y explicar el trabajo realizado.
+
+
+## Cierre de misión
+
+**Estado: COMPLETA**
+
+La misión de preparación de la **Actividad Sumativa 3** se considera finalizada.
+
+### Productos completados
+
+- Hoja de ruta de la actividad cerrada y publicada.
+- Diagrama de flujo del proceso completo.
+- Prompt oficial para el Gem de Gemini desarrollado y probado.
+- Generación de casos de uso diferenciados por especialidad validada.
+- Generación de datasets extensos en formato CSV validada.
+- Camino 1 — resolución manual en Excel — definido y operativo.
+- Camino 2 — resolución con apoyo de Gemini — definido y operativo.
+- Generación asistida de planillas Excel probada.
+- Generación asistida de PDF probada.
+- Reglas de continuidad incorporadas para evitar reinicios del flujo.
+- Reglas incorporadas para impedir enlaces ficticios o rutas `sandbox:/` no descargables.
+
+### Conclusión práctica
+
+Aunque el Camino 2 permite generar una planilla y un PDF con apoyo de Gemini, durante las pruebas se observó que el **Camino 1, utilizando directamente el CSV generado como punto de partida, puede producir mejores resultados pedagógicos y técnicos para los estudiantes**.
+
+Por ello, el flujo recomendado para esta actividad es:
+
+1. utilizar el Gem para generar los casos de uso;
+2. seleccionar un caso;
+3. generar el dataset completo en CSV;
+4. abrir o importar el CSV en Excel;
+5. construir la planilla manualmente;
+6. mostrar el archivo `.xlsx` al profesor;
+7. exportar la versión verificada a PDF;
+8. subir el PDF a Educa.
+
+El Camino 2 queda disponible como alternativa de apoyo, especialmente para estudiantes que necesiten orientación adicional.
+
+### Metodología
+
+El cierre mantiene la metodología de **Construcción de clases** de Informática Aplicada 2026: el docente define la estructura y las condiciones; el estudiante selecciona, construye, analiza e interpreta; y el trabajo se valida mediante explicación y revisión en clase.
+
+No se prevén nuevas modificaciones a esta misión salvo decisión expresa del docente.
