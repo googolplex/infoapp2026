@@ -205,3 +205,53 @@ Definir tiempo disponible, formato de identificación de placas, criterio de sel
 **Criterio pedagógico:** el aprendizaje se demuestra cuando el estudiante puede localizar físicamente y explicar las razones para reconocer un componente, no solamente cuando la IA genera un informe. Esta secuencia también aplica la metodología de **Construcción de clases**: estructura inicial del docente, recolección activa de datos/imágenes, matriz de hallazgos, contraste con el docente y conclusión personal.
 
 **Sin cambios:** cuatro motherboards, revisión de ambas caras, tabla de hallazgos y documento PDF final. La distribución detallada de los 25 puntos sigue pendiente.
+
+## Actualización — Ejercicio 2 de Electrónica: análisis de un circuito electrónico con IA
+
+**Estado:** ejercicio 2 de la oferta de tres ejercicios de Electrónica; consigna preliminar.
+
+### Objetivo
+
+**Aprender a analizar y explicar el funcionamiento de un circuito electrónico de complejidad adecuada**, apoyándose en recursos audiovisuales y una herramienta de inteligencia artificial elegida por el estudiante.
+
+### Selección del circuito: dos alternativas
+
+1. **Tutorial en YouTube:** el estudiante elige libremente un circuito electrónico de su preferencia y localiza un video que explique o demuestre su funcionamiento. Se recomienda evitar circuitos demasiado complejos, aunque existan abundantes tutoriales en Internet; la elección debe permitir una comprensión pedagógicamente útil.
+2. **Canasto de circuitos:** el estudiante selecciona un circuito físico entre los que se pongan a disposición en el laboratorio. En este caso **no es obligatorio que exista un video en YouTube**; puede emplear fotografías, observación directa, documentación u otras evidencias disponibles.
+
+### Metodología de trabajo
+
+1. Seleccionar un circuito por una de las dos alternativas anteriores.
+2. Identificar la fuente: enlace del video y título cuando se utilice YouTube, o identificación y fotografías del circuito cuando se elija del canasto.
+3. Elegir una **herramienta de IA de su preferencia**.
+4. Proporcionar a la IA el enlace del video o, si se trabaja con un circuito del canasto, las fotografías y demás datos disponibles. Pedir que analice el circuito: componentes principales, función de cada uno, conexiones observables, principio de funcionamiento y aplicaciones.
+5. **Comprobar** las explicaciones contrastándolas con el video, las imágenes, el circuito físico o fuentes técnicas adecuadas. Si la IA no puede acceder al contenido del enlace, aportarle una transcripción, capturas o descripción propia; no considerar que lo analizó si no pudo verlo.
+6. Utilizar la IA como apoyo para **elaborar un informe explicativo**, revisando y corrigiendo las respuestas. El estudiante debe poder explicar con sus propias palabras el funcionamiento del circuito.
+7. Exportar el informe final a **PDF** y subirlo a **EDUCA**.
+
+### Contenido mínimo del informe
+
+- Título, identificación académica del estudiante y fecha.
+- Nombre o descripción del circuito elegido y motivo de elección.
+- Fuente verificable: URL y título del tutorial, o identificación/fotografías del circuito físico.
+- Fotografía, captura o esquema legible del circuito, según disponibilidad.
+- Lista de los componentes principales y su función.
+- Explicación sencilla de cómo funciona el circuito y qué hace.
+- Posible aplicación práctica.
+- Breve registro de la IA utilizada y de cómo se comprobaron sus respuestas.
+- Conclusión o resumen personal del aprendizaje.
+
+### Orientaciones y precauciones
+
+- Preferir circuitos simples o de complejidad moderada, adecuados a una asignatura introductoria.
+- La IA puede equivocarse o no tener acceso real a un video; verificar afirmaciones y citar la fuente consultada.
+- No manipular ni alimentar circuitos potencialmente peligrosos; cualquier ensayo práctico debe contar con autorización y supervisión del docente. **El montaje físico no es requisito de este ejercicio**, salvo indicación docente posterior.
+- No incluir datos personales ni materiales ajenos sin atribución.
+
+### Metodología de Construcción de clases
+
+El docente ofrece el esquema de análisis; los alumnos eligen el circuito, recopilan información textual, visual o audiovisual, organizan una matriz de componentes y funciones, contrastan el análisis con la fuente y el docente, y cierran con un resumen personal.
+
+### Pendientes antes de publicación
+
+Confirmar si los estudiantes podrán elegir libremente entre los tres ejercicios o si habrá restricciones; fijar tiempo disponible, condiciones del canasto y rúbrica/detalle de asignación de los **25 puntos**. No atribuir todavía una puntuación específica al ejercicio 2.
