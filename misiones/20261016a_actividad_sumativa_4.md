@@ -265,3 +265,52 @@ Esta es una **recomendación y no una obligación**: cada estudiante puede escog
 **Comprobación indispensable:** antes de basar el informe en un análisis, verificar que la IA haya accedido efectivamente al contenido del video y no se haya limitado a inferirlo a partir del enlace o título. Si no puede acceder, aportar capturas, transcripción o una descripción verificable del circuito. El alumno deberá contrastar el resultado y explicar el circuito con sus propias palabras.
 
 Esta aclaración complementa la metodología del Ejercicio 2 y no modifica su objetivo, sus alternativas de selección ni el requisito de entregar el informe PDF en EDUCA.
+
+## Actualización — Ejercicio 3 de Electrónica: diseño de un circuito especializado con IA
+
+**Estado:** tercera opción de la oferta de Electrónica para la Actividad Sumativa 4.
+
+### Objetivo
+
+Aprender a formular requisitos, interpretar y comunicar el diseño de un **circuito electrónico especializado y no estándar**, mediante una IA elegida por el estudiante. La actividad evalúa el razonamiento y la comprensión de la propuesta, no la construcción física del circuito.
+
+### Ejemplo propuesto por el docente
+
+Solicitar conceptualmente una propuesta de sistema que convierta **220 V CA / 50 Hz** a **110 V CA / 60 Hz**, considerando variantes con o sin transformador y con o sin conductor neutro, **para analizar la viabilidad y las limitaciones de cada hipótesis**. La conversión de tensión **no equivale** a la conversión de frecuencia y la presencia o ausencia de neutro no se puede tratar como una elección indiferente: cualquier implementación conectada a la red requiere diseño, protección y revisión profesional especializada.
+
+**Restricción de seguridad:** el ejemplo se utiliza únicamente para investigación y representación conceptual. No solicitar ni entregar como resultado académico un diseño listo para ensamblar, fabricar, conectar o probar sobre tensión de red; no realizar montaje, conexión, energización ni ensayos de prototipos de 220/110 V en el laboratorio. Preferir, para un ejercicio fabricable, circuitos funcionalmente especializados de **muy baja tensión con fuente aislada y segura**.
+
+### Procedimiento propuesto
+
+1. El estudiante elige un problema electrónico especializado de su preferencia, evitando limitarse a copiar un circuito estándar; define qué función particular debe cumplir.
+2. Selecciona una herramienta de IA, con **Claude como sugerencia, no obligación**.
+3. Pide una explicación didáctica y adecuada al nivel introductorio, evitando respuestas excesivamente complejas o afirmaciones de seguridad no verificadas.
+4. Solicita un **diagrama esquemático** que permita comprender los bloques, componentes y conexiones de la solución; para propuestas relacionadas con la tensión de red, utilizar únicamente un **diagrama conceptual por bloques**, no conexiones implementables.
+5. Solicita una propuesta visual de **distribución de PCB y serigrafía**, con nombres de componentes, referencias y rótulos comprensibles. En los casos peligrosos, el PCB es únicamente una ilustración de concepto y no un diseño de fabricación.
+6. Pide utilizar, como referencia para elegir componentes, el catálogo o las posibilidades de ensamblado de **JLCPCB**; puede elegir **otra empresa** de componentes o fabricación de placas.
+7. Pide identificar qué documentos suelen necesitarse para cotizar o encargar **un circuito seguro y debidamente validado**, por ejemplo: esquemático, lista de materiales (BOM), diseño de placa, archivos Gerber y de perforación y, para ensamblado, archivos de posicionamiento. No afirmar que dichos archivos han sido efectivamente generados ni verificados si no lo están.
+8. Comprueba que las explicaciones, componentes y representaciones sean coherentes; documenta los supuestos, incertidumbres y advertencias de la IA.
+9. Prepara un **informe explicativo en PDF**, incluida una conclusión personal sobre cómo funcionaría la propuesta, qué limitaciones tiene y qué pudo comprender realmente.
+10. Sube el PDF a **EDUCA**.
+
+### Contenido mínimo del informe PDF
+
+- Título, fecha e identificación académica del estudiante.
+- Problema elegido, requisitos y motivos por los que el circuito resulta especializado.
+- IA utilizada y formulación general de las solicitudes.
+- Descripción comprensible del principio de funcionamiento.
+- Diagrama esquemático o, cuando corresponda por seguridad, diagrama funcional por bloques.
+- Representación de PCB con serigrafía, solo conceptual en diseños que impliquen tensión de red.
+- Lista propuesta de componentes, indicando cuáles pudieron verificarse en JLCPCB u otra empresa.
+- Explicación de los elementos normalmente requeridos para fabricación y ensamblado, distinguiendo claramente **materiales propuestos** de **archivos realmente producidos y verificados**.
+- Consideraciones de seguridad, límites y datos pendientes de validar.
+- Conclusión personal sobre el funcionamiento del circuito y el aprendizaje conseguido.
+- Referencias consultadas y breve declaración del uso de IA.
+
+### Metodología de Construcción de clases
+
+El docente plantea la estructura del problema; el estudiante selecciona su aplicación particular, construye la base documental y la matriz de requisitos/componentes, reúne información textual y visual, discute y contrasta el resultado con el docente y finaliza con su propia conclusión. Incorporar recursos audiovisuales pertinentes cuando estén disponibles.
+
+### Pendientes antes de publicar
+
+Definir si se utilizará exclusivamente documentación conceptual o también propuestas seguras de baja tensión con archivos fabricables; fijar criterios de evaluación, duración y rúbrica de los **25 puntos**. Mantener equivalencia de dificultad entre las tres opciones de Electrónica.
