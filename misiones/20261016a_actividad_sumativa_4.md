@@ -188,3 +188,20 @@ El docente proporciona las cuatro placas y el esquema del trabajo; cada estudian
 ### Pendientes antes de publicar
 
 Definir tiempo disponible, formato de identificación de placas, criterio de selección entre los tres ejercicios de Electrónica y distribución de los **25 puntos** de la Actividad Sumativa 4. El ejercicio no tiene una puntuación individual aprobada todavía.
+
+## Actualización metodológica — Ejercicio 1 de Electrónica (16/10/2026)
+
+**Objetivo de aprendizaje definido por el docente:** **aprender a reconocer componentes electrónicos**, mediante el caso específico de la identificación de cristales de cuarzo en motherboards.
+
+**Metodología operativa comunicada por el docente (prevalece sobre la descripción previa cuando haya diferencias):**
+
+1. El estudiante obtiene fotografías de las **dos caras** de cada una de las cuatro motherboards proporcionadas por el profesor. Debe procurar imágenes nítidas, con encuadres generales y acercamientos cuando sea necesario.
+2. Carga las imágenes en **un programa de inteligencia artificial de su preferencia** que admita análisis de imágenes. **Claude** se ofrece como sugerencia, no como herramienta obligatoria.
+3. Solicita a la IA que **localice los posibles cristales de cuarzo**, indicando en qué motherboard, en qué cara y en qué zona de la imagen se encuentran, y que explique qué rasgos utilizó para identificarlos.
+4. El estudiante comprueba sobre las placas físicas y sus fotografías las ubicaciones propuestas por la IA, registra coincidencias, dudas y posibles identificaciones erróneas. Si no es posible confirmar un componente, lo señala expresamente; la IA no constituye una prueba concluyente.
+5. Solicita a la IA que **prepare o ayude a preparar el informe** con los resultados recogidos, incluyendo la tabla por motherboard, fotografías, ubicaciones, inscripciones legibles, método y conclusiones. El estudiante revisa y corrige el informe antes de exportarlo a PDF.
+6. Entrega el **PDF en EDUCA**. En él declara qué IA utilizó y distingue las propuestas de la IA de los componentes realmente comprobados por el estudiante.
+
+**Criterio pedagógico:** el aprendizaje se demuestra cuando el estudiante puede localizar físicamente y explicar las razones para reconocer un componente, no solamente cuando la IA genera un informe. Esta secuencia también aplica la metodología de **Construcción de clases**: estructura inicial del docente, recolección activa de datos/imágenes, matriz de hallazgos, contraste con el docente y conclusión personal.
+
+**Sin cambios:** cuatro motherboards, revisión de ambas caras, tabla de hallazgos y documento PDF final. La distribución detallada de los 25 puntos sigue pendiente.
