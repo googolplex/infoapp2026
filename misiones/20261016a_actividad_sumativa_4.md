@@ -255,3 +255,13 @@ El docente ofrece el esquema de análisis; los alumnos eligen el circuito, recop
 ### Pendientes antes de publicación
 
 Confirmar si los estudiantes podrán elegir libremente entre los tres ejercicios o si habrá restricciones; fijar tiempo disponible, condiciones del canasto y rúbrica/detalle de asignación de los **25 puntos**. No atribuir todavía una puntuación específica al ejercicio 2.
+
+## Aclaración docente — IA sugerida para el Ejercicio 2 de Electrónica
+
+**Herramienta sugerida: Google Gemini.** Se recomienda para analizar tutoriales de circuitos electrónicos publicados en YouTube, debido a su integración con el ecosistema de Google/YouTube y a la calidad de las explicaciones que puede ofrecer.
+
+Esta es una **recomendación y no una obligación**: cada estudiante puede escoger otra herramienta de inteligencia artificial de su preferencia.
+
+**Comprobación indispensable:** antes de basar el informe en un análisis, verificar que la IA haya accedido efectivamente al contenido del video y no se haya limitado a inferirlo a partir del enlace o título. Si no puede acceder, aportar capturas, transcripción o una descripción verificable del circuito. El alumno deberá contrastar el resultado y explicar el circuito con sus propias palabras.
+
+Esta aclaración complementa la metodología del Ejercicio 2 y no modifica su objetivo, sus alternativas de selección ni el requisito de entregar el informe PDF en EDUCA.
