@@ -137,3 +137,54 @@ Como mínimo, esta misión deberá producir:
 **Metodología:** aplicar Construcción de clases mediante un esquema inicial del docente; construcción activa de información y soluciones por los estudiantes; contraste con el docente; apoyo de textos, gráficos y videos cuando sean pertinentes; y resumen o conclusión personal.
 
 **Estado:** actividad en preparación; no se considera publicada ni cerrada.
+
+## Actualización — Ejercicio 1 de Electrónica: reconocimiento de cristales de cuarzo
+
+**Estado:** consigna preliminar registrada; ejercicio 1 de una oferta prevista de tres ejercicios para Electrónica.
+
+### Propósito
+
+Reconocer y documentar, mediante inspección visual y fotografías con la cámara de un teléfono celular, los **cristales de cuarzo** presentes en cuatro placas madre (motherboards) físicas proporcionadas por el docente.
+
+### Materiales
+
+- Cuatro motherboards aportadas por el profesor, identificadas como MB-1, MB-2, MB-3 y MB-4.
+- Teléfono celular con cámara, con capacidad de acercamiento/enfoque.
+- Herramienta para redactar y exportar un informe en PDF.
+
+### Procedimiento
+
+1. Identificar las cuatro motherboards sin atribuirles modelos o especificaciones no comprobados.
+2. Inspeccionar cuidadosamente la **cara A y la cara B** de cada placa: la inspección de ambas caras es obligatoria. No presumir que un cristal necesariamente será visible en una cara determinada; podría estar oculto, integrado o no ser identificable visualmente.
+3. Utilizar la cámara del celular para localizar posibles cristales de cuarzo, registrar su posición y fotografiarlos con suficiente nitidez; no desmontar, energizar ni desoldar componentes.
+4. Examinar forma, serigrafía cercana, inscripciones o marcas legibles. Distinguir en lo posible un cristal pasivo de un oscilador integrado y evitar identificaciones basadas exclusivamente en su aspecto.
+5. Anotar todos los candidatos identificados en cada placa, su cara y ubicación aproximada. Cuando la evidencia no sea concluyente, usar “posible cristal”, “no verificado” o “no identificado”; no inventar frecuencias ni marcas.
+6. Mostrar al docente los resultados o las dudas de identificación para contraste cuando sea posible.
+7. Redactar y exportar un informe individual en **PDF**, con los datos necesarios para comunicar los resultados y subirlo a **EDUCA**.
+
+### Contenido mínimo del informe PDF
+
+- Título, identificación académica del estudiante y fecha.
+- Objetivo, materiales y descripción breve de la técnica de inspección.
+- Identificación de las cuatro placas y constancia de inspección de ambas caras.
+- Fotografías de los componentes encontrados, preferentemente con una fotografía de contexto y otra de detalle, indicando placa, cara y ubicación.
+- Tabla consolidada de resultados, con **una fila por cada cristal o candidato** y filas explícitas para placas sin hallazgos.
+- Marcas o frecuencias legibles **solo si están verificadas**; indicación de nivel de certeza y, si corresponde, validación por el docente.
+- Breve análisis comparativo, dificultades encontradas y conclusión personal.
+
+**Tabla sugerida:** motherboard (MB-1 a MB-4) | cara (A/B) | ubicación | cristal/candidato | inscripción o frecuencia observada | foto/evidencia | estado de verificación.
+
+### Precauciones
+
+- Inspeccionar únicamente placas desconectadas, desenergizadas y preparadas por el docente.
+- Manipularlas con cuidado por los bordes, evitando contactos y daños.
+- No asumir que todas las placas contienen un cristal discreto accesible o visible ni que un candidato puede identificarse con certeza solo por fotografía.
+- La cámara se usa como herramienta de observación: no sustituye la validación técnica cuando existe incertidumbre.
+
+### Metodología de Construcción de clases
+
+El docente proporciona las cuatro placas y el esquema del trabajo; cada estudiante recopila evidencias visuales, organiza la matriz de hallazgos y contrasta sus identificaciones en laboratorio. El PDF integra texto y fotografías/gráficos, referencias audiovisuales cuando corresponda, y una conclusión personal.
+
+### Pendientes antes de publicar
+
+Definir tiempo disponible, formato de identificación de placas, criterio de selección entre los tres ejercicios de Electrónica y distribución de los **25 puntos** de la Actividad Sumativa 4. El ejercicio no tiene una puntuación individual aprobada todavía.
