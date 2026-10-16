@@ -119,3 +119,21 @@ Como mínimo, esta misión deberá producir:
 - `docs/contexto/20260727f_pendiente_transicion_modalidad_evaluacion.md`
 - `docs/contexto/20260727g_confirmacion_formula_calificacion_final.md`
 - `AGENTS.md`
+
+## Actualización — 16 de octubre de 2026: actividad de laboratorio
+
+**Fecha prevista:** sábado 17 de octubre de 2026.
+
+**Definiciones comunicadas por el docente:**
+
+- Actividad sumativa presencial en el laboratorio.
+- Los estudiantes elaborarán/resolverán ejercicios durante la sesión y subirán sus trabajos a EDUCA.
+- Valor comunicado: **25 puntos**. La equivalencia con la ponderación de **25 % de la Segunda Etapa** registrada previamente deberá verificarse en el instrumento de calificación, sin confundir puntos con porcentaje.
+- Los ejercicios se organizarán en dos bancos de opciones, para que el estudiante elija según el énfasis: **Electrónica** o **Producción**.
+- Debe mantenerse una exigencia y evaluación comparable entre los dos énfasis.
+
+**Pendiente de definición:** ejercicios concretos de cada énfasis, número de ejercicios que elegirá cada estudiante, herramientas permitidas, formato de archivos a subir, plazo exacto de EDUCA y rúbrica de los 25 puntos. La incorporación de una variante para Marketing queda pendiente de definición; no asumir su exclusión.
+
+**Metodología:** aplicar Construcción de clases mediante un esquema inicial del docente; construcción activa de información y soluciones por los estudiantes; contraste con el docente; apoyo de textos, gráficos y videos cuando sean pertinentes; y resumen o conclusión personal.
+
+**Estado:** actividad en preparación; no se considera publicada ni cerrada.
